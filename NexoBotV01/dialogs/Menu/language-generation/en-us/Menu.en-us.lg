@@ -1,0 +1,134 @@
+[import](common.lg)
+
+
+
+# AdaptiveCardJson_Menu()
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "width": "400px",
+          "type": "Column",
+          "items": [
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Cliente",
+                   "value": "Cliente",
+                   "data": "Cliente"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Oportunidad",
+                   "value": "Oportunidad",
+                   "data": "Oportunidad"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Factibilidad",
+                   "value": "Factibilidad",
+                   "data": "Factibilidad"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Ofertas",
+                   "value": "Ofertas",
+                   "data": "Ofertas"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Orden de servicios",
+                   "value": "Orden de servicios",
+                   "data": "Orden de servicios"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Servicios",
+                   "value": "Servicios",
+                   "data": "Servicios"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Novedades",
+                   "value": "Novedades",
+                   "data": "Novedades"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Desconexiones",
+                   "value": "Desconexiones",
+                   "data": "Desconexiones"
+                 }
+               ]
+            }
+
+          ]
+        }
+      ]
+    }
+  ]
+}
+```
+
+ # AdaptiveCard_Menu()
+[Activity
+    Attachments = ${json(AdaptiveCardJson_Menu())}
+]
+
+# SendActivity_m5lDPk()
+[Activity
+    Attachments = ${SendActivity_m5lDPk_attachment_3wlTO6()}
+]
+
+# SendActivity_m5lDPk_attachment_3wlTO6()
+[ThumbnailCard
+  title = Menu Principal
+  subtitle = NexoBot
+  text = Selecciona la opcion que mas se acomode a tu duda
+  image = https://statics.teams.cdn.office.net/evergreen-assets/apps/teams_dev_app_largeimage.png
+]
+# TextInput_Prompt_I2Z0d1()
+- ${json(AdaptiveCard_Menu())}

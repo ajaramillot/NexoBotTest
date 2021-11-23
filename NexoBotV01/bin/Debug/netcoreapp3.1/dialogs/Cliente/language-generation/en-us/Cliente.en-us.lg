@@ -1,0 +1,101 @@
+[import](common.lg)
+
+# TemplateName()
+-TemplateValue
+
+
+# AdaptiveCardJson_MenuCliente()
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "width": "400px",
+          "type": "Column",
+          "items": [
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacion general",
+                   "value": "Informacion general Cliente",
+                   "data": "Informacion general Cliente"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Evaluacion Juridica y financiera",
+                   "value": "Evaluacion Juridica y financiera",
+                   "data": "Evaluacion Juridica y financiera"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Contrato",
+                   "value": "Contrato",
+                   "data": "Contrato"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "RAC (EQUIPO DE ATENCIÓN CLIENTE)",
+                   "value": "RAC (EQUIPO DE ATENCIÓN CLIENTE)",
+                   "data": "RAC (EQUIPO DE ATENCIÓN CLIENTE)"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "RAC (EQUIPO DE ATENCIÓN INTERNEXA)",
+                   "value": "RAC (EQUIPO DE ATENCIÓN INTERNEXA)",
+                   "data": "RAC (EQUIPO DE ATENCIÓN INTERNEXA)"
+                 }
+               ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+```
+
+ # AdaptiveCard_MenuCliente()
+[Activity
+    Attachments = ${json(AdaptiveCardJson_MenuCliente())}
+]
+# TextInput_Prompt_ttmzul()
+- ${json(AdaptiveCard_MenuCliente())}
+# SendActivity_K6jndM()
+[Activity
+    Attachments = ${SendActivity_K6jndM_attachment_jkUxzu()}
+]
+
+# SendActivity_K6jndM_attachment_jkUxzu()
+[ThumbnailCard
+  title = Sub menu Cliente
+  subtitle = NexoBot
+  text = Selecciona la opcion que mas se acomode a tu duda
+  image = https://statics.teams.cdn.office.net/evergreen-assets/apps/teams_dev_app_largeimage.png
+]

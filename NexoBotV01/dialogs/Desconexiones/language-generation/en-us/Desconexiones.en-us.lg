@@ -1,0 +1,88 @@
+[import](common.lg)
+
+
+# AdaptiveCardJson_MenuDesconexiones()
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "width": "400px",
+          "type": "Column",
+          "items": [
+             {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Solicitudes de desconexion",
+                   "value": "Solicitudes de desconexion",
+                   "data": "Solicitudes de desconexion"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Reprogramar desconexion",
+                   "value": "Reprogramar desconexion",
+                   "data": "Reprogramar desconexion"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Confirmar desconexion",
+                   "value": "Confirmar desconexion",
+                   "data": "Confirmar desconexion"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Cancelar desconexion",
+                   "value": "Cancelar desconexion",
+                   "data": "Cancelar desconexion"
+                 }
+               ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+```
+
+ # AdaptiveCard_MenuDesconexiones()
+[Activity
+    Attachments = ${json(AdaptiveCardJson_MenuDesconexiones())}
+]
+
+# TextInput_Prompt_rvVSvR()
+- ${json(AdaptiveCard_MenuDesconexiones())}
+# SendActivity_9tNrl1()
+[Activity
+    Attachments = ${SendActivity_9tNrl1_attachment_xgI1Zw()}
+]
+
+# SendActivity_9tNrl1_attachment_xgI1Zw()
+[ThumbnailCard
+  title = Sub menu Desconexion
+  subtitle = NexoBot
+  text = Selecciona la opcion que mas se acomode a tu duda
+  image = https://statics.teams.cdn.office.net/evergreen-assets/apps/teams_dev_app_largeimage.png
+]

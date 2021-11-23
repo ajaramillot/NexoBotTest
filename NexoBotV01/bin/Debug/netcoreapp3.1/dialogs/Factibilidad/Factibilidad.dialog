@@ -1,0 +1,48 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "Or37pA",
+    "name": "Factibilidad",
+    "comment": ""
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "j0Rmcz"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "ZHnevS"
+          },
+          "activity": "${SendActivity_ZHnevS()}"
+        },
+        {
+          "$kind": "Microsoft.TextInput",
+          "$designer": {
+            "id": "DGjAdT"
+          },
+          "disabled": false,
+          "maxTurnCount": 3,
+          "alwaysPrompt": false,
+          "allowInterruptions": false,
+          "unrecognizedPrompt": "",
+          "invalidPrompt": "",
+          "defaultValueResponse": "",
+          "prompt": "${TextInput_Prompt_DGjAdT()}",
+          "property": "user.OptionSubMenu",
+          "value": "=turn.activity.value"
+        }
+      ]
+    }
+  ],
+  "generator": "Factibilidad.lg",
+  "recognizer": "Factibilidad.lu.qna",
+  "id": "Factibilidad"
+}

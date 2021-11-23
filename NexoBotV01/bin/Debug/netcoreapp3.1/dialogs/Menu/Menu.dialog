@@ -1,0 +1,148 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "nhjnO4",
+    "name": "Menu",
+    "comment": ""
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "p95DZi"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "m5lDPk"
+          },
+          "activity": "${SendActivity_m5lDPk()}"
+        },
+        {
+          "$kind": "Microsoft.TextInput",
+          "$designer": {
+            "id": "I2Z0d1"
+          },
+          "disabled": false,
+          "maxTurnCount": 3,
+          "alwaysPrompt": false,
+          "allowInterruptions": false,
+          "unrecognizedPrompt": "",
+          "invalidPrompt": "",
+          "defaultValueResponse": "",
+          "property": "user.OptionMenu",
+          "value": "=turn.activity.value",
+          "prompt": "${TextInput_Prompt_I2Z0d1()}"
+        },
+        {
+          "$kind": "Microsoft.SwitchCondition",
+          "$designer": {
+            "id": "IZu9Y2"
+          },
+          "condition": "user.OptionMenu",
+          "cases": [
+            {
+              "value": "Cliente",
+              "actions": [
+                {
+                  "$kind": "Microsoft.BeginDialog",
+                  "$designer": {
+                    "id": "Oiu4zu"
+                  },
+                  "activityProcessed": true,
+                  "dialog": "Cliente"
+                }
+              ]
+            },
+            {
+              "value": "Oportunidad",
+              "actions": [
+                {
+                  "$kind": "Microsoft.BeginDialog",
+                  "$designer": {
+                    "id": "XnLNZ0"
+                  },
+                  "activityProcessed": true,
+                  "dialog": "Oportunidad"
+                }
+              ]
+            },
+            {
+              "value": "Factibilidad",
+              "actions": [
+                {
+                  "$kind": "Microsoft.BeginDialog",
+                  "$designer": {
+                    "id": "iInZst"
+                  },
+                  "activityProcessed": true,
+                  "dialog": "Factibilidad"
+                }
+              ]
+            },
+            {
+              "value": "Orden de servicios",
+              "actions": [
+                {
+                  "$kind": "Microsoft.BeginDialog",
+                  "$designer": {
+                    "id": "apaK3D"
+                  },
+                  "activityProcessed": true,
+                  "dialog": "Orden_de_servicio"
+                }
+              ]
+            },
+            {
+              "value": "Ofertas",
+              "actions": [
+                {
+                  "$kind": "Microsoft.BeginDialog",
+                  "$designer": {
+                    "id": "2sj4T8"
+                  },
+                  "activityProcessed": true,
+                  "dialog": "Ofertas"
+                }
+              ]
+            },
+            {
+              "value": "Servicios",
+              "actions": [
+                {
+                  "$kind": "Microsoft.BeginDialog",
+                  "$designer": {
+                    "id": "feva6R"
+                  },
+                  "activityProcessed": true,
+                  "dialog": "Servicios"
+                }
+              ]
+            },
+            {
+              "value": "Novedades",
+              "actions": [
+                {
+                  "$kind": "Microsoft.BeginDialog",
+                  "$designer": {
+                    "id": "wWtMRM"
+                  },
+                  "activityProcessed": true,
+                  "dialog": "Novedades"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generator": "Menu.lg",
+  "recognizer": "Menu.lu.qna",
+  "id": "Menu"
+}

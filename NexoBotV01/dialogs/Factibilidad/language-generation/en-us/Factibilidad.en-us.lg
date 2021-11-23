@@ -1,0 +1,132 @@
+[import](common.lg)
+
+
+# AdaptiveCardJson_MenuFactibilidad()
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "width": "400px",
+          "type": "Column",
+          "items": [
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Solicitar factibilidad",
+                   "value": "Solicitar factibilidad",
+                   "data": "Solicitar factibilidad"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Productos de la factibilidad",
+                   "value": "Productos de la factibilidad",
+                   "data": "Productos de la factibilidad"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Productos de la evaluacion",
+                   "value": "Productos de la evaluacion",
+                   "data": "Productos de la evaluacion"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Agregar o eliminar productos",
+                   "value": "Agregar o eliminar productos",
+                   "data": "Agregar o eliminar productos"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Oportunidad y oferta relacionada",
+                   "value": "Oportunidad y oferta relacionada",
+                   "data": "Oportunidad y oferta relacionada"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Crear factibilidades a otras áreas",
+                   "value": "Crear factibilidad a otras areas",
+                   "data": "Crear factibilidad a otras areas"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Cambiar tipo de oportunidad desde la factibilidad",
+                   "value": "Cambiar tipo de oportunidad desde la factibilidad",
+                   "data": "Cambiar tipo de oportunidad desde la factibilidad"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Crear solicitud pricing",
+                   "value": "Crear solicitud pricing",
+                   "data": "Crear solicitud pricing"
+                 }
+               ]
+            },
+          ]
+        }
+      ]
+    }
+  ]
+}
+```
+
+ # AdaptiveCard_MenuFactibilidad()
+[Activity
+    Attachments = ${json(AdaptiveCardJson_MenuFactibilidad())}
+]
+
+# SendActivity_ZHnevS()
+[Activity
+    Attachments = ${SendActivity_ZHnevS_attachment_BuOsut()}
+]
+
+# SendActivity_ZHnevS_attachment_BuOsut()
+[ThumbnailCard
+  title = Sub menu Factibilidad
+  subtitle = NexoBot
+  text = Selecciona la opcion que mas se acomode a tu duda
+  image = https://statics.teams.cdn.office.net/evergreen-assets/apps/teams_dev_app_largeimage.png
+]
+# TextInput_Prompt_DGjAdT()
+- ${json(AdaptiveCard_MenuFactibilidad())}

@@ -1,0 +1,48 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "AhmRr4",
+    "name": "Desconexiones",
+    "comment": ""
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "VpFp62"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "9tNrl1"
+          },
+          "activity": "${SendActivity_9tNrl1()}"
+        },
+        {
+          "$kind": "Microsoft.TextInput",
+          "$designer": {
+            "id": "rvVSvR"
+          },
+          "disabled": false,
+          "maxTurnCount": 3,
+          "alwaysPrompt": false,
+          "allowInterruptions": false,
+          "unrecognizedPrompt": "",
+          "invalidPrompt": "",
+          "defaultValueResponse": "",
+          "prompt": "${TextInput_Prompt_rvVSvR()}",
+          "property": "user.OptionSubMenu",
+          "value": "=turn.activity.value"
+        }
+      ]
+    }
+  ],
+  "generator": "Desconexiones.lg",
+  "recognizer": "Desconexiones.lu.qna",
+  "id": "Desconexiones"
+}

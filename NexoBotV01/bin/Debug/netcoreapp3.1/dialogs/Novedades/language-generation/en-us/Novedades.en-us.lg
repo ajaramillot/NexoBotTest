@@ -1,0 +1,78 @@
+[import](common.lg)
+
+
+
+# AdaptiveCardJson_MenuNovedades()
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "width": "400px",
+          "type": "Column",
+          "items": [
+             {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Rechazo de novedades",
+                   "value": "Rechazo de novedades",
+                   "data": "Rechazo de novedades"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Cambio cuenta de facturacion",
+                   "value": "Cambio cuenta de facturacion",
+                   "data": "Cambio cuenta de facturacion"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Estado de novedades",
+                   "value": "Estado de novedades",
+                   "data": "Estado de novedades"
+                 }
+               ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+```
+
+ # AdaptiveCard_MenuNovedades()
+[Activity
+    Attachments = ${json(AdaptiveCardJson_MenuNovedades())}
+]
+
+# TextInput_Prompt_iIkapZ()
+- ${json(AdaptiveCard_MenuNovedades())}
+# SendActivity_Vrc3P5()
+[Activity
+    Attachments = ${SendActivity_Vrc3P5_attachment_G7OUaG()}
+]
+
+# SendActivity_Vrc3P5_attachment_G7OUaG()
+[ThumbnailCard
+  title = Sub menu Novedades
+  subtitle = NexoBot
+  text = Selecciona la opcion que mas se acomode a tu duda
+  image = https://statics.teams.cdn.office.net/evergreen-assets/apps/teams_dev_app_largeimage.png
+]

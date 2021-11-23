@@ -1,0 +1,48 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "zBQBn5",
+    "name": "Oportunidad",
+    "comment": ""
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "zVLuJt"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "b8kAVq"
+          },
+          "activity": "${SendActivity_b8kAVq()}"
+        },
+        {
+          "$kind": "Microsoft.TextInput",
+          "$designer": {
+            "id": "Jl1g83"
+          },
+          "disabled": false,
+          "maxTurnCount": 3,
+          "alwaysPrompt": false,
+          "allowInterruptions": false,
+          "unrecognizedPrompt": "",
+          "invalidPrompt": "",
+          "defaultValueResponse": "",
+          "prompt": "${TextInput_Prompt_Jl1g83()}",
+          "property": "user.OptionSubMenu",
+          "value": "=turn.activity.value"
+        }
+      ]
+    }
+  ],
+  "generator": "Oportunidad.lg",
+  "recognizer": "Oportunidad.lu.qna",
+  "id": "Oportunidad"
+}
