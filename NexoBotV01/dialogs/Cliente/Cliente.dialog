@@ -38,6 +38,58 @@
           "prompt": "${TextInput_Prompt_ttmzul()}",
           "property": "user.OptionSubMenu",
           "value": "=turn.activity.value"
+        },
+        {
+          "$kind": "Microsoft.SwitchCondition",
+          "$designer": {
+            "id": "OpQmwG"
+          },
+          "condition": "user.OptionSubMenu",
+          "cases": [
+            {
+              "value": "Evaluacion Juridica y financiera",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "E6h30j"
+                  },
+                  "activity": "${SendActivity_E6h30j()}"
+                },
+                {
+                  "$kind": "Microsoft.TextInput",
+                  "$designer": {
+                    "id": "MGeHdu"
+                  },
+                  "disabled": false,
+                  "maxTurnCount": 3,
+                  "alwaysPrompt": false,
+                  "allowInterruptions": false,
+                  "unrecognizedPrompt": "",
+                  "invalidPrompt": "",
+                  "defaultValueResponse": "",
+                  "property": "user.LastOption",
+                  "value": "=turn.activity.value"
+                },
+                {
+                  "$kind": "Microsoft.QnAMakerDialog",
+                  "$designer": {
+                    "id": "Ce6DEa"
+                  },
+                  "endpointKey": "3553c567-51bb-4e44-8176-b6cdb2a7ea54",
+                  "hostname": "https://nexobot.azurewebsites.net/qnamaker",
+                  "noAnswer": "Sorry, I did not find an answer.",
+                  "threshold": 0.3,
+                  "activeLearningCardTitle": "Did you mean:",
+                  "cardNoMatchText": "None of the above.",
+                  "cardNoMatchResponse": "Thanks for the feedback.",
+                  "top": 3,
+                  "isTest": false,
+                  "knowledgeBaseId": "b6428bb1-498a-470c-921b-2e5ce66ed7e1"
+                }
+              ]
+            }
+          ]
         }
       ]
     }
