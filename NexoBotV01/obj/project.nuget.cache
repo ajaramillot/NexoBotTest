@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VCqGNOWQExQ4oHNJ1ggFbAXKpnWIZwl9WgH1IubG3Fhj6mlAAdOBXl2MXz/IidIxSBIxRVrGCIQZDNIboo6UEQ==",
+  "dgSpecHash": "qCseKgl8pxxmuvt1RbMeM5vCr/l6tMr/nuH9TDiy/5B2CV6MH4lfKY+3Uoj4eoMIOEaNDaP+ez9kygjQhZPHdA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ajaramillot\\OneDrive - IG Services S.A.S\\Escritorio\\NexoBotITXV0\\NexoBotITX1\\NexoBotV01\\NexoBotV01\\NexoBotV01.csproj",
+  "projectFilePath": "C:\\Users\\ajaramillot\\OneDrive - IG Services S.A.S\\Escritorio\\NexoBotITXV0\\NexoBotITX1\\NexoBotTest\\NexoBotTest\\NexoBotV01\\NexoBotV01.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ajaramillot\\.nuget\\packages\\adaptiveexpressions\\4.14.1\\adaptiveexpressions.4.14.1.nupkg.sha512",
     "C:\\Users\\ajaramillot\\.nuget\\packages\\antlr4.runtime.standard\\4.8.0\\antlr4.runtime.standard.4.8.0.nupkg.sha512",
