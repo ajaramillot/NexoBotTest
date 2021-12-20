@@ -1,5 +1,9 @@
 [import](common.lg)
 
+# SendActivity_F2TXby()
+[Activity
+    Attachments = ${SendActivity_F2TXby_attachment_J3258v()}
+]
 
 # AdaptiveCardJson_MenuOportunidad()
 - ```
@@ -15,14 +19,14 @@
           "width": "400px",
           "type": "Column",
           "items": [
-             {
+            {
               "type": "ActionSet",
                "actions": [
                  {
                    "type": "Action.Submit",
                    "title": "Tipo de oportunidad",
-                   "value": "Tipo de oportunidad",
-                   "data": "Tipo de oportunidad"
+                   "value": "Oportunidad Tipo de oportunidad",
+                   "data": "Oportunidad Tipo de oportunidad"
                  }
                ]
             },
@@ -32,8 +36,8 @@
                  {
                    "type": "Action.Submit",
                    "title": "Tipo de venta",
-                   "value": "Tipo de venta",
-                   "data": "Tipo de venta"
+                   "value": "Oportunidad Tipo de venta",
+                   "data": "Oportunidad Tipo de venta"
                  }
                ]
             },
@@ -43,8 +47,8 @@
                  {
                    "type": "Action.Submit",
                    "title": "Informacion general",
-                   "value": "Informacion general",
-                   "data": "Informacion general"
+                   "value": "Oportunidad Informacion general",
+                   "data": "Oportunidad Informacion general"
                  }
                ]
             },
@@ -54,8 +58,8 @@
                  {
                    "type": "Action.Submit",
                    "title": "Agregar productos",
-                   "value": "Agregar productos",
-                   "data": "Agregar productos"
+                   "value": "Oportunidad Agregar productos",
+                   "data": "Oportunidad agregar productos"
                  }
                ]
             },
@@ -65,8 +69,8 @@
                  {
                    "type": "Action.Submit",
                    "title": "Crear factibilidad",
-                   "value": "Crear factibilidad",
-                   "data": "Crear factibilidad"
+                   "value": "Oportunidad Crear factibilidad",
+                   "data": "Oportunidad Crear factibilidad"
                  }
                ]
             },
@@ -76,8 +80,8 @@
                  {
                    "type": "Action.Submit",
                    "title": "Crear oferta",
-                   "value": "Crear oferta",
-                   "data": "Crear oferta"
+                   "value": "Oportunidad Crear oferta",
+                   "data": "Oportunidad Crear oferta"
                  }
                ]
             },
@@ -104,17 +108,272 @@
 [Activity
     Attachments = ${json(AdaptiveCardJson_MenuOportunidad())}
 ]
-# SendActivity_b8kAVq()
-[Activity
-    Attachments = ${SendActivity_b8kAVq_attachment_svFGGW()}
-]
 
-# SendActivity_b8kAVq_attachment_svFGGW()
+# SendActivity_F2TXby_attachment_J3258v()
 [ThumbnailCard
-  title = Sub menu Oportunidad
+  title = Sub menu Ofertas
   subtitle = NexoBot
   text = Selecciona la opcion que mas se acomode a tu duda
   image = https://statics.teams.cdn.office.net/evergreen-assets/apps/teams_dev_app_largeimage.png
 ]
-# TextInput_Prompt_Jl1g83()
+
+# TextInput_Prompt_rKP5Us()
 - ${json(AdaptiveCard_MenuOportunidad())}
+# SendActivity_E25FxF()
+[Activity
+    Attachments = ${json(SendActivity_E25FxF_attachment_cm8Zwn())}
+]
+
+# SendActivity_E25FxF_attachment_cm8Zwn()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": "Oportunidad agregar producto"
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacoon general",
+                   "value": "Informacion general Cliente",
+                   "data": "Informacion general Cliente"
+                 }
+               ]
+        }
+    ]
+}
+```
+# SendActivity_bCPlbu()
+[Activity
+    Attachments = ${json(SendActivity_bCPlbu_attachment_JFSZWa())}
+]
+
+# SendActivity_bCPlbu_attachment_JFSZWa()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": "Oportunidad Tipo de oportunidad"
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacoon general",
+                   "value": "Informacion general Oportunidad",
+                   "data": "Informacion general Oportunidad"
+                 }
+               ]
+        }
+    ]
+}
+```
+# SendActivity_wwylY7()
+[Activity
+    Attachments = ${json(SendActivity_wwylY7_attachment_7dCxCn())}
+]
+
+# SendActivity_wwylY7_attachment_7dCxCn()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": "Oportunidad Tipo de venta"
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacoon general",
+                   "value": "Informacion general Oportunidad",
+                   "data": "Informacion general Oportunidad"
+                 }
+               ]
+        }
+    ]
+}
+```
+# SendActivity_OBFhe6()
+[Activity
+    Attachments = ${json(SendActivity_OBFhe6_attachment_ysKoMe())}
+]
+
+# SendActivity_OBFhe6_attachment_ysKoMe()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": "Oportunidad informacion general"
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacoon general",
+                   "value": "Informacion general Oportunidad",
+                   "data": "Informacion general Oportunidad"
+                 }
+               ]
+        }
+    ]
+}
+```
+# SendActivity_2x9opN()
+[Activity
+    Attachments = ${json(SendActivity_2x9opN_attachment_d9RFrL())}
+]
+
+# SendActivity_2x9opN_attachment_d9RFrL()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": "Oportunidad Crear factibilidad"
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacoon general",
+                   "value": "Informacion general Oportunidad",
+                   "data": "Informacion general Oportunidad"
+                 }
+               ]
+        }
+    ]
+}
+```
+# SendActivity_D2pT2U()
+[Activity
+    Attachments = ${json(SendActivity_D2pT2U_attachment_fiixhD())}
+]
+
+# SendActivity_D2pT2U_attachment_fiixhD()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": "Oportunidad Crear oferta"
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacoon general",
+                   "value": "Informacion general Oportunidad",
+                   "data": "Informacion general Oportunidad"
+                 }
+               ]
+        }
+    ]
+}
+```
+# TextInput_Prompt_0tk3HJ()
+[Activity
+    Text = ${TextInput_Prompt_0tk3HJ_text()}
+]
+
+# TextInput_Prompt_0tk3HJ_text()
+- Seleccione una opcion
+# TextInput_Prompt_HG3WBf()
+[Activity
+    Text = ${TextInput_Prompt_HG3WBf_text()}
+]
+
+# TextInput_Prompt_HG3WBf_text()
+- Seleccione una opcion
+# TextInput_Prompt_bBD5HH()
+[Activity
+    Text = ${TextInput_Prompt_bBD5HH_text()}
+]
+
+# TextInput_Prompt_bBD5HH_text()
+- Seleccione una opcion
+# TextInput_Prompt_C7kqbe()
+[Activity
+    Text = ${TextInput_Prompt_C7kqbe_text()}
+]
+
+# TextInput_Prompt_C7kqbe_text()
+- Seleccione una opcion
+# TextInput_Prompt_2NstiI()
+[Activity
+    Text = ${TextInput_Prompt_2NstiI_text()}
+]
+
+# TextInput_Prompt_2NstiI_text()
+- Seleccione una opcion
+# TextInput_Prompt_mDkMpL()
+[Activity
+    Text = ${TextInput_Prompt_mDkMpL_text()}
+]
+
+# TextInput_Prompt_mDkMpL_text()
+- Seleccione una opcion

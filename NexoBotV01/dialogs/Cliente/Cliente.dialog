@@ -1,7 +1,7 @@
 {
   "$kind": "Microsoft.AdaptiveDialog",
   "$designer": {
-    "id": "bVX6Kn",
+    "id": "PW15JS",
     "name": "Cliente",
     "comment": ""
   },
@@ -13,20 +13,20 @@
       "$designer": {
         "name": "BeginDialog",
         "description": "",
-        "id": "6GaHHN"
+        "id": "hFUUOo"
       },
       "actions": [
         {
           "$kind": "Microsoft.SendActivity",
           "$designer": {
-            "id": "K6jndM"
+            "id": "hNZsa2"
           },
-          "activity": "${SendActivity_K6jndM()}"
+          "activity": "${SendActivity_hNZsa2()}"
         },
         {
           "$kind": "Microsoft.TextInput",
           "$designer": {
-            "id": "ttmzul"
+            "id": "cjX9wa"
           },
           "disabled": false,
           "maxTurnCount": 3,
@@ -35,16 +35,16 @@
           "unrecognizedPrompt": "",
           "invalidPrompt": "",
           "defaultValueResponse": "",
-          "prompt": "${TextInput_Prompt_ttmzul()}",
-          "property": "user.OptionSubMenu",
+          "prompt": "${TextInput_Prompt_cjX9wa()}",
+          "property": "user.Option",
           "value": "=turn.activity.value"
         },
         {
           "$kind": "Microsoft.SwitchCondition",
           "$designer": {
-            "id": "OpQmwG"
+            "id": "z2EG6A"
           },
-          "condition": "user.OptionSubMenu",
+          "condition": "user.Option",
           "cases": [
             {
               "value": "Evaluacion Juridica y financiera",
@@ -52,14 +52,14 @@
                 {
                   "$kind": "Microsoft.SendActivity",
                   "$designer": {
-                    "id": "E6h30j"
+                    "id": "Ld1NJZ"
                   },
-                  "activity": "${SendActivity_E6h30j()}"
+                  "activity": "${SendActivity_Ld1NJZ()}"
                 },
                 {
                   "$kind": "Microsoft.TextInput",
                   "$designer": {
-                    "id": "MGeHdu"
+                    "id": "vo4FjT"
                   },
                   "disabled": false,
                   "maxTurnCount": 3,
@@ -68,28 +68,114 @@
                   "unrecognizedPrompt": "",
                   "invalidPrompt": "",
                   "defaultValueResponse": "",
-                  "property": "user.LastOption",
-                  "value": "=turn.activity.value"
+                  "property": "user.Option",
+                  "value": "=turn.activity.value",
+                  "prompt": "${TextInput_Prompt_vo4FjT()}"
+                }
+              ]
+            },
+            {
+              "value": "RAC (EQUIPO DE ATENCIÓN CLIENTE)",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "97UvgS"
+                  },
+                  "activity": "${SendActivity_97UvgS()}"
                 },
                 {
-                  "$kind": "Microsoft.QnAMakerDialog",
+                  "$kind": "Microsoft.TextInput",
                   "$designer": {
-                    "id": "Ce6DEa"
+                    "id": "XYgxX9"
                   },
-                  "endpointKey": "3553c567-51bb-4e44-8176-b6cdb2a7ea54",
-                  "hostname": "https://nexobot.azurewebsites.net/qnamaker",
-                  "noAnswer": "Sorry, I did not find an answer.",
-                  "threshold": 0.3,
-                  "activeLearningCardTitle": "Did you mean:",
-                  "cardNoMatchText": "None of the above.",
-                  "cardNoMatchResponse": "Thanks for the feedback.",
-                  "top": 3,
-                  "isTest": false,
-                  "knowledgeBaseId": "b6428bb1-498a-470c-921b-2e5ce66ed7e1"
+                  "disabled": false,
+                  "maxTurnCount": 3,
+                  "alwaysPrompt": false,
+                  "allowInterruptions": false,
+                  "prompt": "${TextInput_Prompt_XYgxX9()}",
+                  "unrecognizedPrompt": "",
+                  "invalidPrompt": "",
+                  "defaultValueResponse": "",
+                  "property": "user.Option",
+                  "value": "=turn.activity.value"
+                }
+              ]
+            },
+            {
+              "value": "RAC (EQUIPO DE ATENCIÓN INTERNEXA)",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "4iAoZK"
+                  },
+                  "activity": "${SendActivity_4iAoZK()}"
+                },
+                {
+                  "$kind": "Microsoft.TextInput",
+                  "$designer": {
+                    "id": "PyZYeh"
+                  },
+                  "disabled": false,
+                  "maxTurnCount": 3,
+                  "alwaysPrompt": false,
+                  "allowInterruptions": false,
+                  "prompt": "${TextInput_Prompt_PyZYeh()}",
+                  "unrecognizedPrompt": "",
+                  "invalidPrompt": "",
+                  "defaultValueResponse": "",
+                  "value": "=turn.activity.value",
+                  "property": "user.Option"
+                }
+              ]
+            },
+            {
+              "value": "Informacion general cliente",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "ZlCxDm"
+                  },
+                  "activity": "${SendActivity_ZlCxDm()}"
+                },
+                {
+                  "$kind": "Microsoft.TextInput",
+                  "$designer": {
+                    "id": "tF9cks"
+                  },
+                  "disabled": false,
+                  "maxTurnCount": 3,
+                  "alwaysPrompt": false,
+                  "allowInterruptions": false,
+                  "prompt": "${TextInput_Prompt_tF9cks()}",
+                  "unrecognizedPrompt": "",
+                  "invalidPrompt": "",
+                  "defaultValueResponse": "",
+                  "property": "user.Option",
+                  "value": "=turn.activity.value"
                 }
               ]
             }
           ]
+        },
+        {
+          "$kind": "Microsoft.DeleteProperties",
+          "$designer": {
+            "id": "ifTT6q"
+          },
+          "properties": [
+            "user.Option",
+            "user.OptionSubMenu",
+            "user.OptionMenu"
+          ]
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "xr9YE4"
+          }
         }
       ]
     }

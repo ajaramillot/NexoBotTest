@@ -128,7 +128,7 @@
   title = Menu Principal
   subtitle = NexoBot
   text = Selecciona la opcion que mas se acomode a tu duda
-  image = https://statics.teams.cdn.office.net/evergreen-assets/apps/teams_dev_app_largeimage.png
+  image = https://github.com/ajaramillot/NexoBot/blob/main/Iconografia/nexobot-icono%20192x192.png?raw=true
 ]
 # TextInput_Prompt_I2Z0d1()
 - ${json(AdaptiveCard_Menu())}
