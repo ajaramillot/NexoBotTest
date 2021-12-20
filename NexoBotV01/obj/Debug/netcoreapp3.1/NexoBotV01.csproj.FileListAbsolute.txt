@@ -123,9 +123,6 @@ C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBo
 C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotV01\NexoBotV01\bin\Debug\netcoreapp3.1\generated\interruption\NexoBotV01.en-us.lu
 C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotV01\NexoBotV01\bin\Debug\netcoreapp3.1\generated\interruption\NexoBotV01.en-us.qna
 C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotV01\NexoBotV01\bin\Debug\netcoreapp3.1\dialogs\Cliente\Cliente.dialog
-C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotV01\NexoBotV01\bin\Debug\netcoreapp3.1\dialogs\Cliente\recognizers\Cliente.en-us.lu.dialog
-C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotV01\NexoBotV01\bin\Debug\netcoreapp3.1\dialogs\Cliente\recognizers\Cliente.lu.dialog
-C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotV01\NexoBotV01\bin\Debug\netcoreapp3.1\dialogs\Cliente\recognizers\Cliente.lu.qna.dialog
 C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotV01\NexoBotV01\bin\Debug\netcoreapp3.1\dialogs\Menu\Menu.dialog
 C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotV01\NexoBotV01\bin\Debug\netcoreapp3.1\dialogs\Menu\recognizers\Menu.en-us.lu.dialog
 C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotV01\NexoBotV01\bin\Debug\netcoreapp3.1\dialogs\Menu\recognizers\Menu.lu.dialog
@@ -134,11 +131,9 @@ C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBo
 C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotV01\NexoBotV01\bin\Debug\netcoreapp3.1\dialogs\Menu\language-generation\en-us\Menu.en-us.lg
 C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotV01\NexoBotV01\bin\Debug\netcoreapp3.1\dialogs\Cliente\language-understanding\en-us\Cliente.en-us.lu
 C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotV01\NexoBotV01\bin\Debug\netcoreapp3.1\dialogs\Menu\language-understanding\en-us\Menu.en-us.lu
-C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotV01\NexoBotV01\bin\Debug\netcoreapp3.1\generated\interruption\Cliente.en-us.lu
 C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotV01\NexoBotV01\bin\Debug\netcoreapp3.1\generated\interruption\Menu.en-us.lu
 C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotV01\NexoBotV01\bin\Debug\netcoreapp3.1\dialogs\Cliente\knowledge-base\en-us\Cliente.en-us.qna
 C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotV01\NexoBotV01\bin\Debug\netcoreapp3.1\dialogs\Menu\knowledge-base\en-us\Menu.en-us.qna
-C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotV01\NexoBotV01\bin\Debug\netcoreapp3.1\generated\interruption\Cliente.en-us.qna
 C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotV01\NexoBotV01\bin\Debug\netcoreapp3.1\generated\interruption\Menu.en-us.qna
 C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotV01\NexoBotV01\bin\Debug\netcoreapp3.1\generated\luis.settings.composer.westus.json
 C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotV01\NexoBotV01\bin\Debug\netcoreapp3.1\settings\cross-train.config.json
@@ -205,3 +200,8 @@ C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBo
 C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotV01\NexoBotV01\bin\Debug\netcoreapp3.1\generated\interruption\Novedades.en-us.qna
 C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotV01\NexoBotV01\bin\Debug\netcoreapp3.1\generated\interruption\Ofertas.en-us.qna
 C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotV01\NexoBotV01\bin\Debug\netcoreapp3.1\generated\interruption\Servicios.en-us.qna
+C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotV01\NexoBotV01\bin\Debug\netcoreapp3.1\dialogs\Cliente\recognizers\Cliente.en-us.lu.dialog
+C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotV01\NexoBotV01\bin\Debug\netcoreapp3.1\dialogs\Cliente\recognizers\Cliente.lu.dialog
+C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotV01\NexoBotV01\bin\Debug\netcoreapp3.1\dialogs\Cliente\recognizers\Cliente.lu.qna.dialog
+C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotV01\NexoBotV01\bin\Debug\netcoreapp3.1\generated\interruption\Cliente.en-us.lu
+C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotV01\NexoBotV01\bin\Debug\netcoreapp3.1\generated\interruption\Cliente.en-us.qna

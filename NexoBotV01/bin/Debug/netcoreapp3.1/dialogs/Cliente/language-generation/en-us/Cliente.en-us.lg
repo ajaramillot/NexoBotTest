@@ -1,9 +1,5 @@
 [import](common.lg)
 
-# TemplateName()
--TemplateValue
-
-
 # AdaptiveCardJson_MenuCliente()
 - ```
 {
@@ -24,8 +20,8 @@
                  {
                    "type": "Action.Submit",
                    "title": "Informacion general",
-                   "value": "Informacion general Cliente",
-                   "data": "Informacion general Cliente"
+                   "value": "Informacion general cliente",
+                   "data": "Informacion general cliente"
                  }
                ]
             },
@@ -85,35 +81,8 @@
 [Activity
     Attachments = ${json(AdaptiveCardJson_MenuCliente())}
 ]
-# TextInput_Prompt_ttmzul()
-- ${json(AdaptiveCard_MenuCliente())}
-# SendActivity_K6jndM()
-[Activity
-    Attachments = ${SendActivity_K6jndM_attachment_jkUxzu()}
-]
 
-# SendActivity_K6jndM_attachment_jkUxzu()
-[ThumbnailCard
-  title = Sub menu Cliente
-  subtitle = NexoBot
-  text = Selecciona la opcion que mas se acomode a tu duda
-  image = https://statics.teams.cdn.office.net/evergreen-assets/apps/teams_dev_app_largeimage.png
-]
-# TextInput_Prompt_MGeHdu()
-[Activity
-    Text = ${TextInput_Prompt_MGeHdu_text()}
-]
-
-# TextInput_Prompt_MGeHdu_text()
-- Elige una opcion.
-# SendActivity_E6h30j()
-[Activity
-    Attachments = ${json(SendActivity_E6h30j_attachment_FCNShZ())}
-]
-
-# SendActivity_E6h30j_attachment_FCNShZ()
-> To learn more Adaptive Cards format, read the documentation at
-> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+# AdaptiveCardJson_Opcion()
 - ```
 {
     "type": "AdaptiveCard",
@@ -142,4 +111,196 @@
                ]
         }
     ]
-}```
+}
+```
+ # AdaptiveCard_Opcion()
+[Activity
+    Attachments = ${json(AdaptiveCardJson_Opcion())}
+]
+
+# SendActivity_hNZsa2()
+[Activity
+    Attachments = ${SendActivity_hNZsa2_attachment_vNF7JU()}
+]
+
+# SendActivity_hNZsa2_attachment_vNF7JU()
+[ThumbnailCard
+  title = Sub menu Servicios
+  subtitle = NexoBot
+  text = Selecciona la opcion que mas se acomode a tu duda
+  image = https://statics.teams.cdn.office.net/evergreen-assets/apps/teams_dev_app_largeimage.png
+]
+# TextInput_Prompt_cjX9wa()
+- ${json(AdaptiveCard_MenuCliente())}
+# SendActivity_Ld1NJZ()
+[Activity
+    Attachments = ${json(SendActivity_Ld1NJZ_attachment_XWLq7l())}
+]
+
+# SendActivity_Ld1NJZ_attachment_XWLq7l()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": "Evaluacion Juridica y financiera"
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacion general",
+                   "value": "Informacion general Cliente",
+                   "data": "Informacion general Cliente"
+                 }
+               ]
+        }
+    ]
+}
+```
+# TextInput_Prompt_vo4FjT()
+[Activity
+    Text = ${TextInput_Prompt_vo4FjT_text()}
+]
+
+# TextInput_Prompt_vo4FjT_text()
+- _________
+# SendActivity_97UvgS()
+[Activity
+    Attachments = ${json(SendActivity_97UvgS_attachment_ZKcR6C())}
+]
+
+# SendActivity_97UvgS_attachment_ZKcR6C()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": "RAC Equipo de atencion cliente"
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacion general",
+                   "value": "Informacion general Cliente",
+                   "data": "Informacion general Cliente"
+                 }
+               ]
+        }
+    ]
+}
+```
+# SendActivity_4iAoZK()
+[Activity
+    Attachments = ${json(SendActivity_4iAoZK_attachment_aHyAmz())}
+]
+
+# SendActivity_4iAoZK_attachment_aHyAmz()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": "RAC Equipo de atencion internexa"
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacion general",
+                   "value": "Informacion general Cliente",
+                   "data": "Informacion general Cliente"
+                 }
+               ]
+        }
+    ]
+}
+```
+# TextInput_Prompt_XYgxX9()
+[Activity
+    Text = ${TextInput_Prompt_XYgxX9_text()}
+]
+
+# TextInput_Prompt_XYgxX9_text()
+- ______
+# TextInput_Prompt_PyZYeh()
+[Activity
+    Text = ${TextInput_Prompt_PyZYeh_text()}
+]
+
+# TextInput_Prompt_PyZYeh_text()
+- ______
+# SendActivity_ZlCxDm()
+[Activity
+    Attachments = ${json(SendActivity_ZlCxDm_attachment_ELbf2f())}
+]
+
+# SendActivity_ZlCxDm_attachment_ELbf2f()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": "Informacion general cliente"
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacion general",
+                   "value": "Informacion general",
+                   "data": "Informacion general"
+                 }
+               ]
+        }
+    ]
+}
+```
+# TextInput_Prompt_tF9cks()
+[Activity
+    Text = ${TextInput_Prompt_tF9cks_text()}
+]
+
+# TextInput_Prompt_tF9cks_text()
+- Seleccion una opcion
