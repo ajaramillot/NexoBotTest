@@ -38,7 +38,8 @@
                   },
                   "activity": "${SendActivity_Greeting()}"
                 }
-              ]
+              ],
+              "elseActions": []
             }
           ]
         }

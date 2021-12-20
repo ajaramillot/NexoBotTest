@@ -15,14 +15,14 @@
           "width": "400px",
           "type": "Column",
           "items": [
-            {
+             {
               "type": "ActionSet",
                "actions": [
                  {
                    "type": "Action.Submit",
-                   "title": "Informacion general",
-                   "value": "Informacion general ofertas",
-                   "data": "Informacion general ofertas"
+                   "title": "Rechazo de novedades",
+                   "value": "Rechazo de novedades",
+                   "data": "Rechazo de novedades"
                  }
                ]
             },
@@ -31,9 +31,9 @@
                "actions": [
                  {
                    "type": "Action.Submit",
-                   "title": "Completar propiedades producto",
-                   "value": "Completar propiedades producto",
-                   "data": "Completar propiedades producto"
+                   "title": "Cambio cuenta de facturacion",
+                   "value": "Cambio cuenta de facturacion",
+                   "data": "Cambio cuenta de facturacion"
                  }
                ]
             },
@@ -42,130 +42,9 @@
                "actions": [
                  {
                    "type": "Action.Submit",
-                   "title": "Solicitudes de pricing",
-                   "value": "Solicitudes de pricing",
-                   "data": "Solicitudes de pricing"
-                 }
-               ]
-            },
-            {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Cargar documentos",
-                   "value": "Cargar documentos",
-                   "data": "Cargar documentos"
-                 }
-               ]
-            },
-            {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Editar detalles de productos",
-                   "value": "Editar detalles de productos",
-                   "data": "Editar detalles de productos"
-                 }
-               ]
-            },
-            {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Presentar oferta",
-                   "value": "Presentar oferta",
-                   "data": "Presentar oferta"
-                 }
-               ]
-            },
-            {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Enviar documento OS por docusign",
-                   "value": "Enviar documento OS por docusign",
-                   "data": "Enviar documento OS por docusign"
-                 }
-               ]
-            },
-            {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Otros estados oferta",
-                   "value": "Otros estados oferta",
-                   "data": "Otros estados oferta"
-                 }
-               ]
-            },
-            {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Revisar oferta",
-                   "value": "Revisar oferta",
-                   "data": "Revisar oferta"
-                 }
-               ]
-            },
-            {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Ganar oferta",
-                   "value": "Ganar oferta",
-                   "data": "Ganar oferta"
-                 }
-               ]
-            },
-            {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Perder oferta",
-                   "value": "Perder oferta",
-                   "data": "Perder oferta"
-                 }
-               ]
-            },
-            {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Cancelar oferta",
-                   "value": "Cancelar oferta",
-                   "data": "Cancelar oferta"
-                 }
-               ]
-            },
-            {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Cancelar oferta",
-                   "value": "Cancelar oferta",
-                   "data": "Cancelar oferta"
-                 }
-               ]
-            },
-            {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Notificar orden de servicio",
-                   "value": "Notificar orden de servicio",
-                   "data": "Notificar orden de servicio"
+                   "title": "Estado de novedades",
+                   "value": "Estado de novedades",
+                   "data": "Estado de novedades"
                  }
                ]
             }

@@ -52,7 +52,7 @@
                 {
                   "$kind": "Microsoft.BeginDialog",
                   "$designer": {
-                    "id": "Oiu4zu"
+                    "id": "fcOhZB"
                   },
                   "activityProcessed": true,
                   "dialog": "Cliente"
