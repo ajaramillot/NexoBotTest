@@ -168,13 +168,6 @@
     ]
 }
 ```
-# TextInput_Prompt_vo4FjT()
-[Activity
-    Text = ${TextInput_Prompt_vo4FjT_text()}
-]
-
-# TextInput_Prompt_vo4FjT_text()
-- _________
 # SendActivity_97UvgS()
 [Activity
     Attachments = ${json(SendActivity_97UvgS_attachment_ZKcR6C())}
@@ -247,20 +240,6 @@
     ]
 }
 ```
-# TextInput_Prompt_XYgxX9()
-[Activity
-    Text = ${TextInput_Prompt_XYgxX9_text()}
-]
-
-# TextInput_Prompt_XYgxX9_text()
-- ______
-# TextInput_Prompt_PyZYeh()
-[Activity
-    Text = ${TextInput_Prompt_PyZYeh_text()}
-]
-
-# TextInput_Prompt_PyZYeh_text()
-- ______
 # SendActivity_ZlCxDm()
 [Activity
     Attachments = ${json(SendActivity_ZlCxDm_attachment_ELbf2f())}
@@ -297,10 +276,39 @@
     ]
 }
 ```
-# TextInput_Prompt_tF9cks()
+# SendActivity_aVk7qB()
 [Activity
-    Text = ${TextInput_Prompt_tF9cks_text()}
+    Attachments = ${json(SendActivity_aVk7qB_attachment_F8b921())}
 ]
 
-# TextInput_Prompt_tF9cks_text()
-- Seleccion una opcion
+# SendActivity_aVk7qB_attachment_F8b921()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": "Cliente contrato"
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacion general",
+                   "value": "Informacion general Cliente",
+                   "data": "Informacion general Cliente"
+                 }
+               ]
+        }
+    ]
+}
+```

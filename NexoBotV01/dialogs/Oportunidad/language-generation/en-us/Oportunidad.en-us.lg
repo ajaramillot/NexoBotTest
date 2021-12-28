@@ -146,7 +146,7 @@
                "actions": [
                  {
                    "type": "Action.Submit",
-                   "title": "Informacoon general",
+                   "title": "Informacion general",
                    "value": "Informacion general Cliente",
                    "data": "Informacion general Cliente"
                  }
@@ -182,7 +182,7 @@
                "actions": [
                  {
                    "type": "Action.Submit",
-                   "title": "Informacoon general",
+                   "title": "Informacion general",
                    "value": "Informacion general Oportunidad",
                    "data": "Informacion general Oportunidad"
                  }
@@ -218,7 +218,7 @@
                "actions": [
                  {
                    "type": "Action.Submit",
-                   "title": "Informacoon general",
+                   "title": "Informacion general",
                    "value": "Informacion general Oportunidad",
                    "data": "Informacion general Oportunidad"
                  }
@@ -254,7 +254,7 @@
                "actions": [
                  {
                    "type": "Action.Submit",
-                   "title": "Informacoon general",
+                   "title": "Informacion general",
                    "value": "Informacion general Oportunidad",
                    "data": "Informacion general Oportunidad"
                  }
@@ -290,7 +290,7 @@
                "actions": [
                  {
                    "type": "Action.Submit",
-                   "title": "Informacoon general",
+                   "title": "Informacion general",
                    "value": "Informacion general Oportunidad",
                    "data": "Informacion general Oportunidad"
                  }
@@ -326,7 +326,7 @@
                "actions": [
                  {
                    "type": "Action.Submit",
-                   "title": "Informacoon general",
+                   "title": "Informacion general",
                    "value": "Informacion general Oportunidad",
                    "data": "Informacion general Oportunidad"
                  }
@@ -335,45 +335,3 @@
     ]
 }
 ```
-# TextInput_Prompt_0tk3HJ()
-[Activity
-    Text = ${TextInput_Prompt_0tk3HJ_text()}
-]
-
-# TextInput_Prompt_0tk3HJ_text()
-- Seleccione una opcion
-# TextInput_Prompt_HG3WBf()
-[Activity
-    Text = ${TextInput_Prompt_HG3WBf_text()}
-]
-
-# TextInput_Prompt_HG3WBf_text()
-- Seleccione una opcion
-# TextInput_Prompt_bBD5HH()
-[Activity
-    Text = ${TextInput_Prompt_bBD5HH_text()}
-]
-
-# TextInput_Prompt_bBD5HH_text()
-- Seleccione una opcion
-# TextInput_Prompt_C7kqbe()
-[Activity
-    Text = ${TextInput_Prompt_C7kqbe_text()}
-]
-
-# TextInput_Prompt_C7kqbe_text()
-- Seleccione una opcion
-# TextInput_Prompt_2NstiI()
-[Activity
-    Text = ${TextInput_Prompt_2NstiI_text()}
-]
-
-# TextInput_Prompt_2NstiI_text()
-- Seleccione una opcion
-# TextInput_Prompt_mDkMpL()
-[Activity
-    Text = ${TextInput_Prompt_mDkMpL_text()}
-]
-
-# TextInput_Prompt_mDkMpL_text()
-- Seleccione una opcion

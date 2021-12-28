@@ -76,3 +76,39 @@
   text = Selecciona la opcion que mas se acomode a tu duda
   image = https://statics.teams.cdn.office.net/evergreen-assets/apps/teams_dev_app_largeimage.png
 ]
+# SendActivity_Jyte3b()
+[Activity
+    Attachments = ${json(SendActivity_Jyte3b_attachment_PujRGh())}
+]
+
+# SendActivity_Jyte3b_attachment_PujRGh()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": "Rechazo de novedad"
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacion general",
+                   "value": "Informacion general Cliente",
+                   "data": "Informacion general Cliente"
+                 }
+               ]
+        }
+    ]
+}
+```

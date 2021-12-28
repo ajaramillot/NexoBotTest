@@ -38,6 +38,28 @@
           "prompt": "${TextInput_Prompt_iIkapZ()}",
           "property": "user.OptionSubMenu",
           "value": "=turn.activity.value"
+        },
+        {
+          "$kind": "Microsoft.SwitchCondition",
+          "$designer": {
+            "id": "NzCJyS"
+          },
+          "cases": [
+            {
+              "value": "Rechazo de novedades",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "Jyte3b"
+                  },
+                  "activity": "${SendActivity_Jyte3b()}"
+                }
+              ]
+            }
+          ],
+          "default": [],
+          "condition": "user.OptionSubMenu"
         }
       ]
     }

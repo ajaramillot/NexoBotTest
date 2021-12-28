@@ -38,6 +38,74 @@
           "prompt": "${TextInput_Prompt_rvVSvR()}",
           "property": "user.OptionSubMenu",
           "value": "=turn.activity.value"
+        },
+        {
+          "$kind": "Microsoft.SwitchCondition",
+          "$designer": {
+            "id": "80569Z"
+          },
+          "condition": "user.OptionSubMenu",
+          "cases": [
+            {
+              "value": "Solicitudes de desconexion",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "7FBZEU"
+                  },
+                  "activity": "${SendActivity_7FBZEU()}"
+                }
+              ]
+            },
+            {
+              "value": "Reprogramar desconexion",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "cmcR41"
+                  },
+                  "activity": "${SendActivity_cmcR41()}"
+                }
+              ]
+            },
+            {
+              "value": "Confirmar desconexion",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "978Wcm"
+                  },
+                  "activity": "${SendActivity_978Wcm()}"
+                }
+              ]
+            },
+            {
+              "value": "Cancelar desconexion",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "9KaFhi"
+                  },
+                  "activity": "${SendActivity_9KaFhi()}"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "$kind": "Microsoft.DeleteProperties",
+          "$designer": {
+            "id": "7nbWAE"
+          },
+          "properties": [
+            "user.OptionMenu",
+            "user.Option",
+            "user.OptionSubMenu"
+          ]
         }
       ]
     }

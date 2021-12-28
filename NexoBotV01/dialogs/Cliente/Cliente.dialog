@@ -55,22 +55,6 @@
                     "id": "Ld1NJZ"
                   },
                   "activity": "${SendActivity_Ld1NJZ()}"
-                },
-                {
-                  "$kind": "Microsoft.TextInput",
-                  "$designer": {
-                    "id": "vo4FjT"
-                  },
-                  "disabled": false,
-                  "maxTurnCount": 3,
-                  "alwaysPrompt": false,
-                  "allowInterruptions": false,
-                  "unrecognizedPrompt": "",
-                  "invalidPrompt": "",
-                  "defaultValueResponse": "",
-                  "property": "user.Option",
-                  "value": "=turn.activity.value",
-                  "prompt": "${TextInput_Prompt_vo4FjT()}"
                 }
               ]
             },
@@ -83,22 +67,6 @@
                     "id": "97UvgS"
                   },
                   "activity": "${SendActivity_97UvgS()}"
-                },
-                {
-                  "$kind": "Microsoft.TextInput",
-                  "$designer": {
-                    "id": "XYgxX9"
-                  },
-                  "disabled": false,
-                  "maxTurnCount": 3,
-                  "alwaysPrompt": false,
-                  "allowInterruptions": false,
-                  "prompt": "${TextInput_Prompt_XYgxX9()}",
-                  "unrecognizedPrompt": "",
-                  "invalidPrompt": "",
-                  "defaultValueResponse": "",
-                  "property": "user.Option",
-                  "value": "=turn.activity.value"
                 }
               ]
             },
@@ -111,22 +79,6 @@
                     "id": "4iAoZK"
                   },
                   "activity": "${SendActivity_4iAoZK()}"
-                },
-                {
-                  "$kind": "Microsoft.TextInput",
-                  "$designer": {
-                    "id": "PyZYeh"
-                  },
-                  "disabled": false,
-                  "maxTurnCount": 3,
-                  "alwaysPrompt": false,
-                  "allowInterruptions": false,
-                  "prompt": "${TextInput_Prompt_PyZYeh()}",
-                  "unrecognizedPrompt": "",
-                  "invalidPrompt": "",
-                  "defaultValueResponse": "",
-                  "value": "=turn.activity.value",
-                  "property": "user.Option"
                 }
               ]
             },
@@ -139,22 +91,18 @@
                     "id": "ZlCxDm"
                   },
                   "activity": "${SendActivity_ZlCxDm()}"
-                },
+                }
+              ]
+            },
+            {
+              "value": "Contrato",
+              "actions": [
                 {
-                  "$kind": "Microsoft.TextInput",
+                  "$kind": "Microsoft.SendActivity",
                   "$designer": {
-                    "id": "tF9cks"
+                    "id": "aVk7qB"
                   },
-                  "disabled": false,
-                  "maxTurnCount": 3,
-                  "alwaysPrompt": false,
-                  "allowInterruptions": false,
-                  "prompt": "${TextInput_Prompt_tF9cks()}",
-                  "unrecognizedPrompt": "",
-                  "invalidPrompt": "",
-                  "defaultValueResponse": "",
-                  "property": "user.Option",
-                  "value": "=turn.activity.value"
+                  "activity": "${SendActivity_aVk7qB()}"
                 }
               ]
             }
