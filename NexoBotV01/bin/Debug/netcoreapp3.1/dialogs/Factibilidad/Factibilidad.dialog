@@ -55,21 +55,6 @@
                     "id": "qtWOOp"
                   },
                   "activity": "${SendActivity_qtWOOp()}"
-                },
-                {
-                  "$kind": "Microsoft.TextInput",
-                  "$designer": {
-                    "id": "YdIp9n"
-                  },
-                  "disabled": false,
-                  "maxTurnCount": 3,
-                  "alwaysPrompt": false,
-                  "allowInterruptions": false,
-                  "unrecognizedPrompt": "",
-                  "invalidPrompt": "",
-                  "defaultValueResponse": "",
-                  "property": "user.Option",
-                  "value": "=turn.activity.value"
                 }
               ]
             },
@@ -82,21 +67,6 @@
                     "id": "s1hfvT"
                   },
                   "activity": "${SendActivity_s1hfvT()}"
-                },
-                {
-                  "$kind": "Microsoft.TextInput",
-                  "$designer": {
-                    "id": "nGkcq4"
-                  },
-                  "disabled": false,
-                  "maxTurnCount": 3,
-                  "alwaysPrompt": false,
-                  "allowInterruptions": false,
-                  "unrecognizedPrompt": "",
-                  "invalidPrompt": "",
-                  "defaultValueResponse": "",
-                  "property": "user.Option",
-                  "value": "=turn.activity.value"
                 }
               ]
             },
@@ -109,21 +79,6 @@
                     "id": "5nl68X"
                   },
                   "activity": "${SendActivity_5nl68X()}"
-                },
-                {
-                  "$kind": "Microsoft.TextInput",
-                  "$designer": {
-                    "id": "ugOUXm"
-                  },
-                  "disabled": false,
-                  "maxTurnCount": 3,
-                  "alwaysPrompt": false,
-                  "allowInterruptions": false,
-                  "unrecognizedPrompt": "",
-                  "invalidPrompt": "",
-                  "defaultValueResponse": "",
-                  "property": "user.Option",
-                  "value": "=turn.activity.value"
                 }
               ]
             },
@@ -136,21 +91,6 @@
                     "id": "8LQ7Qp"
                   },
                   "activity": "${SendActivity_8LQ7Qp()}"
-                },
-                {
-                  "$kind": "Microsoft.TextInput",
-                  "$designer": {
-                    "id": "tO84LC"
-                  },
-                  "disabled": false,
-                  "maxTurnCount": 3,
-                  "alwaysPrompt": false,
-                  "allowInterruptions": false,
-                  "unrecognizedPrompt": "",
-                  "invalidPrompt": "",
-                  "defaultValueResponse": "",
-                  "property": "user.Option",
-                  "value": "=turn.activity.value"
                 }
               ]
             },
@@ -163,21 +103,6 @@
                     "id": "epwJDQ"
                   },
                   "activity": "${SendActivity_epwJDQ()}"
-                },
-                {
-                  "$kind": "Microsoft.TextInput",
-                  "$designer": {
-                    "id": "lcRGuL"
-                  },
-                  "disabled": false,
-                  "maxTurnCount": 3,
-                  "alwaysPrompt": false,
-                  "allowInterruptions": false,
-                  "unrecognizedPrompt": "",
-                  "invalidPrompt": "",
-                  "defaultValueResponse": "",
-                  "property": "user.Option",
-                  "value": "=turn.activity.value"
                 }
               ]
             },
@@ -190,21 +115,6 @@
                     "id": "sWAEYU"
                   },
                   "activity": "${SendActivity_sWAEYU()}"
-                },
-                {
-                  "$kind": "Microsoft.TextInput",
-                  "$designer": {
-                    "id": "A6NQn6"
-                  },
-                  "disabled": false,
-                  "maxTurnCount": 3,
-                  "alwaysPrompt": false,
-                  "allowInterruptions": false,
-                  "unrecognizedPrompt": "",
-                  "invalidPrompt": "",
-                  "defaultValueResponse": "",
-                  "property": "user.Option",
-                  "value": "=turn.activity.value"
                 }
               ]
             },
@@ -217,21 +127,6 @@
                     "id": "12WLKg"
                   },
                   "activity": "${SendActivity_12WLKg()}"
-                },
-                {
-                  "$kind": "Microsoft.TextInput",
-                  "$designer": {
-                    "id": "9meyRi"
-                  },
-                  "disabled": false,
-                  "maxTurnCount": 3,
-                  "alwaysPrompt": false,
-                  "allowInterruptions": false,
-                  "unrecognizedPrompt": "",
-                  "invalidPrompt": "",
-                  "defaultValueResponse": "",
-                  "property": "user.Option",
-                  "value": "=turn.activity.value"
                 }
               ]
             },
@@ -244,24 +139,21 @@
                     "id": "X1pjYm"
                   },
                   "activity": "${SendActivity_X1pjYm()}"
-                },
-                {
-                  "$kind": "Microsoft.TextInput",
-                  "$designer": {
-                    "id": "6gxdvg"
-                  },
-                  "disabled": false,
-                  "maxTurnCount": 3,
-                  "alwaysPrompt": false,
-                  "allowInterruptions": false,
-                  "unrecognizedPrompt": "",
-                  "invalidPrompt": "",
-                  "defaultValueResponse": "",
-                  "property": "user.Option",
-                  "value": "=turn.activity.value"
                 }
               ]
             }
+          ]
+        },
+        {
+          "$kind": "Microsoft.DeleteProperties",
+          "$designer": {
+            "id": "tmzNoz",
+            "comment": ""
+          },
+          "properties": [
+            "user.OptionSubMenu",
+            "user.Option",
+            "user.OptionMenu"
           ]
         }
       ]

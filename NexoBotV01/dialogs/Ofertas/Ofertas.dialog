@@ -33,11 +33,174 @@
           "alwaysPrompt": false,
           "allowInterruptions": false,
           "unrecognizedPrompt": "",
-          "invalidPrompt": "",
           "defaultValueResponse": "",
-          "prompt": "${TextInput_Prompt_MgIKWn()}",
-          "property": "user.OptionMenu",
-          "value": "=turn.activity.value"
+          "property": "user.OptionSubMenu",
+          "value": "=turn.activity.value",
+          "prompt": "${TextInput_Prompt_MgIKWn()}"
+        },
+        {
+          "$kind": "Microsoft.SwitchCondition",
+          "$designer": {
+            "id": "HIw1i7"
+          },
+          "condition": "user.OptionSubMenu",
+          "cases": [
+            {
+              "value": "Completar propiedades producto",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "mM2cLX"
+                  },
+                  "activity": "${SendActivity_mM2cLX()}"
+                }
+              ]
+            },
+            {
+              "value": "Solicitudes de pricing",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "su7Na4"
+                  },
+                  "activity": "${SendActivity_su7Na4()}"
+                }
+              ]
+            },
+            {
+              "value": "Cargar documentos",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "j0NFuy"
+                  },
+                  "activity": "${SendActivity_j0NFuy()}"
+                }
+              ]
+            },
+            {
+              "value": "Editar detalles de producto",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "WvjAUz"
+                  },
+                  "activity": "${SendActivity_WvjAUz()}"
+                }
+              ]
+            },
+            {
+              "value": "Presentar oferta",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "qk7dUO"
+                  },
+                  "activity": "${SendActivity_qk7dUO()}"
+                }
+              ]
+            },
+            {
+              "value": "Enviar documentos OS por docusign",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "L1TRin"
+                  },
+                  "activity": "${SendActivity_L1TRin()}"
+                }
+              ]
+            },
+            {
+              "value": "Otros estados oferta",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "xKVqGa"
+                  },
+                  "activity": "${SendActivity_xKVqGa()}"
+                }
+              ]
+            },
+            {
+              "value": "Revisar oferta",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "tPYlXH"
+                  },
+                  "activity": "${SendActivity_tPYlXH()}"
+                }
+              ]
+            },
+            {
+              "value": "Ganar oferta",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "xNq48y"
+                  },
+                  "activity": "${SendActivity_xNq48y()}"
+                }
+              ]
+            },
+            {
+              "value": "Perder oferta",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "L8TDJx"
+                  },
+                  "activity": "${SendActivity_L8TDJx()}"
+                }
+              ]
+            },
+            {
+              "value": "Cancelar oferta",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "rHYN6f"
+                  },
+                  "activity": "${SendActivity_rHYN6f()}"
+                }
+              ]
+            },
+            {
+              "value": "Notificar orden de servicio",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "EnL1OT"
+                  },
+                  "activity": "${SendActivity_EnL1OT()}"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "$kind": "Microsoft.DeleteProperties",
+          "$designer": {
+            "id": "edtB6E"
+          },
+          "properties": [
+            "user.Option",
+            "user.OptionSubMenu",
+            "user.OptionMenu"
+          ]
         }
       ]
     }

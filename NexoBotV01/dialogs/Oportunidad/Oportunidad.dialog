@@ -54,22 +54,6 @@
                     "id": "E25FxF"
                   },
                   "activity": "${SendActivity_E25FxF()}"
-                },
-                {
-                  "$kind": "Microsoft.TextInput",
-                  "$designer": {
-                    "id": "mDkMpL"
-                  },
-                  "disabled": false,
-                  "maxTurnCount": 3,
-                  "alwaysPrompt": false,
-                  "allowInterruptions": false,
-                  "unrecognizedPrompt": "",
-                  "invalidPrompt": "",
-                  "defaultValueResponse": "",
-                  "property": "user.Option",
-                  "value": "=turn.activity.value",
-                  "prompt": "${TextInput_Prompt_mDkMpL()}"
                 }
               ]
             },
@@ -82,22 +66,6 @@
                     "id": "bCPlbu"
                   },
                   "activity": "${SendActivity_bCPlbu()}"
-                },
-                {
-                  "$kind": "Microsoft.TextInput",
-                  "$designer": {
-                    "id": "0tk3HJ"
-                  },
-                  "disabled": false,
-                  "maxTurnCount": 3,
-                  "alwaysPrompt": false,
-                  "allowInterruptions": false,
-                  "prompt": "${TextInput_Prompt_0tk3HJ()}",
-                  "unrecognizedPrompt": "",
-                  "invalidPrompt": "",
-                  "defaultValueResponse": "",
-                  "value": "=turn.activity.value",
-                  "property": "user.Option"
                 }
               ]
             },
@@ -110,22 +78,6 @@
                     "id": "wwylY7"
                   },
                   "activity": "${SendActivity_wwylY7()}"
-                },
-                {
-                  "$kind": "Microsoft.TextInput",
-                  "$designer": {
-                    "id": "HG3WBf"
-                  },
-                  "disabled": false,
-                  "maxTurnCount": 3,
-                  "alwaysPrompt": false,
-                  "allowInterruptions": false,
-                  "unrecognizedPrompt": "",
-                  "invalidPrompt": "",
-                  "defaultValueResponse": "",
-                  "prompt": "${TextInput_Prompt_HG3WBf()}",
-                  "value": "=turn.activity.value",
-                  "property": "user.Option"
                 }
               ]
             },
@@ -138,22 +90,6 @@
                     "id": "OBFhe6"
                   },
                   "activity": "${SendActivity_OBFhe6()}"
-                },
-                {
-                  "$kind": "Microsoft.TextInput",
-                  "$designer": {
-                    "id": "bBD5HH"
-                  },
-                  "disabled": false,
-                  "maxTurnCount": 3,
-                  "alwaysPrompt": false,
-                  "allowInterruptions": false,
-                  "prompt": "${TextInput_Prompt_bBD5HH()}",
-                  "unrecognizedPrompt": "",
-                  "invalidPrompt": "",
-                  "defaultValueResponse": "",
-                  "value": "=turn.activity.value",
-                  "property": "user.Option"
                 }
               ]
             },
@@ -166,22 +102,6 @@
                     "id": "2x9opN"
                   },
                   "activity": "${SendActivity_2x9opN()}"
-                },
-                {
-                  "$kind": "Microsoft.TextInput",
-                  "$designer": {
-                    "id": "C7kqbe"
-                  },
-                  "disabled": false,
-                  "maxTurnCount": 3,
-                  "alwaysPrompt": false,
-                  "allowInterruptions": false,
-                  "prompt": "${TextInput_Prompt_C7kqbe()}",
-                  "unrecognizedPrompt": "",
-                  "invalidPrompt": "",
-                  "defaultValueResponse": "",
-                  "value": "=turn.activity.value",
-                  "property": "user.option"
                 }
               ]
             },
@@ -194,42 +114,10 @@
                     "id": "D2pT2U"
                   },
                   "activity": "${SendActivity_D2pT2U()}"
-                },
-                {
-                  "$kind": "Microsoft.TextInput",
-                  "$designer": {
-                    "id": "2NstiI"
-                  },
-                  "disabled": false,
-                  "maxTurnCount": 3,
-                  "alwaysPrompt": false,
-                  "allowInterruptions": false,
-                  "prompt": "${TextInput_Prompt_2NstiI()}",
-                  "unrecognizedPrompt": "",
-                  "invalidPrompt": "",
-                  "defaultValueResponse": "",
-                  "value": "=turn.activity.value",
-                  "property": "user.Option"
                 }
               ]
             }
           ]
-        },
-        {
-          "$kind": "Microsoft.QnAMakerDialog",
-          "$designer": {
-            "id": "mjc54l"
-          },
-          "knowledgeBaseId": "b6428bb1-498a-470c-921b-2e5ce66ed7e1",
-          "endpointKey": "3553c567-51bb-4e44-8176-b6cdb2a7ea54",
-          "hostname": "https://nexobot.azurewebsites.net/qnamaker",
-          "noAnswer": "Sorry, I did not find an answer.",
-          "threshold": 0.3,
-          "activeLearningCardTitle": "Did you mean:",
-          "cardNoMatchText": "None of the above.",
-          "cardNoMatchResponse": "Thanks for the feedback.",
-          "top": 3,
-          "isTest": false
         },
         {
           "$kind": "Microsoft.DeleteProperties",

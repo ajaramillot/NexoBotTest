@@ -20,9 +20,9 @@
                "actions": [
                  {
                    "type": "Action.Submit",
-                   "title": "Rechazo de novedades",
-                   "value": "Rechazo de novedades",
-                   "data": "Rechazo de novedades"
+                   "title": "Completar propiedades producto",
+                   "value": "Completar propiedades producto",
+                   "data": "Completar propiedades producto"
                  }
                ]
             },
@@ -31,9 +31,9 @@
                "actions": [
                  {
                    "type": "Action.Submit",
-                   "title": "Cambio cuenta de facturacion",
-                   "value": "Cambio cuenta de facturacion",
-                   "data": "Cambio cuenta de facturacion"
+                   "title": "Solicitudes de pricing",
+                   "value": "Solicitudes de pricing",
+                   "data": "Solicitudes de pricing"
                  }
                ]
             },
@@ -42,9 +42,108 @@
                "actions": [
                  {
                    "type": "Action.Submit",
-                   "title": "Estado de novedades",
-                   "value": "Estado de novedades",
-                   "data": "Estado de novedades"
+                   "title": "Cargar documentos",
+                   "value": "Cargar documentos",
+                   "data": "Cargar documentos"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Editar detalles de producto",
+                   "value": "Editar detalles de producto",
+                   "data": "Editar detalles de producto"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Presentar oferta",
+                   "value": "Presentar oferta",
+                   "data": "Presentar oferta"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Enviar documentos OS por docusign",
+                   "value": "Enviar documentos OS por docusign",
+                   "data": "Enviar documentos OS por docusign"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Otros estados oferta",
+                   "value": "Otros estados oferta",
+                   "data": "Otros estados oferta"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Revisar oferta",
+                   "value": "Revisar oferta",
+                   "data": "Revisar oferta"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Ganar oferta",
+                   "value": "Ganar oferta",
+                   "data": "Ganar oferta"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Perder oferta",
+                   "value": "Perder oferta",
+                   "data": "Perder oferta"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Cancelar oferta",
+                   "value": "Cancelar oferta",
+                   "data": "Cancelar oferta"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Notificar orden de servicio",
+                   "value": "Notificar orden de servicio",
+                   "data": "Notificar orden de servicio"
                  }
                ]
             }
@@ -56,12 +155,11 @@
 }
 ```
 
- # AdaptiveCard_MenuOfertas()
+ # AdaptiveCard_MenuOferta()
 [Activity
     Attachments = ${json(AdaptiveCardJson_MenuOfertas())}
 ]
-# TextInput_Prompt_MgIKWn()
-- ${json(AdaptiveCard_MenuOfertas())}
+
 # SendActivity_yDopPW()
 [Activity
     Attachments = ${SendActivity_yDopPW_attachment_T5rAUr()}
@@ -74,3 +172,439 @@
   text = Selecciona la opcion que mas se acomode a tu duda
   image = https://statics.teams.cdn.office.net/evergreen-assets/apps/teams_dev_app_largeimage.png
 ]
+# TextInput_Prompt_MgIKWn_text()
+- Hola
+# TextInput_Prompt_MgIKWn()
+- ${json(AdaptiveCard_MenuOferta())}
+# SendActivity_mM2cLX()
+[Activity
+    Attachments = ${json(SendActivity_mM2cLX_attachment_N5j8ej())}
+]
+
+# SendActivity_mM2cLX_attachment_N5j8ej()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": "Completar propiedades producto"
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacion general",
+                   "value": "Informacion general Cliente",
+                   "data": "Informacion general Cliente"
+                 }
+               ]
+        }
+    ]
+}
+```
+# SendActivity_su7Na4()
+[Activity
+    Attachments = ${json(SendActivity_su7Na4_attachment_4F7ZGT())}
+]
+
+# SendActivity_su7Na4_attachment_4F7ZGT()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": "Solicitud de pricing"
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacion general",
+                   "value": "Informacion general Cliente",
+                   "data": "Informacion general Cliente"
+                 }
+               ]
+        }
+    ]
+}
+```
+# SendActivity_j0NFuy()
+[Activity
+    Attachments = ${json(SendActivity_j0NFuy_attachment_grxdUS())}
+]
+
+# SendActivity_j0NFuy_attachment_grxdUS()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": "Cargar documentos"
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacion general",
+                   "value": "Informacion general Cliente",
+                   "data": "Informacion general Cliente"
+                 }
+               ]
+        }
+    ]
+}
+```
+# SendActivity_WvjAUz()
+[Activity
+    Attachments = ${json(SendActivity_WvjAUz_attachment_IPIKrC())}
+]
+
+# SendActivity_WvjAUz_attachment_IPIKrC()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": "Editar detalles de producto"
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacion general",
+                   "value": "Informacion general Cliente",
+                   "data": "Informacion general Cliente"
+                 }
+               ]
+        }
+    ]
+}
+```
+# SendActivity_qk7dUO()
+[Activity
+    Attachments = ${json(SendActivity_qk7dUO_attachment_H80XOH())}
+]
+
+# SendActivity_qk7dUO_attachment_H80XOH()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": "Presentar oferta"
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacion general",
+                   "value": "Informacion general Cliente",
+                   "data": "Informacion general Cliente"
+                 }
+               ]
+        }
+    ]
+}
+```
+# SendActivity_L1TRin()
+[Activity
+    Attachments = ${json(SendActivity_L1TRin_attachment_NuHhcB())}
+]
+
+# SendActivity_L1TRin_attachment_NuHhcB()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": "Enviar documentos OS por docusign"
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacion general",
+                   "value": "Informacion general Cliente",
+                   "data": "Informacion general Cliente"
+                 }
+               ]
+        }
+    ]
+}
+```
+# SendActivity_xKVqGa()
+[Activity
+    Attachments = ${json(SendActivity_xKVqGa_attachment_H3SAvn())}
+]
+
+# SendActivity_xKVqGa_attachment_H3SAvn()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": "Otros estados oferta"
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacion general",
+                   "value": "Informacion general Cliente",
+                   "data": "Informacion general Cliente"
+                 }
+               ]
+        }
+    ]
+}
+```
+# SendActivity_tPYlXH()
+[Activity
+    Attachments = ${json(SendActivity_tPYlXH_attachment_LdK4aM())}
+]
+
+# SendActivity_tPYlXH_attachment_LdK4aM()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": "Revisar oferta"
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacion general",
+                   "value": "Informacion general Cliente",
+                   "data": "Informacion general Cliente"
+                 }
+               ]
+        }
+    ]
+}
+```
+# SendActivity_xNq48y()
+[Activity
+    Attachments = ${json(SendActivity_xNq48y_attachment_MK98dL())}
+]
+
+# SendActivity_xNq48y_attachment_MK98dL()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": "Ganar oferta"
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacion general",
+                   "value": "Informacion general Cliente",
+                   "data": "Informacion general Cliente"
+                 }
+               ]
+        }
+    ]
+}
+```
+# SendActivity_L8TDJx()
+[Activity
+    Attachments = ${json(SendActivity_L8TDJx_attachment_qTheV6())}
+]
+
+# SendActivity_L8TDJx_attachment_qTheV6()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": "Perder oferta"
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacion general",
+                   "value": "Informacion general Cliente",
+                   "data": "Informacion general Cliente"
+                 }
+               ]
+        }
+    ]
+}
+```
+# SendActivity_rHYN6f()
+[Activity
+    Attachments = ${json(SendActivity_rHYN6f_attachment_LSriT0())}
+]
+
+# SendActivity_rHYN6f_attachment_LSriT0()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": "Cancelar oferta"
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacion general",
+                   "value": "Informacion general Cliente",
+                   "data": "Informacion general Cliente"
+                 }
+               ]
+        }
+    ]
+}
+```
+# SendActivity_EnL1OT()
+[Activity
+    Attachments = ${json(SendActivity_EnL1OT_attachment_yE5fCW())}
+]
+
+# SendActivity_EnL1OT_attachment_yE5fCW()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": "Notificar orden de servicio"
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacion general",
+                   "value": "Informacion general Cliente",
+                   "data": "Informacion general Cliente"
+                 }
+               ]
+        }
+    ]
+}
+```
