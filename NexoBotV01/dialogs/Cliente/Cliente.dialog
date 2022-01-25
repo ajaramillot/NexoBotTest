@@ -17,27 +17,59 @@
       },
       "actions": [
         {
-          "$kind": "Microsoft.SendActivity",
+          "$kind": "Microsoft.SwitchCondition",
           "$designer": {
-            "id": "hNZsa2"
+            "id": "yaLfgO"
           },
-          "activity": "${SendActivity_hNZsa2()}"
-        },
-        {
-          "$kind": "Microsoft.TextInput",
-          "$designer": {
-            "id": "cjX9wa"
-          },
-          "disabled": false,
-          "maxTurnCount": 3,
-          "alwaysPrompt": false,
-          "allowInterruptions": false,
-          "unrecognizedPrompt": "",
-          "invalidPrompt": "",
-          "defaultValueResponse": "",
-          "prompt": "${TextInput_Prompt_cjX9wa()}",
-          "property": "user.Option",
-          "value": "=turn.activity.value"
+          "condition": "user.idioma",
+          "cases": [
+            {
+              "value": "Portugues",
+              "actions": [
+                {
+                  "$kind": "Microsoft.TextInput",
+                  "$designer": {
+                    "id": "pnVXfk"
+                  },
+                  "disabled": false,
+                  "maxTurnCount": 3,
+                  "alwaysPrompt": false,
+                  "allowInterruptions": false,
+                  "unrecognizedPrompt": "",
+                  "invalidPrompt": "",
+                  "defaultValueResponse": "",
+                  "prompt": "${TextInput_Prompt_pnVXfk()}",
+                  "property": "user.Option",
+                  "value": "=turn.activity.value"
+                }
+              ]
+            }
+          ],
+          "default": [
+            {
+              "$kind": "Microsoft.SendActivity",
+              "$designer": {
+                "id": "J3F9Kj"
+              },
+              "activity": "${SendActivity_J3F9Kj()}"
+            },
+            {
+              "$kind": "Microsoft.TextInput",
+              "$designer": {
+                "id": "0fHnez"
+              },
+              "disabled": false,
+              "maxTurnCount": 3,
+              "alwaysPrompt": false,
+              "allowInterruptions": false,
+              "unrecognizedPrompt": "",
+              "invalidPrompt": "",
+              "defaultValueResponse": "",
+              "prompt": "${TextInput_Prompt_0fHnez()}",
+              "property": "user.Option",
+              "value": "=turn.activity.value"
+            }
+          ]
         },
         {
           "$kind": "Microsoft.SwitchCondition",
@@ -50,11 +82,34 @@
               "value": "Evaluacion Juridica y financiera",
               "actions": [
                 {
-                  "$kind": "Microsoft.SendActivity",
+                  "$kind": "Microsoft.SwitchCondition",
                   "$designer": {
-                    "id": "Ld1NJZ"
+                    "id": "LEtWOw"
                   },
-                  "activity": "${SendActivity_Ld1NJZ()}"
+                  "condition": "user.idioma",
+                  "cases": [
+                    {
+                      "value": "Portugues",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "ay6nFZ"
+                          },
+                          "activity": "${SendActivity_ay6nFZ()}"
+                        }
+                      ]
+                    }
+                  ],
+                  "default": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "pt5lWR"
+                      },
+                      "activity": "${SendActivity_pt5lWR()}"
+                    }
+                  ]
                 }
               ]
             },
@@ -62,11 +117,34 @@
               "value": "RAC (EQUIPO DE ATENCIÓN CLIENTE)",
               "actions": [
                 {
-                  "$kind": "Microsoft.SendActivity",
+                  "$kind": "Microsoft.SwitchCondition",
                   "$designer": {
-                    "id": "97UvgS"
+                    "id": "UWRnel"
                   },
-                  "activity": "${SendActivity_97UvgS()}"
+                  "condition": "user.idioma",
+                  "cases": [
+                    {
+                      "value": "Portugues",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "eu8R2T"
+                          },
+                          "activity": "${SendActivity_eu8R2T()}"
+                        }
+                      ]
+                    }
+                  ],
+                  "default": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "jBgIfS"
+                      },
+                      "activity": "${SendActivity_jBgIfS()}"
+                    }
+                  ]
                 }
               ]
             },
@@ -74,11 +152,34 @@
               "value": "RAC (EQUIPO DE ATENCIÓN INTERNEXA)",
               "actions": [
                 {
-                  "$kind": "Microsoft.SendActivity",
+                  "$kind": "Microsoft.SwitchCondition",
                   "$designer": {
-                    "id": "4iAoZK"
+                    "id": "EiJHVC"
                   },
-                  "activity": "${SendActivity_4iAoZK()}"
+                  "condition": "user.idioma",
+                  "cases": [
+                    {
+                      "value": "Portugues",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "i1pWMf"
+                          },
+                          "activity": "${SendActivity_i1pWMf()}"
+                        }
+                      ]
+                    }
+                  ],
+                  "default": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "T7U7t5"
+                      },
+                      "activity": "${SendActivity_T7U7t5()}"
+                    }
+                  ]
                 }
               ]
             },
@@ -86,11 +187,34 @@
               "value": "Informacion general cliente",
               "actions": [
                 {
-                  "$kind": "Microsoft.SendActivity",
+                  "$kind": "Microsoft.SwitchCondition",
                   "$designer": {
-                    "id": "ZlCxDm"
+                    "id": "wGs4Zu"
                   },
-                  "activity": "${SendActivity_ZlCxDm()}"
+                  "condition": "user.idioma",
+                  "cases": [
+                    {
+                      "value": "Portuges",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "qP0NLA"
+                          },
+                          "activity": "${SendActivity_qP0NLA()}"
+                        }
+                      ]
+                    }
+                  ],
+                  "default": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "ETBG5x"
+                      },
+                      "activity": "${SendActivity_ETBG5x()}"
+                    }
+                  ]
                 }
               ]
             },
@@ -98,11 +222,58 @@
               "value": "Contrato",
               "actions": [
                 {
-                  "$kind": "Microsoft.SendActivity",
+                  "$kind": "Microsoft.SwitchCondition",
                   "$designer": {
-                    "id": "aVk7qB"
+                    "id": "RvfYpf"
                   },
-                  "activity": "${SendActivity_aVk7qB()}"
+                  "condition": "user.idioma",
+                  "cases": [
+                    {
+                      "value": "Portugues",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.TextInput",
+                          "$designer": {
+                            "id": "Nh6G5V"
+                          },
+                          "disabled": false,
+                          "maxTurnCount": 3,
+                          "alwaysPrompt": true,
+                          "allowInterruptions": false,
+                          "prompt": "${TextInput_Prompt_Nh6G5V()}",
+                          "unrecognizedPrompt": "",
+                          "invalidPrompt": "",
+                          "property": "user.option",
+                          "value": "=turn.activity.value"
+                        },
+                        {
+                          "$kind": "Microsoft.IfCondition",
+                          "$designer": {
+                            "id": "vloZdy"
+                          },
+                          "condition": "=user.option==\"Informacion general\"",
+                          "actions": [
+                            {
+                              "$kind": "Microsoft.SendActivity",
+                              "$designer": {
+                                "id": "GPhh6E"
+                              },
+                              "activity": "${SendActivity_GPhh6E()}"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "default": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "UyyTkd"
+                      },
+                      "activity": "${SendActivity_UyyTkd()}"
+                    }
+                  ]
                 }
               ]
             }
@@ -116,7 +287,8 @@
           "properties": [
             "user.Option",
             "user.OptionSubMenu",
-            "user.OptionMenu"
+            "user.OptionMenu",
+            "user.option"
           ]
         },
         {

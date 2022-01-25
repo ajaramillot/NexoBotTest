@@ -72,26 +72,129 @@
     Attachments = ${json(AdaptiveCardJson_MenuDesconexiones())}
 ]
 
+
+# AdaptiveCardJson_MenuDesconexionesTeams()
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "250px",
+          "items": [
+             {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Solicitudes de desconexion",
+                   "value": "Solicitudes de desconexion",
+                   "data": {                   
+                      "msteams": {
+                      "type": "imBack",
+                      "data": "Solicitudes de desconexion",
+                      "value": "Solicitudes de desconexion"
+                      }
+                 }
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Reprogramar desconexion",
+                   "value": "Reprogramar desconexion",
+                   "data": {                   
+                      "msteams": {
+                      "type": "imBack",
+                      "data": "Reprogramar desconexion",
+                      "value": "Reprogramar desconexion"
+                      }
+                 }
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Confirmar desconexion",
+                   "value": "Confirmar desconexion",
+                   "data": {                   
+                      "msteams": {
+                      "type": "imBack",
+                      "data": "Confirmar desconexion",
+                      "value": "Confirmar desconexion"
+                      }
+                 }
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Cancelar desconexion",
+                   "value": "Cancelar desconexion",
+                   "data": {                   
+                      "msteams": {
+                      "type": "imBack",
+                      "data": "Cancelar desconexion",
+                      "value": "Cancelar desconexion"
+                      }
+                 }
+                 }
+               ]
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "height": "stretch",
+          "width": "150px",
+          "spacing": "Padding",
+          "items": [
+            {
+            "type": "Image",
+            "url": "https://github.com/ajaramillot/NexoBot/blob/main/Iconografia/nexobot-icono%20192x192.png?raw=true"
+            },
+            {
+            "type": "TextBlock",
+            "weight": "bolder",
+            "size": "Medium",
+            "text": "Bienvenido, Soy nexobot \r\r\r Escoge la opcion que mas se acomode a tu duda",
+            "wrap": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+```
+
+ # AdaptiveCard_MenuDesconexionesTeams()
+[Activity
+    Attachments = ${json(AdaptiveCardJson_MenuDesconexionesTeams())}
+]
+
 # TextInput_Prompt_rvVSvR()
 - ${json(AdaptiveCard_MenuDesconexiones())}
-# SendActivity_9tNrl1()
+# SendActivity_ZYDs3F()
 [Activity
-    Attachments = ${SendActivity_9tNrl1_attachment_xgI1Zw()}
+    Attachments = ${json(SendActivity_ZYDs3F_attachment_gIODIV())}
 ]
 
-# SendActivity_9tNrl1_attachment_xgI1Zw()
-[ThumbnailCard
-  title = Sub menu Desconexion
-  subtitle = NexoBot
-  text = Selecciona la opcion que mas se acomode a tu duda
-  image = https://statics.teams.cdn.office.net/evergreen-assets/apps/teams_dev_app_largeimage.png
-]
-# SendActivity_7FBZEU()
-[Activity
-    Attachments = ${json(SendActivity_7FBZEU_attachment_LR4pWO())}
-]
-
-# SendActivity_7FBZEU_attachment_LR4pWO()
+# SendActivity_ZYDs3F_attachment_gIODIV()
 - ```
 {
     "type": "AdaptiveCard",
@@ -122,12 +225,12 @@
     ]
 }
 ```
-# SendActivity_cmcR41()
+# SendActivity_6WqRaK()
 [Activity
-    Attachments = ${json(SendActivity_cmcR41_attachment_aBEsnX())}
+    Attachments = ${json(SendActivity_6WqRaK_attachment_3ZPMLZ())}
 ]
 
-# SendActivity_cmcR41_attachment_aBEsnX()
+# SendActivity_6WqRaK_attachment_3ZPMLZ()
 - ```
 {
     "type": "AdaptiveCard",
@@ -140,7 +243,13 @@
                    "type": "Action.Submit",
                    "title": "Guia",
                    "value": "Guia",
-                   "data": "Reprogramar una desconexion"
+                   "data": {                   
+                      "msteams": {
+                      "type": "imBack",
+                      "data": "Solicitud de desconexion",
+                      "value": "Solicitud de desconexion"
+                      }
+                 }
                  }
                ]
         },
@@ -158,12 +267,90 @@
     ]
 }
 ```
-# SendActivity_978Wcm()
+# SendActivity_y8Amm7()
 [Activity
-    Attachments = ${json(SendActivity_978Wcm_attachment_6f5ddy())}
+    Attachments = ${json(SendActivity_y8Amm7_attachment_FwBK4V())}
 ]
 
-# SendActivity_978Wcm_attachment_6f5ddy()
+# SendActivity_y8Amm7_attachment_FwBK4V()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": "Solicitud de desconexion"
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacion general",
+                   "value": "Informacion general Cliente",
+                   "data": "Informacion general Cliente"
+                 }
+               ]
+        }
+    ]
+}
+```
+# SendActivity_eveoc1()
+[Activity
+    Attachments = ${json(SendActivity_eveoc1_attachment_Tv8UbP())}
+]
+
+# SendActivity_eveoc1_attachment_Tv8UbP()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": {                   
+                      "msteams": {
+                      "type": "imBack",
+                      "data": "Reprogramar una desconexion",
+                      "value": "Reprogramar una desconexion"
+                      }
+                 }
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacion general",
+                   "value": "Informacion general Cliente",
+                   "data": "Informacion general Cliente"
+                 }
+               ]
+        }
+    ]
+}
+```
+# SendActivity_TvajH6()
+[Activity
+    Attachments = ${json(SendActivity_TvajH6_attachment_hzHMPB())}
+]
+
+# SendActivity_TvajH6_attachment_hzHMPB()
 - ```
 {
     "type": "AdaptiveCard",
@@ -194,12 +381,54 @@
     ]
 }
 ```
-# SendActivity_9KaFhi()
+# SendActivity_5mWm5a()
 [Activity
-    Attachments = ${json(SendActivity_9KaFhi_attachment_uLkLmM())}
+    Attachments = ${json(SendActivity_5mWm5a_attachment_bQJITN())}
 ]
 
-# SendActivity_9KaFhi_attachment_uLkLmM()
+# SendActivity_5mWm5a_attachment_bQJITN()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": {                   
+                      "msteams": {
+                      "type": "imBack",
+                      "data": "Confirmar desconexion",
+                      "value": "Confirmar desconexion"
+                      }
+                 }
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacion general",
+                   "value": "Informacion general Cliente",
+                   "data": "Informacion general Cliente"
+                 }
+               ]
+        }
+    ]
+}
+```
+# SendActivity_rg9fgo()
+[Activity
+    Attachments = ${json(SendActivity_rg9fgo_attachment_pnEaOa())}
+]
+
+# SendActivity_rg9fgo_attachment_pnEaOa()
 - ```
 {
     "type": "AdaptiveCard",
@@ -230,3 +459,61 @@
     ]
 }
 ```
+# SendActivity_m928KA()
+[Activity
+    Attachments = ${json(SendActivity_m928KA_attachment_2xxLaE())}
+]
+
+# SendActivity_m928KA_attachment_2xxLaE()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": {                   
+                      "msteams": {
+                      "type": "imBack",
+                      "data": "Cancelar desconexion",
+                      "value": "Cancelar desconexion"
+                      }
+                 }
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacion general",
+                   "value": "Informacion general Cliente",
+                   "data": "Informacion general Cliente"
+                 }
+               ]
+        }
+    ]
+}
+```
+# TextInput_Prompt_i4TNLc()
+- ${json(AdaptiveCard_MenuDesconexiones())}
+# TextInput_Prompt_JtVvBB()
+- ${json(AdaptiveCard_MenuDesconexionesTeams())}
+# SendActivity_a977pq()
+[Activity
+    Attachments = ${SendActivity_a977pq_attachment_e3xe2R()}
+]
+
+# SendActivity_a977pq_attachment_e3xe2R()
+[ThumbnailCard
+  title = Sub menu Desconexion
+  subtitle = NexoBot
+  text = Selecciona la opcion que mas se acomode a tu duda
+  image = https://statics.teams.cdn.office.net/evergreen-assets/apps/teams_dev_app_largeimage.png
+]

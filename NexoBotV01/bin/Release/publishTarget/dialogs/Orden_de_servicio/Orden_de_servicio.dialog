@@ -1,0 +1,48 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "fLDdVw",
+    "name": "Orden_de_servicio",
+    "comment": ""
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "1gKgfh"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "WJZvQw"
+          },
+          "activity": "${SendActivity_WJZvQw()}"
+        },
+        {
+          "$kind": "Microsoft.TextInput",
+          "$designer": {
+            "id": "W68FtF"
+          },
+          "disabled": false,
+          "maxTurnCount": 3,
+          "alwaysPrompt": false,
+          "allowInterruptions": false,
+          "unrecognizedPrompt": "",
+          "invalidPrompt": "",
+          "defaultValueResponse": "",
+          "prompt": "${TextInput_Prompt_W68FtF()}",
+          "property": "user.OptionSubMenu",
+          "value": "=turn.activity.value"
+        }
+      ]
+    }
+  ],
+  "generator": "Orden_de_servicio.lg",
+  "recognizer": "Orden_de_servicio.lu.qna",
+  "id": "Orden_de_servicio"
+}

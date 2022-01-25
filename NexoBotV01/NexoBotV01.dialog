@@ -31,12 +31,24 @@
               "condition": "string(dialog.foreach.value.id) != string(turn.Activity.Recipient.id)",
               "actions": [
                 {
-                  "$kind": "Microsoft.SendActivity",
+                  "$kind": "Microsoft.SetProperties",
                   "$designer": {
-                    "id": "859266",
-                    "name": "Send a response"
+                    "id": "CzKNmY"
                   },
-                  "activity": "${SendActivity_Greeting()}"
+                  "assignments": [
+                    {
+                      "property": "user.idioma",
+                      "value": "Espanol"
+                    }
+                  ]
+                },
+                {
+                  "$kind": "Microsoft.BeginDialog",
+                  "$designer": {
+                    "id": "fXJb8F"
+                  },
+                  "activityProcessed": true,
+                  "dialog": "Menu"
                 }
               ],
               "elseActions": []
@@ -56,7 +68,7 @@
           "$designer": {
             "id": "j5OI9t"
           },
-          "knowledgeBaseId": "b6428bb1-498a-470c-921b-2e5ce66ed7e1",
+          "knowledgeBaseId": "5072bdda-bab1-422a-a3ed-f9dffc7fceac",
           "hostname": "https://nexobot.azurewebsites.net/qnamaker",
           "noAnswer": "Sorry, I did not find an answer.",
           "threshold": 0.3,
@@ -65,7 +77,7 @@
           "cardNoMatchResponse": "Thanks for the feedback.",
           "top": 3,
           "isTest": false,
-          "endpointKey": "3553c567-51bb-4e44-8176-b6cdb2a7ea54"
+          "endpointKey": "417d64e1-2cc4-4dac-a574-e8856d3ce044"
         }
       ]
     },

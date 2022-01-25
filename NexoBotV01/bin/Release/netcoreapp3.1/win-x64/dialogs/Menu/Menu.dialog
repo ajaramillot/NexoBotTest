@@ -1,0 +1,202 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "nhjnO4",
+    "name": "Menu",
+    "comment": ""
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "p95DZi"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SwitchCondition",
+          "$designer": {
+            "id": "2nGsKY"
+          },
+          "condition": "=turn.Activity.channelId",
+          "cases": [
+            {
+              "value": "msteams",
+              "actions": [
+                {
+                  "$kind": "Microsoft.TextInput",
+                  "$designer": {
+                    "id": "jUKCwD"
+                  },
+                  "disabled": false,
+                  "maxTurnCount": 3,
+                  "alwaysPrompt": false,
+                  "allowInterruptions": false,
+                  "unrecognizedPrompt": "",
+                  "invalidPrompt": "",
+                  "defaultValueResponse": "",
+                  "prompt": "${TextInput_Prompt_jUKCwD()}",
+                  "property": "user.OptionMenu",
+                  "value": "=turn.activity.value"
+                }
+              ]
+            }
+          ],
+          "default": [
+            {
+              "$kind": "Microsoft.SendActivity",
+              "$designer": {
+                "id": "ajuKxn"
+              },
+              "activity": "${SendActivity_ajuKxn()}"
+            },
+            {
+              "$kind": "Microsoft.TextInput",
+              "$designer": {
+                "id": "twmjqC"
+              },
+              "disabled": false,
+              "maxTurnCount": 3,
+              "alwaysPrompt": false,
+              "allowInterruptions": false,
+              "unrecognizedPrompt": "",
+              "invalidPrompt": "",
+              "defaultValueResponse": "",
+              "prompt": "${TextInput_Prompt_twmjqC()}",
+              "property": "user.OptionMenu",
+              "value": "=turn.activity.value"
+            }
+          ]
+        },
+        {
+          "$kind": "Microsoft.SwitchCondition",
+          "$designer": {
+            "id": "IZu9Y2"
+          },
+          "condition": "user.OptionMenu",
+          "cases": [
+            {
+              "value": "Cliente",
+              "actions": [
+                {
+                  "$kind": "Microsoft.BeginDialog",
+                  "$designer": {
+                    "id": "fcOhZB"
+                  },
+                  "activityProcessed": true,
+                  "dialog": "Cliente"
+                }
+              ]
+            },
+            {
+              "value": "Oportunidad",
+              "actions": [
+                {
+                  "$kind": "Microsoft.BeginDialog",
+                  "$designer": {
+                    "id": "XnLNZ0"
+                  },
+                  "activityProcessed": true,
+                  "dialog": "Oportunidad"
+                }
+              ]
+            },
+            {
+              "value": "Factibilidad",
+              "actions": [
+                {
+                  "$kind": "Microsoft.BeginDialog",
+                  "$designer": {
+                    "id": "iInZst"
+                  },
+                  "activityProcessed": true,
+                  "dialog": "Factibilidad"
+                }
+              ]
+            },
+            {
+              "value": "Orden de servicios",
+              "actions": [
+                {
+                  "$kind": "Microsoft.BeginDialog",
+                  "$designer": {
+                    "id": "apaK3D"
+                  },
+                  "activityProcessed": true,
+                  "dialog": "Orden_de_servicio"
+                }
+              ]
+            },
+            {
+              "value": "Ofertas",
+              "actions": [
+                {
+                  "$kind": "Microsoft.BeginDialog",
+                  "$designer": {
+                    "id": "2sj4T8"
+                  },
+                  "activityProcessed": true,
+                  "dialog": "Ofertas"
+                }
+              ]
+            },
+            {
+              "value": "Servicios",
+              "actions": [
+                {
+                  "$kind": "Microsoft.BeginDialog",
+                  "$designer": {
+                    "id": "feva6R"
+                  },
+                  "activityProcessed": true,
+                  "dialog": "Servicios"
+                }
+              ]
+            },
+            {
+              "value": "Novedades",
+              "actions": [
+                {
+                  "$kind": "Microsoft.BeginDialog",
+                  "$designer": {
+                    "id": "wWtMRM"
+                  },
+                  "activityProcessed": true,
+                  "dialog": "Novedades"
+                }
+              ]
+            },
+            {
+              "value": "Desconexiones",
+              "actions": [
+                {
+                  "$kind": "Microsoft.BeginDialog",
+                  "$designer": {
+                    "id": "2Y9sA9"
+                  },
+                  "activityProcessed": true,
+                  "dialog": "Desconexiones"
+                }
+              ]
+            }
+          ],
+          "default": [
+            {
+              "$kind": "Microsoft.SendActivity",
+              "$designer": {
+                "id": "rl05O6"
+              },
+              "activity": "${SendActivity_rl05O6()}"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generator": "Menu.lg",
+  "recognizer": "Menu.lu.qna",
+  "id": "Menu"
+}

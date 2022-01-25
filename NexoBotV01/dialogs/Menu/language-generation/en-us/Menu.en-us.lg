@@ -13,7 +13,7 @@
       "type": "ColumnSet",
       "columns": [
         {
-          "width": "400px",
+          "width": "5",
           "type": "Column",
           "items": [
             {
@@ -103,6 +103,17 @@
                    "data": "Desconexiones"
                  }
                ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Cambiar idioma a Portugues",
+                   "value": "Cambiar idioma",
+                   "data": "Cambiar idioma"
+                 }
+               ]
             }
 
           ]
@@ -118,17 +129,177 @@
     Attachments = ${json(AdaptiveCardJson_Menu())}
 ]
 
-# SendActivity_m5lDPk()
+# AdaptiveCardJson_MenuTeams()
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "ActionSet",
+              "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Cliente",
+                   "value": "Cliente",
+                   "data": "Cliente",
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "   Oportunidad   ",
+                   "value": "Oportunidad",
+                   "data": "Oportunidad"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "  viabilidade   ",
+                   "value": "viabilidade",
+                   "data": "viabilidade"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "      Ofertas     ",
+                   "value": "Ofertas",
+                   "data": "Ofertas"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "ordem de serviço",
+                   "value": "ordem de serviço",
+                   "data": "ordem de serviço"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "    Serviços    ",
+                   "value": "Serviços",
+                   "data": "Serviços"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "    Novidades    ",
+                   "value": "Novidades",
+                   "data": "Novidades"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "  Desconexiones  ",
+                   "value": "Desconexiones",
+                   "data": "desconexões"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Mudar idioma para espanhol",
+                   "value": "Mudar idioma",
+                   "data": "Mudar idioma"
+                 }
+               ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+```
+
+ # AdaptiveCard_MenuTeams()
 [Activity
-    Attachments = ${SendActivity_m5lDPk_attachment_3wlTO6()}
+    Attachments = ${json(AdaptiveCardJson_MenuTeams())}
 ]
 
-# SendActivity_m5lDPk_attachment_3wlTO6()
+# SendActivity_rl05O6()
+[Activity
+    Text = ${SendActivity_rl05O6_text()}
+]
+
+# SendActivity_rl05O6_text()
+- No se reconoce la Opcion
+# TextInput_Prompt_twmjqC()
+- ${json(AdaptiveCard_Menu())}
+# TextInput_Prompt_jUKCwD()
+- ${json(AdaptiveCard_MenuTeams())}
+# SendActivity_ajuKxn()
+[Activity
+    Attachments = ${SendActivity_ajuKxn_attachment_TucNO2()}
+]
+
+# SendActivity_ajuKxn_attachment_TucNO2()
 [ThumbnailCard
   title = Menu Principal
   subtitle = NexoBot
   text = Selecciona la opcion que mas se acomode a tu duda
   image = https://github.com/ajaramillot/NexoBot/blob/main/Iconografia/nexobot-icono%20192x192.png?raw=true
 ]
-# TextInput_Prompt_I2Z0d1()
-- ${json(AdaptiveCard_Menu())}
+# SendActivity_AIfy0w()
+[Activity
+    Text = ${SendActivity_AIfy0w_text()}
+]
+
+# SendActivity_AIfy0w_text()
+- Idioma atualizado
+# SendActivity_PCJQ0R()
+[Activity
+    Text = ${SendActivity_PCJQ0R_text()}
+]
+
+# SendActivity_PCJQ0R_text()
+- Idioma Actualizado
+# SendActivity_vFTNpr()
+[Activity
+    Attachments = ${SendActivity_vFTNpr_attachment_l5r17f()}
+]
+
+# SendActivity_vFTNpr_attachment_l5r17f()
+[ThumbnailCard
+  title = Menu Principal
+  subtitle = NexoBot
+  text = Selecione a opção que melhor se adequa à sua pergunta
+  image = https://github.com/ajaramillot/NexoBot/blob/main/Iconografia/nexobot-icono%20192x192.png?raw=true
+]

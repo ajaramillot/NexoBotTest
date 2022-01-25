@@ -1,0 +1,65 @@
+[import](common.lg)
+
+
+# AdaptiveCardJson_MenuServicios()
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "width": "400px",
+          "type": "Column",
+          "items": [
+             {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacion general",
+                   "value": "Informacion general",
+                   "data": "Informacion general"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Sub-Servicios",
+                   "value": "Sub-Servicios",
+                   "data": "Sub-Servicios"
+                 }
+               ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+```
+
+ # AdaptiveCard_MenuServicios()
+[Activity
+    Attachments = ${json(AdaptiveCardJson_MenuServicios())}
+]
+# TextInput_Prompt_mQTJDP()
+- ${json(AdaptiveCard_MenuServicios())}
+# SendActivity_74ZU3s()
+[Activity
+    Attachments = ${SendActivity_74ZU3s_attachment_IMxtxP()}
+]
+
+# SendActivity_74ZU3s_attachment_IMxtxP()
+[ThumbnailCard
+  title = Sub menu Servicios
+  subtitle = NexoBot
+  text = Selecciona la opcion que mas se acomode a tu duda
+  image = https://statics.teams.cdn.office.net/evergreen-assets/apps/teams_dev_app_largeimage.png
+]

@@ -1,0 +1,332 @@
+[import](common.lg)
+
+
+
+# AdaptiveCardJson_Menu()
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "width": "5",
+          "type": "Column",
+          "items": [
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Cliente",
+                   "value": "Cliente",
+                   "data": "Cliente"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Oportunidad",
+                   "value": "Oportunidad",
+                   "data": "Oportunidad"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Factibilidad",
+                   "value": "Factibilidad",
+                   "data": "Factibilidad"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Ofertas",
+                   "value": "Ofertas",
+                   "data": "Ofertas"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Orden de servicios",
+                   "value": "Orden de servicios",
+                   "data": "Orden de servicios"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Servicios",
+                   "value": "Servicios",
+                   "data": "Servicios"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Novedades",
+                   "value": "Novedades",
+                   "data": "Novedades"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Desconexiones",
+                   "value": "Desconexiones",
+                   "data": "Desconexiones"
+                 }
+               ]
+            }
+
+          ]
+        }
+      ]
+    }
+  ]
+}
+```
+
+ # AdaptiveCard_Menu()
+[Activity
+    Attachments = ${json(AdaptiveCardJson_Menu())}
+]
+
+# AdaptiveCardJson_MenuTeams()
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "height": "stretch",
+          "width": "200px",
+          "items": [
+            {
+              "type": "ActionSet",
+              "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Cliente",
+                   "value": "Cliente",
+                   "data": {                   
+                      "msteams": {
+                      "type": "imBack",
+                      "data": "Cliente",
+                      "value": "Cliente"
+                      }
+                 }
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "   Oportunidad   ",
+                   "width": "250px",
+                   "value": "Oportunidad",
+                   "data": {                   
+                      "msteams": {
+                      "type": "imBack",
+                      "data": "Oportunidad",
+                      "value": "Oportunidad"
+                      }
+                 }
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "  Factibilidad   ",
+                   "width": "250px",
+                   "value": "Factibilidad",
+                   "data": {                   
+                      "msteams": {
+                      "type": "imBack",
+                      "data": "Factibilidad",
+                      "value": "Factibilidad"
+                      }
+                 }
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "      Ofertas     ",
+                   "width": "50",
+                   "value": "Ofertas",
+                   "data": {                   
+                      "msteams": {
+                      "type": "imBack",
+                      "data": "Ofertas",
+                      "value": "Ofertas"
+                      }
+                 }
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Orden de servicios",
+                   "width": "300px",
+                   "value": "Orden de servicios",
+                   "data": {                   
+                      "msteams": {
+                      "type": "imBack",
+                      "data": "Orden de servicios",
+                      "value": "Orden de servicios"
+                      }
+                 }
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "    Servicios    ",
+                   "width": "auto",
+                   "value": "Servicios",
+                   "data": {                   
+                      "msteams": {
+                      "type": "imBack",
+                      "data": "Servicios",
+                      "value": "Servicios"
+                      }
+                 }
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "    Novedades    ",
+                   "width": "auto",
+                   "value": "Novedades",
+                   "data": {                   
+                      "msteams": {
+                      "type": "imBack",
+                      "data": "Novedades",
+                      "value": "Novedades"
+                      }
+                 }
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "  Desconexiones  ",
+                   "width": "stretch",
+                   "value": "Desconexiones",
+                   "data": {                   
+                      "msteams": {
+                      "type": "imBack",
+                      "data": "Desconexiones",
+                      "value": "Desconexiones"
+                      }
+                 }
+                 }
+               ]
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "height": "stretch",
+          "spacing": "Padding",
+          "items": [
+            {
+            "type": "Image",
+            "url": "https://github.com/ajaramillot/NexoBot/blob/main/Iconografia/nexobot-icono%20192x192.png?raw=true"
+            },
+            {
+            "type": "TextBlock",
+            "weight": "bolder",
+            "size": "Medium",
+            "text": "Bienvenido, Soy nexobot \r\r Escoge la opcion que mas se acomode a tu duda",
+            "wrap": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+```
+
+ # AdaptiveCard_MenuTeams()
+[Activity
+    Attachments = ${json(AdaptiveCardJson_MenuTeams())}
+]
+
+# SendActivity_rl05O6()
+[Activity
+    Text = ${SendActivity_rl05O6_text()}
+]
+
+# SendActivity_rl05O6_text()
+- No se reconoce la Opcion
+# TextInput_Prompt_twmjqC()
+- ${json(AdaptiveCard_Menu())}
+# TextInput_Prompt_jUKCwD()
+- ${json(AdaptiveCard_MenuTeams())}
+# SendActivity_ajuKxn()
+[Activity
+    Attachments = ${SendActivity_ajuKxn_attachment_TucNO2()}
+]
+
+# SendActivity_ajuKxn_attachment_TucNO2()
+[ThumbnailCard
+  title = Menu Principal
+  subtitle = NexoBot
+  text = Selecciona la opcion que mas se acomode a tu duda
+  image = https://github.com/ajaramillot/NexoBot/blob/main/Iconografia/nexobot-icono%20192x192.png?raw=true
+]

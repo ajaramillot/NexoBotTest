@@ -1,0 +1,281 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "PW15JS",
+    "name": "Cliente",
+    "comment": ""
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "hFUUOo"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SwitchCondition",
+          "$designer": {
+            "id": "yaLfgO"
+          },
+          "condition": "=turn.Activity.channelId",
+          "cases": [
+            {
+              "value": "msteams",
+              "actions": [
+                {
+                  "$kind": "Microsoft.TextInput",
+                  "$designer": {
+                    "id": "pnVXfk"
+                  },
+                  "disabled": false,
+                  "maxTurnCount": 3,
+                  "alwaysPrompt": false,
+                  "allowInterruptions": false,
+                  "unrecognizedPrompt": "",
+                  "invalidPrompt": "",
+                  "defaultValueResponse": "",
+                  "prompt": "${TextInput_Prompt_pnVXfk()}",
+                  "property": "user.Option",
+                  "value": "=turn.activity.value"
+                }
+              ]
+            }
+          ],
+          "default": [
+            {
+              "$kind": "Microsoft.SendActivity",
+              "$designer": {
+                "id": "J3F9Kj"
+              },
+              "activity": "${SendActivity_J3F9Kj()}"
+            },
+            {
+              "$kind": "Microsoft.TextInput",
+              "$designer": {
+                "id": "0fHnez"
+              },
+              "disabled": false,
+              "maxTurnCount": 3,
+              "alwaysPrompt": false,
+              "allowInterruptions": false,
+              "unrecognizedPrompt": "",
+              "invalidPrompt": "",
+              "defaultValueResponse": "",
+              "prompt": "${TextInput_Prompt_0fHnez()}",
+              "property": "user.Option",
+              "value": "=turn.activity.value"
+            }
+          ]
+        },
+        {
+          "$kind": "Microsoft.SwitchCondition",
+          "$designer": {
+            "id": "z2EG6A"
+          },
+          "condition": "user.Option",
+          "cases": [
+            {
+              "value": "Evaluacion Juridica y financiera",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SwitchCondition",
+                  "$designer": {
+                    "id": "LEtWOw"
+                  },
+                  "condition": "=turn.Activity.channelId",
+                  "cases": [
+                    {
+                      "value": "msteams",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "ay6nFZ"
+                          },
+                          "activity": "${SendActivity_ay6nFZ()}"
+                        }
+                      ]
+                    }
+                  ],
+                  "default": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "pt5lWR"
+                      },
+                      "activity": "${SendActivity_pt5lWR()}"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "value": "RAC (EQUIPO DE ATENCIÓN CLIENTE)",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SwitchCondition",
+                  "$designer": {
+                    "id": "UWRnel"
+                  },
+                  "condition": "=turn.Activity.channelId",
+                  "cases": [
+                    {
+                      "value": "msteams",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "eu8R2T"
+                          },
+                          "activity": "${SendActivity_eu8R2T()}"
+                        }
+                      ]
+                    }
+                  ],
+                  "default": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "jBgIfS"
+                      },
+                      "activity": "${SendActivity_jBgIfS()}"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "value": "RAC (EQUIPO DE ATENCIÓN INTERNEXA)",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SwitchCondition",
+                  "$designer": {
+                    "id": "EiJHVC"
+                  },
+                  "condition": "=turn.Activity.channelId",
+                  "cases": [
+                    {
+                      "value": "msteams",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "i1pWMf"
+                          },
+                          "activity": "${SendActivity_i1pWMf()}"
+                        }
+                      ]
+                    }
+                  ],
+                  "default": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "T7U7t5"
+                      },
+                      "activity": "${SendActivity_T7U7t5()}"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "value": "Informacion general cliente",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SwitchCondition",
+                  "$designer": {
+                    "id": "wGs4Zu"
+                  },
+                  "condition": "=turn.Activity.channelId",
+                  "cases": [
+                    {
+                      "value": "msteams",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "qP0NLA"
+                          },
+                          "activity": "${SendActivity_qP0NLA()}"
+                        }
+                      ]
+                    }
+                  ],
+                  "default": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "ETBG5x"
+                      },
+                      "activity": "${SendActivity_ETBG5x()}"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "value": "Contrato",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SwitchCondition",
+                  "$designer": {
+                    "id": "RvfYpf"
+                  },
+                  "condition": "=turn.Activity.channelId",
+                  "cases": [
+                    {
+                      "value": "msteams",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "LhmRzZ"
+                          },
+                          "activity": "${SendActivity_LhmRzZ()}"
+                        }
+                      ]
+                    }
+                  ],
+                  "default": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "UyyTkd"
+                      },
+                      "activity": "${SendActivity_UyyTkd()}"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "$kind": "Microsoft.DeleteProperties",
+          "$designer": {
+            "id": "ifTT6q"
+          },
+          "properties": [
+            "user.Option",
+            "user.OptionSubMenu",
+            "user.OptionMenu"
+          ]
+        },
+        {
+          "$kind": "Microsoft.EndDialog",
+          "$designer": {
+            "id": "xr9YE4"
+          }
+        }
+      ]
+    }
+  ],
+  "generator": "Cliente.lg",
+  "recognizer": "Cliente.lu.qna",
+  "id": "Cliente"
+}

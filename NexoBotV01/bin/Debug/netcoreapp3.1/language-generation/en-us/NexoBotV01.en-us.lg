@@ -1,9 +1,2 @@
 [import](common.lg)
 
-# SendActivity_Greeting()
-[Activity
-    Text = ${SendActivity_Greeting_text()}
-]
-
-# SendActivity_Greeting_text()
-- Bienvenido, soy tu asistente Nexobot. ¿En que te puedo ayudar?.
