@@ -1,0 +1,633 @@
+[import](common.lg)
+
+# AdaptiveCardJson_MenuClienteTeams()
+- ```
+{
+  "$schema": "https://adaptivecards.io/schemas/1.2.0/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.2",
+  "msteams": {
+              "width": "Full"
+  },
+  "body": [
+    {
+          "type": "ActionSet",
+           "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacion general",
+                   "value": "Informacion general cliente",
+                   "data": {                   
+                      "msteams": {
+                      "type": "imBack",
+                      "data": "Informacion general cliente",
+                      "value": "Informacion general cliente"
+                      }
+                 }
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Evaluacion Juridica y financiera",
+                   "value": "Evaluacion Juridica y financiera",
+                   "data": {                   
+                      "msteams": {
+                      "type": "imBack",
+                      "data": "Evaluacion Juridica y financiera",
+                      "value": "Evaluacion Juridica y financiera"
+                      }
+                 }
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Contrato",
+                   "value": "Contrato",
+                   "data": {                   
+                      "msteams": {
+                      "type": "imBack",
+                      "data": "Cliente Contrato",
+                      "value": "Cliente Contrato"
+                      }
+                 }
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "RAC (EQUIPO DE ATENCIÓN CLIENTE)",
+                   "value": "RAC (EQUIPO DE ATENCIÓN CLIENTE)",
+                   "data": {                   
+                      "msteams": {
+                      "type": "imBack",
+                      "data": "RAC (EQUIPO DE ATENCIÓN CLIENTE)",
+                      "value": "RAC (EQUIPO DE ATENCIÓN CLIENTE)"
+                      }
+                 }
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "RAC (EQUIPO DE ATENCIÓN INTERNEXA)",
+                   "value": "RAC (EQUIPO DE ATENCIÓN INTERNEXA)",
+                   "data": {                   
+                      "msteams": {
+                      "type": "imBack",
+                      "data": "RAC (EQUIPO DE ATENCIÓN INTERNEXA)",
+                      "value": "RAC (EQUIPO DE ATENCIÓN INTERNEXA)"
+                      }
+                 }
+                 }
+               ]
+            }
+  ]
+}
+```
+
+ # AdaptiveCard_MenuCliente()
+[Activity
+    Attachments = ${json(AdaptiveCardJson_MenuCliente())}
+]
+
+# AdaptiveCardJson_MenuCliente()
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "width": "5",
+          "type": "Column",
+          "items": [
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacion general",
+                   "value": "Informacion general cliente",
+                   "data": "Informacion general cliente"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Evaluacion Juridica y financiera",
+                   "value": "Evaluacion Juridica y financiera",
+                   "data": "Evaluacion Juridica y financiera"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Contrato",
+                   "value": "Contrato",
+                   "data": "Contrato"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "RAC (EQUIPO DE ATENCIÓN CLIENTE)",
+                   "value": "RAC (EQUIPO DE ATENCIÓN CLIENTE)",
+                   "data": "RAC (EQUIPO DE ATENCIÓN CLIENTE)"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "RAC (EQUIPO DE ATENCIÓN INTERNEXA)",
+                   "value": "RAC (EQUIPO DE ATENCIÓN INTERNEXA)",
+                   "data": "RAC (EQUIPO DE ATENCIÓN INTERNEXA)"
+                 }
+               ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+```
+
+ # AdaptiveCard_MenuClienteTeams()
+[Activity
+    Attachments = ${json(AdaptiveCardJson_MenuClienteTeams())}
+]
+
+
+# AdaptiveCardJson_Opcion()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": "Evaluacion Juridica y financiera"
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacoon general",
+                   "value": "Informacion general Cliente",
+                   "data": "Informacion general Cliente"
+                 }
+               ]
+        }
+    ]
+}
+```
+ # AdaptiveCard_Opcion()
+[Activity
+    Attachments = ${json(AdaptiveCardJson_Opcion())}
+]
+
+# TextInput_Prompt_0fHnez()
+- ${json(AdaptiveCard_MenuCliente())}
+# TextInput_Prompt_pnVXfk()
+- ${json(AdaptiveCard_MenuClienteTeams())}
+# SendActivity_pt5lWR()
+[Activity
+    Attachments = ${json(SendActivity_pt5lWR_attachment_xh6GCz())}
+]
+
+# SendActivity_pt5lWR_attachment_xh6GCz()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": "Evaluacion Juridica y financiera"
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacion general",
+                   "value": "Informacion general Cliente",
+                   "data": "Informacion general Cliente"
+                 }
+               ]
+        }
+    ]
+}
+```
+# SendActivity_ay6nFZ()
+[Activity
+    Attachments = ${json(SendActivity_ay6nFZ_attachment_WjOvKo())}
+]
+
+# SendActivity_ay6nFZ_attachment_WjOvKo()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": {                   
+                      "msteams": {
+                      "type": "imBack",
+                      "data": "Evaluacion Juridica y financiera",
+                      "value": "Evaluacion Juridica y financiera"
+                      }
+                 }
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacion general",
+                   "value": "Informacion general Cliente",
+                   "data": "Informacion general Cliente"
+                 }
+               ]
+        }
+    ]
+}
+```
+# SendActivity_jBgIfS()
+[Activity
+    Attachments = ${json(SendActivity_jBgIfS_attachment_YKjU0D())}
+]
+
+# SendActivity_jBgIfS_attachment_YKjU0D()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": "RAC Equipo de atencion cliente"
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacion general",
+                   "value": "Informacion general Cliente",
+                   "data": "Informacion general Cliente"
+                 }
+               ]
+        }
+    ]
+}
+```
+# SendActivity_eu8R2T()
+[Activity
+    Attachments = ${json(SendActivity_eu8R2T_attachment_6KfJHz())}
+]
+
+# SendActivity_eu8R2T_attachment_6KfJHz()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": {                   
+                      "msteams": {
+                      "type": "imBack",
+                      "data": "RAC Equipo de atencion cliente",
+                      "value": "RAC Equipo de atencion cliente"
+                      }
+                 }
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacion general",
+                   "value": "Informacion general Cliente",
+                   "data": "Informacion general Cliente"
+                 }
+               ]
+        }
+    ]
+}
+```
+# SendActivity_T7U7t5()
+[Activity
+    Attachments = ${json(SendActivity_T7U7t5_attachment_nZG4wQ())}
+]
+
+# SendActivity_T7U7t5_attachment_nZG4wQ()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": "RAC Equipo de atencion internexa"
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacion general",
+                   "value": "Informacion general Cliente",
+                   "data": "Informacion general Cliente"
+                 }
+               ]
+        }
+    ]
+}
+```
+# SendActivity_i1pWMf()
+[Activity
+    Attachments = ${json(SendActivity_i1pWMf_attachment_lMg830())}
+]
+
+# SendActivity_i1pWMf_attachment_lMg830()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": {                   
+                      "msteams": {
+                      "type": "imBack",
+                      "data": "RAC Equipo de atencion internexa",
+                      "value": "RAC Equipo de atencion internexa"
+                      }
+                 }
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacion general",
+                   "value": "Informacion general Cliente",
+                   "data": "Informacion general Cliente"
+                 }
+               ]
+        }
+    ]
+}
+```
+# SendActivity_ETBG5x()
+[Activity
+    Attachments = ${json(SendActivity_ETBG5x_attachment_2oGQ0s())}
+]
+
+# SendActivity_ETBG5x_attachment_2oGQ0s()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": "Informacion general cliente"
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacion general",
+                   "value": "Informacion general",
+                   "data": "Informacion general"
+                 }
+               ]
+        }
+    ]
+}
+```
+# SendActivity_qP0NLA()
+[Activity
+    Attachments = ${json(SendActivity_qP0NLA_attachment_HgZfNc())}
+]
+
+# SendActivity_qP0NLA_attachment_HgZfNc()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": "Informacion general cliente"
+                   "data": {                   
+                      "msteams": {
+                      "type": "imBack",
+                      "data": "Informacion general cliente",
+                      "value": "Informacion general cliente"
+                      }
+                 }
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacion general",
+                   "value": "Informacion general",
+                   "data": "Informacion general"
+                 }
+               ]
+        }
+    ]
+}
+```
+# SendActivity_UyyTkd()
+[Activity
+    Attachments = ${json(SendActivity_UyyTkd_attachment_XELWQs())}
+]
+
+# SendActivity_UyyTkd_attachment_XELWQs()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": "Cliente contrato"
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacion general",
+                   "value": "Informacion general Cliente",
+                   "data": "Informacion general Cliente"
+                 }
+               ]
+        }
+    ]
+}
+```
+# SendActivity_LhmRzZ()
+[Activity
+    Attachments = ${json(SendActivity_LhmRzZ_attachment_BpCEWk())}
+]
+
+# SendActivity_LhmRzZ_attachment_BpCEWk()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": "Cliente contrato"
+                   "data": {                   
+                      "msteams": {
+                      "type": "imBack",
+                      "data": "Cliente contrato",
+                      "value": "Cliente contrato"
+                      }
+                 }
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacion general",
+                   "value": "Informacion general Cliente",
+                   "data": "Informacion general Cliente"
+                 }
+               ]
+        }
+    ]
+}
+```
+# SendActivity_J3F9Kj()
+[Activity
+    Attachments = ${SendActivity_J3F9Kj_attachment_IR6nY7()}
+]
+
+# SendActivity_J3F9Kj_attachment_IR6nY7()
+[ThumbnailCard
+  title = Sub menu Cliente
+  subtitle = NexoBot
+  text = Selecciona la opcion que mas se acomode a tu duda
+  image = https://statics.teams.cdn.office.net/evergreen-assets/apps/teams_dev_app_largeimage.png
+]

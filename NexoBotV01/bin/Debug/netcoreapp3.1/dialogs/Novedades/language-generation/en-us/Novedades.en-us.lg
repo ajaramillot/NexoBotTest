@@ -62,26 +62,114 @@
     Attachments = ${json(AdaptiveCardJson_MenuNovedades())}
 ]
 
-# TextInput_Prompt_iIkapZ()
+
+# AdaptiveCardJson_MenuNovedadesTeams()
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "250px",
+          "items": [
+             {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Rechazo de novedades",
+                   "value": "Rechazo de novedades",
+                   "data": {                   
+                      "msteams": {
+                      "type": "imBack",
+                      "data": "Rechazo de novedades",
+                      "value": "Rechazo de novedades"
+                      }
+                 }
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Cambio cuenta de facturacion",
+                   "value": "Cambio cuenta de facturacion",
+                   "data": {                   
+                      "msteams": {
+                      "type": "imBack",
+                      "data": "Cambio cuenta de facturacion",
+                      "value": "Cambio cuenta de facturacion"
+                      }
+                 }
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Estado de novedades",
+                   "value": "Estado de novedades",
+                   "data": {                   
+                      "msteams": {
+                      "type": "imBack",
+                      "data": "Estado de novedades",
+                      "value": "Estado de novedades"
+                      }
+                 }
+                 }
+               ]
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "150px",
+          "height": "stretch",
+          "spacing": "Padding",
+          "items": [
+            {
+            "type": "Image",
+            "url": "https://github.com/ajaramillot/NexoBot/blob/main/Iconografia/nexobot-icono%20192x192.png?raw=true"
+            },
+            {
+            "type": "TextBlock",
+            "weight": "bolder",
+            "size": "Medium",
+            "text": "Bienvenido, Soy nexobot \r\r\r Escoge la opcion que mas se acomode a tu duda",
+            "wrap": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+```
+
+ # AdaptiveCard_MenuNovedadesTeams()
+[Activity
+    Attachments = ${json(AdaptiveCardJson_MenuNovedadesTeams())}
+]
+
+# TextInput_Prompt_Jf0CJz()
 - ${json(AdaptiveCard_MenuNovedades())}
-# SendActivity_Vrc3P5()
+# TextInput_Prompt_13Oria()
+- ${json(AdaptiveCard_MenuNovedadesTeams())}
+# SendActivity_jgZq4L()
 [Activity
-    Attachments = ${SendActivity_Vrc3P5_attachment_G7OUaG()}
+    Attachments = ${json(SendActivity_jgZq4L_attachment_LZWyA5())}
 ]
 
-# SendActivity_Vrc3P5_attachment_G7OUaG()
-[ThumbnailCard
-  title = Sub menu Novedades
-  subtitle = NexoBot
-  text = Selecciona la opcion que mas se acomode a tu duda
-  image = https://statics.teams.cdn.office.net/evergreen-assets/apps/teams_dev_app_largeimage.png
-]
-# SendActivity_Jyte3b()
-[Activity
-    Attachments = ${json(SendActivity_Jyte3b_attachment_PujRGh())}
-]
-
-# SendActivity_Jyte3b_attachment_PujRGh()
+# SendActivity_jgZq4L_attachment_LZWyA5()
 - ```
 {
     "type": "AdaptiveCard",
@@ -112,3 +200,56 @@
     ]
 }
 ```
+# SendActivity_URUkFX()
+[Activity
+    Attachments = ${json(SendActivity_URUkFX_attachment_z0KyLW())}
+]
+
+# SendActivity_URUkFX_attachment_z0KyLW()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": {                   
+                      "msteams": {
+                      "type": "imBack",
+                      "data": "Rechazo de novedad",
+                      "value": "Rechazo de novedad"
+                      }
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacion general",
+                   "value": "Informacion general Cliente",
+                   "data": "Informacion general Cliente"
+                 }
+               ]
+        }
+    ]
+}
+```
+# SendActivity_OSBgUw()
+[Activity
+    Attachments = ${SendActivity_OSBgUw_attachment_TjMarS()}
+]
+
+# SendActivity_OSBgUw_attachment_TjMarS()
+[ThumbnailCard
+  title = Sub menu Novedades
+  subtitle = NexoBot
+  text = Selecciona la opcion que mas se acomode a tu duda
+  image = https://statics.teams.cdn.office.net/evergreen-assets/apps/teams_dev_app_largeimage.png
+]

@@ -1,5 +1,79 @@
 [import](common.lg)
 
+# AdaptiveCardJson_MenuClienteTeams()
+- ```
+{
+  "$schema": "https://adaptivecards.io/schemas/1.2.0/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.2",
+  "msteams": {
+              "width": "Full"
+  },
+  "body": [
+    {
+          "type": "ActionSet",
+           "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informações gerais",
+                   "value": "Informacion general cliente",
+                   "data": "Informacion general cliente"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "AVALIAÇÃO JURÍDICA E FINANCEIRA",
+                   "value": "Evaluacion juridica y financiera",
+                   "data": "Evaluacion juridica y financiera"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Contrato",
+                   "value": "Contrato",
+                   "data": "Contrato"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "RAC (EQUIPE DE ATENDIMENTO AO CLIENTE)",
+                   "value": "RAC (EQUIPO DE ATENCIÓN CLIENTE)",
+                   "data": "RAC (EQUIPO DE ATENCIÓN CLIENTE)"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "RAC (EQUIPE DE ATENDIMENTO INTERNEXA)",
+                   "value": "RAC (EQUIPO DE ATENCIÓN INTERNEXA)",
+                   "data": "RAC (EQUIPO DE ATENCIÓN INTERNEXA)"
+                 }
+               ]
+            }
+  ]
+}
+```
+
+ # AdaptiveCard_MenuCliente()
+[Activity
+    Attachments = ${json(AdaptiveCardJson_MenuCliente())}
+]
+
 # AdaptiveCardJson_MenuCliente()
 - ```
 {
@@ -11,7 +85,7 @@
       "type": "ColumnSet",
       "columns": [
         {
-          "width": "400px",
+          "width": "5",
           "type": "Column",
           "items": [
             {
@@ -77,10 +151,11 @@
 }
 ```
 
- # AdaptiveCard_MenuCliente()
+ # AdaptiveCard_MenuClienteTeams()
 [Activity
-    Attachments = ${json(AdaptiveCardJson_MenuCliente())}
+    Attachments = ${json(AdaptiveCardJson_MenuClienteTeams())}
 ]
+
 
 # AdaptiveCardJson_Opcion()
 - ```
@@ -118,26 +193,16 @@
     Attachments = ${json(AdaptiveCardJson_Opcion())}
 ]
 
-# SendActivity_hNZsa2()
-[Activity
-    Attachments = ${SendActivity_hNZsa2_attachment_vNF7JU()}
-]
-
-# SendActivity_hNZsa2_attachment_vNF7JU()
-[ThumbnailCard
-  title = Sub menu Servicios
-  subtitle = NexoBot
-  text = Selecciona la opcion que mas se acomode a tu duda
-  image = https://statics.teams.cdn.office.net/evergreen-assets/apps/teams_dev_app_largeimage.png
-]
-# TextInput_Prompt_cjX9wa()
+# TextInput_Prompt_0fHnez()
 - ${json(AdaptiveCard_MenuCliente())}
-# SendActivity_Ld1NJZ()
+# TextInput_Prompt_pnVXfk()
+- ${json(AdaptiveCard_MenuClienteTeams())}
+# SendActivity_pt5lWR()
 [Activity
-    Attachments = ${json(SendActivity_Ld1NJZ_attachment_XWLq7l())}
+    Attachments = ${json(SendActivity_pt5lWR_attachment_xh6GCz())}
 ]
 
-# SendActivity_Ld1NJZ_attachment_XWLq7l()
+# SendActivity_pt5lWR_attachment_xh6GCz()
 - ```
 {
     "type": "AdaptiveCard",
@@ -168,12 +233,48 @@
     ]
 }
 ```
-# SendActivity_97UvgS()
+# SendActivity_ay6nFZ()
 [Activity
-    Attachments = ${json(SendActivity_97UvgS_attachment_ZKcR6C())}
+    Attachments = ${json(SendActivity_ay6nFZ_attachment_WjOvKo())}
 ]
 
-# SendActivity_97UvgS_attachment_ZKcR6C()
+# SendActivity_ay6nFZ_attachment_WjOvKo()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": "Informações gerais cliente"
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacion general",
+                   "value": "Informações gerais Cliente",
+                   "data": "Informações gerais Cliente"
+                 }
+               ]
+        }
+    ]
+}
+```
+# SendActivity_jBgIfS()
+[Activity
+    Attachments = ${json(SendActivity_jBgIfS_attachment_YKjU0D())}
+]
+
+# SendActivity_jBgIfS_attachment_YKjU0D()
 - ```
 {
     "type": "AdaptiveCard",
@@ -204,12 +305,48 @@
     ]
 }
 ```
-# SendActivity_4iAoZK()
+# SendActivity_eu8R2T()
 [Activity
-    Attachments = ${json(SendActivity_4iAoZK_attachment_aHyAmz())}
+    Attachments = ${json(SendActivity_eu8R2T_attachment_6KfJHz())}
 ]
 
-# SendActivity_4iAoZK_attachment_aHyAmz()
+# SendActivity_eu8R2T_attachment_6KfJHz()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": "RAC (EQUIPE DE ATENDIMENTO AO CLIENTE)"
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacion general",
+                   "value": "Informações gerais Cliente",
+                   "data": "Informações gerais Cliente"
+                 }
+               ]
+        }
+    ]
+}
+```
+# SendActivity_T7U7t5()
+[Activity
+    Attachments = ${json(SendActivity_T7U7t5_attachment_nZG4wQ())}
+]
+
+# SendActivity_T7U7t5_attachment_nZG4wQ()
 - ```
 {
     "type": "AdaptiveCard",
@@ -240,12 +377,48 @@
     ]
 }
 ```
-# SendActivity_ZlCxDm()
+# SendActivity_i1pWMf()
 [Activity
-    Attachments = ${json(SendActivity_ZlCxDm_attachment_ELbf2f())}
+    Attachments = ${json(SendActivity_i1pWMf_attachment_lMg830())}
 ]
 
-# SendActivity_ZlCxDm_attachment_ELbf2f()
+# SendActivity_i1pWMf_attachment_lMg830()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": "RAC (EQUIPE DE ATENDIMENTO INTERNEXA)"
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacion general",
+                   "value": "Informações gerais Cliente",
+                   "data": "Informações gerais Cliente"
+                 }
+               ]
+        }
+    ]
+}
+```
+# SendActivity_ETBG5x()
+[Activity
+    Attachments = ${json(SendActivity_ETBG5x_attachment_2oGQ0s())}
+]
+
+# SendActivity_ETBG5x_attachment_2oGQ0s()
 - ```
 {
     "type": "AdaptiveCard",
@@ -276,12 +449,48 @@
     ]
 }
 ```
-# SendActivity_aVk7qB()
+# SendActivity_qP0NLA()
 [Activity
-    Attachments = ${json(SendActivity_aVk7qB_attachment_F8b921())}
+    Attachments = ${json(SendActivity_qP0NLA_attachment_HgZfNc())}
 ]
 
-# SendActivity_aVk7qB_attachment_F8b921()
+# SendActivity_qP0NLA_attachment_HgZfNc()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": "Informações gerais Cliente"
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacion general",
+                   "value": "Informações gerais Cliente",
+                   "data": "Informações gerais Cliente"
+                 }
+               ]
+        }
+    ]
+}
+```
+# SendActivity_UyyTkd()
+[Activity
+    Attachments = ${json(SendActivity_UyyTkd_attachment_XELWQs())}
+]
+
+# SendActivity_UyyTkd_attachment_XELWQs()
 - ```
 {
     "type": "AdaptiveCard",
@@ -306,6 +515,146 @@
                    "title": "Informacion general",
                    "value": "Informacion general Cliente",
                    "data": "Informacion general Cliente"
+                 }
+               ]
+        }
+    ]
+}
+```
+# SendActivity_J3F9Kj()
+[Activity
+    Attachments = ${SendActivity_J3F9Kj_attachment_IR6nY7()}
+]
+
+# SendActivity_J3F9Kj_attachment_IR6nY7()
+[ThumbnailCard
+  title = Sub menu Cliente
+  subtitle = NexoBot
+  text = Selecciona la opcion que mas se acomode a tu duda
+  image = https://statics.teams.cdn.office.net/evergreen-assets/apps/teams_dev_app_largeimage.png
+]
+# SendActivity_GPhh6E()
+[Activity
+    Attachments = ${json(SendActivity_GPhh6E_attachment_MyTjAZ())}
+]
+
+# SendActivity_GPhh6E_attachment_MyTjAZ()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "width": "5",
+          "type": "Column",
+          "items": [
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Quem é o contato que assina a O.S.?",
+                   "value": "Quem é o contato que assina a O.S.?",
+                   "data": "Quem é o contato que assina a O.S.?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Conta de faturamento?",
+                   "value": "Conta de faturamento?",
+                   "data": "Conta de faturamento?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Clientes que tratam de pedidos de compra sem contrato?",
+                   "value": "Clientes que tratam de pedidos de compra sem contrato?",
+                   "data": "Clientes que tratam de pedidos de compra sem contrato?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Minuta do Cliente?",
+                   "value": "Minuta do Cliente?",
+                   "data": "Minuta do Cliente?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "O que é atributo?",
+                   "value": "O que é atributo?",
+                   "data": "O que é atributo?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Novidade de Renovação?",
+                   "value": "Novidade de Renovação?",
+                   "data": "Novidade de Renovação?"
+                 }
+               ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}```
+# TextInput_Prompt_Nh6G5V()
+[Activity
+    Attachments = ${json(TextInput_Prompt_Nh6G5V_attachment_RsQfGM())}
+]
+
+# TextInput_Prompt_Nh6G5V_attachment_RsQfGM()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": "Contrato portugues"
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informações gerais",
+                   "value": "Informacion general",
+                   "data": "Informacion general"
                  }
                ]
         }

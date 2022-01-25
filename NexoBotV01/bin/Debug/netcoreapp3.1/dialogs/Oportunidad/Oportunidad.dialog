@@ -17,26 +17,59 @@
       },
       "actions": [
         {
-          "$kind": "Microsoft.SendActivity",
+          "$kind": "Microsoft.SwitchCondition",
           "$designer": {
-            "id": "F2TXby"
+            "id": "oMH6Ga"
           },
-          "activity": "${SendActivity_F2TXby()}"
-        },
-        {
-          "$kind": "Microsoft.TextInput",
-          "$designer": {
-            "id": "rKP5Us"
-          },
-          "disabled": false,
-          "maxTurnCount": 3,
-          "alwaysPrompt": false,
-          "allowInterruptions": false,
-          "unrecognizedPrompt": "",
-          "invalidPrompt": "",
-          "prompt": "${TextInput_Prompt_rKP5Us()}",
-          "property": "user.OptionSubMenu",
-          "value": "=turn.activity.value"
+          "condition": "=turn.Activity.channelId",
+          "cases": [
+            {
+              "value": "msteams",
+              "actions": [
+                {
+                  "$kind": "Microsoft.TextInput",
+                  "$designer": {
+                    "id": "Pz9PzC"
+                  },
+                  "disabled": false,
+                  "maxTurnCount": 3,
+                  "alwaysPrompt": false,
+                  "allowInterruptions": false,
+                  "unrecognizedPrompt": "",
+                  "invalidPrompt": "",
+                  "defaultValueResponse": "",
+                  "prompt": "${TextInput_Prompt_Pz9PzC()}",
+                  "property": "user.OptionSubMenu",
+                  "value": "=turn.activity.value"
+                }
+              ]
+            }
+          ],
+          "default": [
+            {
+              "$kind": "Microsoft.SendActivity",
+              "$designer": {
+                "id": "UHXw8q"
+              },
+              "activity": "${SendActivity_UHXw8q()}"
+            },
+            {
+              "$kind": "Microsoft.TextInput",
+              "$designer": {
+                "id": "uMUvAT"
+              },
+              "disabled": false,
+              "maxTurnCount": 3,
+              "alwaysPrompt": false,
+              "allowInterruptions": false,
+              "unrecognizedPrompt": "",
+              "invalidPrompt": "",
+              "defaultValueResponse": "",
+              "prompt": "${TextInput_Prompt_uMUvAT()}",
+              "property": "user.OptionSubMenu",
+              "value": "=turn.activity.value"
+            }
+          ]
         },
         {
           "$kind": "Microsoft.SwitchCondition",
@@ -49,11 +82,34 @@
               "value": "Oportunidad agregar productos",
               "actions": [
                 {
-                  "$kind": "Microsoft.SendActivity",
+                  "$kind": "Microsoft.SwitchCondition",
                   "$designer": {
-                    "id": "E25FxF"
+                    "id": "V0Tilr"
                   },
-                  "activity": "${SendActivity_E25FxF()}"
+                  "condition": "=turn.Activity.channelId",
+                  "cases": [
+                    {
+                      "value": "msteams",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "bwwCrR"
+                          },
+                          "activity": "${SendActivity_bwwCrR()}"
+                        }
+                      ]
+                    }
+                  ],
+                  "default": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "HWWE8p"
+                      },
+                      "activity": "${SendActivity_HWWE8p()}"
+                    }
+                  ]
                 }
               ]
             },
@@ -61,11 +117,34 @@
               "value": "Oportunidad Tipo de oportunidad",
               "actions": [
                 {
-                  "$kind": "Microsoft.SendActivity",
+                  "$kind": "Microsoft.SwitchCondition",
                   "$designer": {
-                    "id": "bCPlbu"
+                    "id": "6LtmgP"
                   },
-                  "activity": "${SendActivity_bCPlbu()}"
+                  "condition": "=turn.Activity.channelId",
+                  "cases": [
+                    {
+                      "value": "msteams",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "spfiMj"
+                          },
+                          "activity": "${SendActivity_spfiMj()}"
+                        }
+                      ]
+                    }
+                  ],
+                  "default": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "ghBdrn"
+                      },
+                      "activity": "${SendActivity_ghBdrn()}"
+                    }
+                  ]
                 }
               ]
             },
@@ -73,11 +152,34 @@
               "value": "Oportunidad Tipo de venta",
               "actions": [
                 {
-                  "$kind": "Microsoft.SendActivity",
+                  "$kind": "Microsoft.SwitchCondition",
                   "$designer": {
-                    "id": "wwylY7"
+                    "id": "cipKOF"
                   },
-                  "activity": "${SendActivity_wwylY7()}"
+                  "condition": "=turn.Activity.channelId",
+                  "cases": [
+                    {
+                      "value": "msteams",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "7NQOJY"
+                          },
+                          "activity": "${SendActivity_7NQOJY()}"
+                        }
+                      ]
+                    }
+                  ],
+                  "default": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "YJmSAR"
+                      },
+                      "activity": "${SendActivity_YJmSAR()}"
+                    }
+                  ]
                 }
               ]
             },
@@ -85,11 +187,34 @@
               "value": "Oportunidad Informacion general",
               "actions": [
                 {
-                  "$kind": "Microsoft.SendActivity",
+                  "$kind": "Microsoft.SwitchCondition",
                   "$designer": {
-                    "id": "OBFhe6"
+                    "id": "pxePZE"
                   },
-                  "activity": "${SendActivity_OBFhe6()}"
+                  "condition": "=turn.Activity.channelId",
+                  "cases": [
+                    {
+                      "value": "msteams",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "yRgfTW"
+                          },
+                          "activity": "${SendActivity_yRgfTW()}"
+                        }
+                      ]
+                    }
+                  ],
+                  "default": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "QafmsE"
+                      },
+                      "activity": "${SendActivity_QafmsE()}"
+                    }
+                  ]
                 }
               ]
             },
@@ -97,11 +222,34 @@
               "value": "Oportunidad Crear factibilidad",
               "actions": [
                 {
-                  "$kind": "Microsoft.SendActivity",
+                  "$kind": "Microsoft.SwitchCondition",
                   "$designer": {
-                    "id": "2x9opN"
+                    "id": "QfXOUx"
                   },
-                  "activity": "${SendActivity_2x9opN()}"
+                  "condition": "=turn.Activity.channelId",
+                  "cases": [
+                    {
+                      "value": "msteams",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "fHyDXN"
+                          },
+                          "activity": "${SendActivity_fHyDXN()}"
+                        }
+                      ]
+                    }
+                  ],
+                  "default": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "sKLg70"
+                      },
+                      "activity": "${SendActivity_sKLg70()}"
+                    }
+                  ]
                 }
               ]
             },
@@ -109,11 +257,34 @@
               "value": "Oportunidad Crear oferta",
               "actions": [
                 {
-                  "$kind": "Microsoft.SendActivity",
+                  "$kind": "Microsoft.SwitchCondition",
                   "$designer": {
-                    "id": "D2pT2U"
+                    "id": "HGHPeb"
                   },
-                  "activity": "${SendActivity_D2pT2U()}"
+                  "condition": "=turn.Activity.channelId",
+                  "cases": [
+                    {
+                      "value": "msteams",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "C0oEEv"
+                          },
+                          "activity": "${SendActivity_C0oEEv()}"
+                        }
+                      ]
+                    }
+                  ],
+                  "default": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "Ix6OQk"
+                      },
+                      "activity": "${SendActivity_Ix6OQk()}"
+                    }
+                  ]
                 }
               ]
             }

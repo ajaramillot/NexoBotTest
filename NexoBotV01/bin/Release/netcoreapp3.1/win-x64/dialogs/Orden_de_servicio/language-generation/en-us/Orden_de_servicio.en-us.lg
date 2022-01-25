@@ -1,0 +1,120 @@
+[import](common.lg)
+
+
+# AdaptiveCardJson_MenuOrden_servicio()
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "width": "400px",
+          "type": "Column",
+          "items": [
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Notificar orden de servicio",
+                   "value": "Notificar orden de servicio",
+                   "data": "Notificar orden de servicio"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Acciones productos orden de servicio (IP)",
+                   "value": "Acciones productos orden de servicio",
+                   "data": "Acciones productos orden de servicio"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Crear ordenes de servicio a otras areas",
+                   "value": "Crear ordenes de servicio a otras areas",
+                   "data": "Crear ordenes de servicio a otras areas"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Solicitar canalizacion",
+                   "value": "Solicitar canalizacion",
+                   "data": "Solicitar canalizacion"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Activar servicios",
+                   "value": "Activar servicios",
+                   "data": "Activar servicios"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Acta comercial",
+                   "value": "Acta comercial",
+                   "data": "Acta comercial"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Acta tecnica",
+                   "value": "Acta tecnica",
+                   "data": "Acta tecnica"
+                 }
+               ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+```
+
+ # AdaptiveCard_MenuOrden_servicio()
+[Activity
+    Attachments = ${json(AdaptiveCardJson_MenuOrden_servicio())}
+]
+# TextInput_Prompt_W68FtF()
+- ${json(AdaptiveCard_MenuOrden_servicio())}
+# SendActivity_WJZvQw()
+[Activity
+    Attachments = ${SendActivity_WJZvQw_attachment_9UeifJ()}
+]
+
+# SendActivity_WJZvQw_attachment_9UeifJ()
+[ThumbnailCard
+  title = Sub menu Orden de servicio
+  subtitle = NexoBot
+  text = Selecciona la opcion que mas se acomode a tu duda
+  image = https://statics.teams.cdn.office.net/evergreen-assets/apps/teams_dev_app_largeimage.png
+]

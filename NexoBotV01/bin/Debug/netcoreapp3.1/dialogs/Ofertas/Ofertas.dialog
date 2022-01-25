@@ -17,26 +17,59 @@
       },
       "actions": [
         {
-          "$kind": "Microsoft.SendActivity",
+          "$kind": "Microsoft.SwitchCondition",
           "$designer": {
-            "id": "yDopPW"
+            "id": "rH624P"
           },
-          "activity": "${SendActivity_yDopPW()}"
-        },
-        {
-          "$kind": "Microsoft.TextInput",
-          "$designer": {
-            "id": "MgIKWn"
-          },
-          "disabled": false,
-          "maxTurnCount": 3,
-          "alwaysPrompt": false,
-          "allowInterruptions": false,
-          "unrecognizedPrompt": "",
-          "defaultValueResponse": "",
-          "property": "user.OptionSubMenu",
-          "value": "=turn.activity.value",
-          "prompt": "${TextInput_Prompt_MgIKWn()}"
+          "condition": "=turn.Activity.channelId",
+          "cases": [
+            {
+              "value": "msteams",
+              "actions": [
+                {
+                  "$kind": "Microsoft.TextInput",
+                  "$designer": {
+                    "id": "n7QXD5"
+                  },
+                  "disabled": false,
+                  "maxTurnCount": 3,
+                  "alwaysPrompt": false,
+                  "allowInterruptions": false,
+                  "unrecognizedPrompt": "",
+                  "invalidPrompt": "",
+                  "defaultValueResponse": "",
+                  "prompt": "${TextInput_Prompt_n7QXD5()}",
+                  "property": "user.OptionSubMenu",
+                  "value": "=turn.activity.value"
+                }
+              ]
+            }
+          ],
+          "default": [
+            {
+              "$kind": "Microsoft.SendActivity",
+              "$designer": {
+                "id": "V86MGm"
+              },
+              "activity": "${SendActivity_V86MGm()}"
+            },
+            {
+              "$kind": "Microsoft.TextInput",
+              "$designer": {
+                "id": "r26KTB"
+              },
+              "disabled": false,
+              "maxTurnCount": 3,
+              "alwaysPrompt": false,
+              "allowInterruptions": false,
+              "unrecognizedPrompt": "",
+              "invalidPrompt": "",
+              "defaultValueResponse": "",
+              "prompt": "${TextInput_Prompt_r26KTB()}",
+              "property": "user.OptionSubMenu",
+              "value": "=turn.activity.value"
+            }
+          ]
         },
         {
           "$kind": "Microsoft.SwitchCondition",
@@ -49,11 +82,34 @@
               "value": "Completar propiedades producto",
               "actions": [
                 {
-                  "$kind": "Microsoft.SendActivity",
+                  "$kind": "Microsoft.SwitchCondition",
                   "$designer": {
-                    "id": "mM2cLX"
+                    "id": "rL01hp"
                   },
-                  "activity": "${SendActivity_mM2cLX()}"
+                  "condition": "=turn.Activity.channelId",
+                  "cases": [
+                    {
+                      "value": "msteams",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "hfa5go"
+                          },
+                          "activity": "${SendActivity_hfa5go()}"
+                        }
+                      ]
+                    }
+                  ],
+                  "default": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "C0dTTg"
+                      },
+                      "activity": "${SendActivity_C0dTTg()}"
+                    }
+                  ]
                 }
               ]
             },
@@ -61,11 +117,34 @@
               "value": "Solicitudes de pricing",
               "actions": [
                 {
-                  "$kind": "Microsoft.SendActivity",
+                  "$kind": "Microsoft.SwitchCondition",
                   "$designer": {
-                    "id": "su7Na4"
+                    "id": "5GQ6b0"
                   },
-                  "activity": "${SendActivity_su7Na4()}"
+                  "condition": "=turn.Activity.channelId",
+                  "cases": [
+                    {
+                      "value": "msteams",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "j1Je2E"
+                          },
+                          "activity": "${SendActivity_j1Je2E()}"
+                        }
+                      ]
+                    }
+                  ],
+                  "default": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "ZkLVSi"
+                      },
+                      "activity": "${SendActivity_ZkLVSi()}"
+                    }
+                  ]
                 }
               ]
             },
@@ -73,11 +152,34 @@
               "value": "Cargar documentos",
               "actions": [
                 {
-                  "$kind": "Microsoft.SendActivity",
+                  "$kind": "Microsoft.SwitchCondition",
                   "$designer": {
-                    "id": "j0NFuy"
+                    "id": "jsRmqW"
                   },
-                  "activity": "${SendActivity_j0NFuy()}"
+                  "condition": "=turn.Activity.channelId",
+                  "cases": [
+                    {
+                      "value": "msteams",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "eiw5xs"
+                          },
+                          "activity": "${SendActivity_eiw5xs()}"
+                        }
+                      ]
+                    }
+                  ],
+                  "default": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "gbYeS5"
+                      },
+                      "activity": "${SendActivity_gbYeS5()}"
+                    }
+                  ]
                 }
               ]
             },
@@ -85,11 +187,34 @@
               "value": "Editar detalles de producto",
               "actions": [
                 {
-                  "$kind": "Microsoft.SendActivity",
+                  "$kind": "Microsoft.SwitchCondition",
                   "$designer": {
-                    "id": "WvjAUz"
+                    "id": "CHpi5B"
                   },
-                  "activity": "${SendActivity_WvjAUz()}"
+                  "condition": "=turn.Activity.channelId",
+                  "cases": [
+                    {
+                      "value": "msteams",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "UADsPf"
+                          },
+                          "activity": "${SendActivity_UADsPf()}"
+                        }
+                      ]
+                    }
+                  ],
+                  "default": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "F5ARga"
+                      },
+                      "activity": "${SendActivity_F5ARga()}"
+                    }
+                  ]
                 }
               ]
             },
@@ -97,11 +222,34 @@
               "value": "Presentar oferta",
               "actions": [
                 {
-                  "$kind": "Microsoft.SendActivity",
+                  "$kind": "Microsoft.SwitchCondition",
                   "$designer": {
-                    "id": "qk7dUO"
+                    "id": "aqxEy6"
                   },
-                  "activity": "${SendActivity_qk7dUO()}"
+                  "condition": "=turn.Activity.channelId",
+                  "cases": [
+                    {
+                      "value": "msteams",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "KdLyTh"
+                          },
+                          "activity": "${SendActivity_KdLyTh()}"
+                        }
+                      ]
+                    }
+                  ],
+                  "default": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "SuBjaE"
+                      },
+                      "activity": "${SendActivity_SuBjaE()}"
+                    }
+                  ]
                 }
               ]
             },
@@ -109,11 +257,34 @@
               "value": "Enviar documentos OS por docusign",
               "actions": [
                 {
-                  "$kind": "Microsoft.SendActivity",
+                  "$kind": "Microsoft.SwitchCondition",
                   "$designer": {
-                    "id": "L1TRin"
+                    "id": "uLZ18D"
                   },
-                  "activity": "${SendActivity_L1TRin()}"
+                  "condition": "=turn.Activity.channelId",
+                  "cases": [
+                    {
+                      "value": "msteams",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "WLsps6"
+                          },
+                          "activity": "${SendActivity_WLsps6()}"
+                        }
+                      ]
+                    }
+                  ],
+                  "default": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "9GZb08"
+                      },
+                      "activity": "${SendActivity_9GZb08()}"
+                    }
+                  ]
                 }
               ]
             },
@@ -121,11 +292,34 @@
               "value": "Otros estados oferta",
               "actions": [
                 {
-                  "$kind": "Microsoft.SendActivity",
+                  "$kind": "Microsoft.SwitchCondition",
                   "$designer": {
-                    "id": "xKVqGa"
+                    "id": "xWHlCV"
                   },
-                  "activity": "${SendActivity_xKVqGa()}"
+                  "condition": "=turn.Activity.channelId",
+                  "cases": [
+                    {
+                      "value": "msteams",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "S7v83q"
+                          },
+                          "activity": "${SendActivity_S7v83q()}"
+                        }
+                      ]
+                    }
+                  ],
+                  "default": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "UI2mhH"
+                      },
+                      "activity": "${SendActivity_UI2mhH()}"
+                    }
+                  ]
                 }
               ]
             },
@@ -133,11 +327,34 @@
               "value": "Revisar oferta",
               "actions": [
                 {
-                  "$kind": "Microsoft.SendActivity",
+                  "$kind": "Microsoft.SwitchCondition",
                   "$designer": {
-                    "id": "tPYlXH"
+                    "id": "jTU37l"
                   },
-                  "activity": "${SendActivity_tPYlXH()}"
+                  "condition": "=turn.Activity.channelId",
+                  "cases": [
+                    {
+                      "value": "msteams",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "aOnu3A"
+                          },
+                          "activity": "${SendActivity_aOnu3A()}"
+                        }
+                      ]
+                    }
+                  ],
+                  "default": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "LFkFDS"
+                      },
+                      "activity": "${SendActivity_LFkFDS()}"
+                    }
+                  ]
                 }
               ]
             },
@@ -145,11 +362,34 @@
               "value": "Ganar oferta",
               "actions": [
                 {
-                  "$kind": "Microsoft.SendActivity",
+                  "$kind": "Microsoft.SwitchCondition",
                   "$designer": {
-                    "id": "xNq48y"
+                    "id": "E88yM5"
                   },
-                  "activity": "${SendActivity_xNq48y()}"
+                  "condition": "=turn.Activity.channelId",
+                  "cases": [
+                    {
+                      "value": "msteams",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "Ytbl7W"
+                          },
+                          "activity": "${SendActivity_Ytbl7W()}"
+                        }
+                      ]
+                    }
+                  ],
+                  "default": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "RhlYd3"
+                      },
+                      "activity": "${SendActivity_RhlYd3()}"
+                    }
+                  ]
                 }
               ]
             },
@@ -157,11 +397,34 @@
               "value": "Perder oferta",
               "actions": [
                 {
-                  "$kind": "Microsoft.SendActivity",
+                  "$kind": "Microsoft.SwitchCondition",
                   "$designer": {
-                    "id": "L8TDJx"
+                    "id": "alUyL8"
                   },
-                  "activity": "${SendActivity_L8TDJx()}"
+                  "condition": "=turn.Activity.channelId",
+                  "cases": [
+                    {
+                      "value": "msteams",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "veEpkE"
+                          },
+                          "activity": "${SendActivity_veEpkE()}"
+                        }
+                      ]
+                    }
+                  ],
+                  "default": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "zJt1cW"
+                      },
+                      "activity": "${SendActivity_zJt1cW()}"
+                    }
+                  ]
                 }
               ]
             },
@@ -169,11 +432,34 @@
               "value": "Cancelar oferta",
               "actions": [
                 {
-                  "$kind": "Microsoft.SendActivity",
+                  "$kind": "Microsoft.SwitchCondition",
                   "$designer": {
-                    "id": "rHYN6f"
+                    "id": "yDCCG5"
                   },
-                  "activity": "${SendActivity_rHYN6f()}"
+                  "condition": "=turn.Activity.channelId",
+                  "cases": [
+                    {
+                      "value": "msteams",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "NfjjN6"
+                          },
+                          "activity": "${SendActivity_NfjjN6()}"
+                        }
+                      ]
+                    }
+                  ],
+                  "default": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "VBDEkK"
+                      },
+                      "activity": "${SendActivity_VBDEkK()}"
+                    }
+                  ]
                 }
               ]
             },
@@ -181,11 +467,34 @@
               "value": "Notificar orden de servicio",
               "actions": [
                 {
-                  "$kind": "Microsoft.SendActivity",
+                  "$kind": "Microsoft.SwitchCondition",
                   "$designer": {
-                    "id": "EnL1OT"
+                    "id": "hzADt5"
                   },
-                  "activity": "${SendActivity_EnL1OT()}"
+                  "condition": "=turn.Activity.channelId",
+                  "cases": [
+                    {
+                      "value": "msteams",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "LLwn33"
+                          },
+                          "activity": "${SendActivity_LLwn33()}"
+                        }
+                      ]
+                    }
+                  ],
+                  "default": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "MpxQfT"
+                      },
+                      "activity": "${SendActivity_MpxQfT()}"
+                    }
+                  ]
                 }
               ]
             }

@@ -17,11 +17,59 @@
       },
       "actions": [
         {
-          "$kind": "Microsoft.SendActivity",
+          "$kind": "Microsoft.SwitchCondition",
           "$designer": {
-            "id": "9tNrl1"
+            "id": "Gj071b"
           },
-          "activity": "${SendActivity_9tNrl1()}"
+          "condition": "=turn.Activity.channelId",
+          "cases": [
+            {
+              "value": "msteams",
+              "actions": [
+                {
+                  "$kind": "Microsoft.TextInput",
+                  "$designer": {
+                    "id": "JtVvBB"
+                  },
+                  "disabled": false,
+                  "maxTurnCount": 3,
+                  "alwaysPrompt": false,
+                  "allowInterruptions": false,
+                  "unrecognizedPrompt": "",
+                  "invalidPrompt": "",
+                  "defaultValueResponse": "",
+                  "prompt": "${TextInput_Prompt_JtVvBB()}",
+                  "property": "user.OptionSubMenu",
+                  "value": "=turn.activity.value"
+                }
+              ]
+            }
+          ],
+          "default": [
+            {
+              "$kind": "Microsoft.SendActivity",
+              "$designer": {
+                "id": "a977pq"
+              },
+              "activity": "${SendActivity_a977pq()}"
+            },
+            {
+              "$kind": "Microsoft.TextInput",
+              "$designer": {
+                "id": "i4TNLc"
+              },
+              "disabled": false,
+              "maxTurnCount": 3,
+              "alwaysPrompt": false,
+              "allowInterruptions": false,
+              "unrecognizedPrompt": "",
+              "invalidPrompt": "",
+              "defaultValueResponse": "",
+              "prompt": "${TextInput_Prompt_i4TNLc()}",
+              "property": "user.OptionSubMenu",
+              "value": "=turn.activity.value"
+            }
+          ]
         },
         {
           "$kind": "Microsoft.TextInput",
@@ -50,11 +98,34 @@
               "value": "Solicitudes de desconexion",
               "actions": [
                 {
-                  "$kind": "Microsoft.SendActivity",
+                  "$kind": "Microsoft.SwitchCondition",
                   "$designer": {
-                    "id": "7FBZEU"
+                    "id": "m29HIb"
                   },
-                  "activity": "${SendActivity_7FBZEU()}"
+                  "condition": "=turn.Activity.channelId",
+                  "cases": [
+                    {
+                      "value": "msteams",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "6WqRaK"
+                          },
+                          "activity": "${SendActivity_6WqRaK()}"
+                        }
+                      ]
+                    }
+                  ],
+                  "default": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "ZYDs3F"
+                      },
+                      "activity": "${SendActivity_ZYDs3F()}"
+                    }
+                  ]
                 }
               ]
             },
@@ -62,11 +133,34 @@
               "value": "Reprogramar desconexion",
               "actions": [
                 {
-                  "$kind": "Microsoft.SendActivity",
+                  "$kind": "Microsoft.SwitchCondition",
                   "$designer": {
-                    "id": "cmcR41"
+                    "id": "fY74Zy"
                   },
-                  "activity": "${SendActivity_cmcR41()}"
+                  "condition": "=turn.Activity.channelId",
+                  "cases": [
+                    {
+                      "value": "msteams",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "eveoc1"
+                          },
+                          "activity": "${SendActivity_eveoc1()}"
+                        }
+                      ]
+                    }
+                  ],
+                  "default": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "y8Amm7"
+                      },
+                      "activity": "${SendActivity_y8Amm7()}"
+                    }
+                  ]
                 }
               ]
             },
@@ -74,11 +168,34 @@
               "value": "Confirmar desconexion",
               "actions": [
                 {
-                  "$kind": "Microsoft.SendActivity",
+                  "$kind": "Microsoft.SwitchCondition",
                   "$designer": {
-                    "id": "978Wcm"
+                    "id": "CmkNIB"
                   },
-                  "activity": "${SendActivity_978Wcm()}"
+                  "condition": "=turn.Activity.channelId",
+                  "cases": [
+                    {
+                      "value": "msteams",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "5mWm5a"
+                          },
+                          "activity": "${SendActivity_5mWm5a()}"
+                        }
+                      ]
+                    }
+                  ],
+                  "default": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "TvajH6"
+                      },
+                      "activity": "${SendActivity_TvajH6()}"
+                    }
+                  ]
                 }
               ]
             },
@@ -86,11 +203,34 @@
               "value": "Cancelar desconexion",
               "actions": [
                 {
-                  "$kind": "Microsoft.SendActivity",
+                  "$kind": "Microsoft.SwitchCondition",
                   "$designer": {
-                    "id": "9KaFhi"
+                    "id": "sIjsxf"
                   },
-                  "activity": "${SendActivity_9KaFhi()}"
+                  "condition": "=turn.Activity.channelId",
+                  "cases": [
+                    {
+                      "value": "msteams",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "m928KA"
+                          },
+                          "activity": "${SendActivity_m928KA()}"
+                        }
+                      ]
+                    }
+                  ],
+                  "default": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "rg9fgo"
+                      },
+                      "activity": "${SendActivity_rg9fgo()}"
+                    }
+                  ]
                 }
               ]
             }

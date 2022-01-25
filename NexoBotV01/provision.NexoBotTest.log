@@ -1,0 +1,19 @@
+{
+  "profileName": "NexoBotTest",
+  "jobId": "0020e369-3db0-40b4-a883-446faf90a1a1",
+  "projectId": "51880.34101003074",
+  "time": "2022-01-05T16:07:39.715Z",
+  "log": [
+    "Creating Azure resources...",
+    "Checking the Existence of the Resource Group ...",
+    "Use the Resource Group: NexoBot at eastus2",
+    "> Creating App Registration ...",
+    "Start to add password for App, Id : 8c5b1527-267a-49e4-93ad-f81afa1fb377",
+    "> Create App Registration Success! ID: 8c5b1527-267a-49e4-93ad-f81afa1fb377",
+    "Deploying Web App Resource ...",
+    "Deploying Bot Resource ...",
+    "Deploying Luis Authoring Resource ...",
+    "Deploying Luis Resource ...",
+    "Provisioning completed successfully!"
+  ]
+}

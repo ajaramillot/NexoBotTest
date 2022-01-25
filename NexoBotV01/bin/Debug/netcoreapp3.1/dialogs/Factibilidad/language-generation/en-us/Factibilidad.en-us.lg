@@ -12,7 +12,6 @@
       "type": "ColumnSet",
       "columns": [
         {
-          "width": "400px",
           "type": "Column",
           "items": [
             {
@@ -116,63 +115,199 @@
     Attachments = ${json(AdaptiveCardJson_MenuFactibilidad())}
 ]
 
-# SendActivity_ZHnevS()
-[Activity
-    Attachments = ${SendActivity_ZHnevS_attachment_BuOsut()}
-]
 
-# SendActivity_ZHnevS_attachment_BuOsut()
-[ThumbnailCard
-  title = Sub menu Factibilidad
-  subtitle = NexoBot
-  text = Selecciona la opcion que mas se acomode a tu duda
-  image = https://statics.teams.cdn.office.net/evergreen-assets/apps/teams_dev_app_largeimage.png
-]
-
-# TextInput_Prompt_DGjAdT()
-- ${json(AdaptiveCard_MenuFactibilidad())}
-# SendActivity_qtWOOp()
-[Activity
-    Attachments = ${json(SendActivity_qtWOOp_attachment_zOehr0())}
-]
-
-# SendActivity_qtWOOp_attachment_zOehr0()
+# AdaptiveCardJson_MenuFactibilidadTeams()
 - ```
 {
-    "type": "AdaptiveCard",
-    "version": "1.0",
-    "body": [
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
         {
+          "type": "Column",
+          "width": "270px",
+          "items": [
+            {
               "type": "ActionSet",
                "actions": [
                  {
                    "type": "Action.Submit",
-                   "title": "Guia",
-                   "value": "Guia",
-                   "data": "Factibilidad solicitar factibilidad"
+                   "title": "Solicitar factibilidad",
+                   "value": "Solicitar factibilidad",
+                   "data": {                   
+                      "msteams": {
+                      "type": "imBack",
+                      "data": "Solicitar factibilidad",
+                      "value": "Solicitar factibilidad"
+                      }
+                 }
                  }
                ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Productos de la factibilidad",
+                   "value": "Productos de la factibilidad",
+                   "data": {                   
+                      "msteams": {
+                      "type": "imBack",
+                      "data": "Productos de la factibilidad",
+                      "value": "Productos de la factibilidad"
+                      }
+                 }
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Productos de la evaluacion",
+                   "value": "Productos de la evaluacion",
+                   "data": {                   
+                      "msteams": {
+                      "type": "imBack",
+                      "data": "Productos de la evaluacion",
+                      "value": "Productos de la evaluacion"
+                      }
+                 }
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Agregar o eliminar productos",
+                   "value": "Agregar o eliminar productos",
+                   "data": {                   
+                      "msteams": {
+                      "type": "imBack",
+                      "data": "Agregar o eliminar productos",
+                      "value": "Agregar o eliminar productos"
+                      }
+                 }
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Oportunidad y oferta relacionada",
+                   "value": "Oportunidad y oferta relacionada",
+                   "data": {                   
+                      "msteams": {
+                      "type": "imBack",
+                      "data": "Oportunidad y oferta relacionada",
+                      "value": "Oportunidad y oferta relacionada"
+                      }
+                 }
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Crear factibilidades a otras áreas",
+                   "value": "Crear factibilidad a otras areas",
+                   "data": {                   
+                      "msteams": {
+                      "type": "imBack",
+                      "data": "Crear factibilidad a otras areas",
+                      "value": "Crear factibilidad a otras areas"
+                      }
+                 }
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Cambiar tipo de oportunidad \r desde la factibilidad",
+                   "value": "Cambiar tipo de oportunidad desde la factibilidad",
+                   "data": {                   
+                      "msteams": {
+                      "type": "imBack",
+                      "data": "Cambiar tipo de oportunidad desde la factibilidad",
+                      "value": "Cambiar tipo de oportunidad desde la factibilidad"
+                      }
+                 }
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Crear solicitud pricing",
+                   "value": "Crear solicitud pricing",
+                   "data": {                   
+                      "msteams": {
+                      "type": "imBack",
+                      "data": "Crear solicitud pricing",
+                      "value": "Crear solicitud pricing"
+                      }
+                 }
+                 }
+               ]
+            }
+          ]
         },
         {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Informacion general",
-                   "value": "Informacion general Cliente",
-                   "data": "Informacion general Cliente"
-                 }
-               ]
+          "type": "Column",
+          "width": "135px",
+          "height": "stretch",
+          "spacing": "Padding",
+          "items": [
+            {
+            "type": "Image",
+            "url": "https://github.com/ajaramillot/NexoBot/blob/main/Iconografia/nexobot-icono%20192x192.png?raw=true"
+            },
+            {
+            "type": "TextBlock",
+            "weight": "bolder",
+            "size": "Medium",
+            "text": "Bienvenido, Soy nexobot \r\r\r Escoge la opcion que mas se acomode a tu duda",
+            "wrap": true
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }
 ```
-# SendActivity_s1hfvT()
+
+ # AdaptiveCard_MenuFactibilidadTeams()
 [Activity
-    Attachments = ${json(SendActivity_s1hfvT_attachment_NrL83c())}
+    Attachments = ${json(AdaptiveCardJson_MenuFactibilidadTeams())}
 ]
 
-# SendActivity_s1hfvT_attachment_NrL83c()
+# TextInput_Prompt_WZK5zI()
+- ${json(AdaptiveCard_MenuFactibilidad())}
+# TextInput_Prompt_XG6qdg()
+- ${json(AdaptiveCard_MenuFactibilidadTeams())}
+# SendActivity_AMK84K()
+[Activity
+    Attachments = ${json(SendActivity_AMK84K_attachment_ZOedOm())}
+]
+
+# SendActivity_AMK84K_attachment_ZOedOm()
 - ```
 {
     "type": "AdaptiveCard",
@@ -203,12 +338,54 @@
     ]
 }
 ```
-# SendActivity_5nl68X()
+# SendActivity_5cwpbc()
 [Activity
-    Attachments = ${json(SendActivity_5nl68X_attachment_zIPshJ())}
+    Attachments = ${json(SendActivity_5cwpbc_attachment_crd7Li())}
 ]
 
-# SendActivity_5nl68X_attachment_zIPshJ()
+# SendActivity_5cwpbc_attachment_crd7Li()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": {                   
+                      "msteams": {
+                      "type": "imBack",
+                      "data": "Productos de la factibilidad",
+                      "value": "Productos de la factibilidad"
+                      }
+                 }
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacion general",
+                   "value": "Informacion general Cliente",
+                   "data": "Informacion general Cliente"
+                 }
+               ]
+        }
+    ]
+}
+```
+# SendActivity_qXHnBt()
+[Activity
+    Attachments = ${json(SendActivity_qXHnBt_attachment_Ly1u73())}
+]
+
+# SendActivity_qXHnBt_attachment_Ly1u73()
 - ```
 {
     "type": "AdaptiveCard",
@@ -239,12 +416,54 @@
     ]
 }
 ```
-# SendActivity_8LQ7Qp()
+# SendActivity_j17i4k()
 [Activity
-    Attachments = ${json(SendActivity_8LQ7Qp_attachment_d2ox0j())}
+    Attachments = ${json(SendActivity_j17i4k_attachment_SetbXp())}
 ]
 
-# SendActivity_8LQ7Qp_attachment_d2ox0j()
+# SendActivity_j17i4k_attachment_SetbXp()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": {                   
+                      "msteams": {
+                      "type": "imBack",
+                      "data": "Productos de la evaluacion",
+                      "value": "Productos de la evaluacion"
+                      }
+                 }
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacion general",
+                   "value": "Informacion general Cliente",
+                   "data": "Informacion general Cliente"
+                 }
+               ]
+        }
+    ]
+}
+```
+# SendActivity_4iFDGm()
+[Activity
+    Attachments = ${json(SendActivity_4iFDGm_attachment_gTBeFF())}
+]
+
+# SendActivity_4iFDGm_attachment_gTBeFF()
 - ```
 {
     "type": "AdaptiveCard",
@@ -275,12 +494,54 @@
     ]
 }
 ```
-# SendActivity_epwJDQ()
+# SendActivity_Rmx9ca()
 [Activity
-    Attachments = ${json(SendActivity_epwJDQ_attachment_3qOUKX())}
+    Attachments = ${json(SendActivity_Rmx9ca_attachment_0m1uDO())}
 ]
 
-# SendActivity_epwJDQ_attachment_3qOUKX()
+# SendActivity_Rmx9ca_attachment_0m1uDO()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": {                   
+                      "msteams": {
+                      "type": "imBack",
+                      "data": "Factibilidad agregar o eliminar productos",
+                      "value": "Factibilidad agregar o eliminar productos"
+                      }
+                 }
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacion general",
+                   "value": "Informacion general Cliente",
+                   "data": "Informacion general Cliente"
+                 }
+               ]
+        }
+    ]
+}
+```
+# SendActivity_gdS4IB()
+[Activity
+    Attachments = ${json(SendActivity_gdS4IB_attachment_yv6P2N())}
+]
+
+# SendActivity_gdS4IB_attachment_yv6P2N()
 - ```
 {
     "type": "AdaptiveCard",
@@ -311,12 +572,54 @@
     ]
 }
 ```
-# SendActivity_sWAEYU()
+# SendActivity_RUmBjt()
 [Activity
-    Attachments = ${json(SendActivity_sWAEYU_attachment_T3aTv7())}
+    Attachments = ${json(SendActivity_RUmBjt_attachment_YSSe7p())}
 ]
 
-# SendActivity_sWAEYU_attachment_T3aTv7()
+# SendActivity_RUmBjt_attachment_YSSe7p()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": {                   
+                      "msteams": {
+                      "type": "imBack",
+                      "data": "Oportunidad y oferta relacionada",
+                      "value": "Oportunidad y oferta relacionada"
+                      }
+                 }
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacion general",
+                   "value": "Informacion general Cliente",
+                   "data": "Informacion general Cliente"
+                 }
+               ]
+        }
+    ]
+}
+```
+# SendActivity_2Szlis()
+[Activity
+    Attachments = ${json(SendActivity_2Szlis_attachment_VJlyAq())}
+]
+
+# SendActivity_2Szlis_attachment_VJlyAq()
 - ```
 {
     "type": "AdaptiveCard",
@@ -347,12 +650,54 @@
     ]
 }
 ```
-# SendActivity_12WLKg()
+# SendActivity_zyorZJ()
 [Activity
-    Attachments = ${json(SendActivity_12WLKg_attachment_Iw7R9j())}
+    Attachments = ${json(SendActivity_zyorZJ_attachment_sYjrLz())}
 ]
 
-# SendActivity_12WLKg_attachment_Iw7R9j()
+# SendActivity_zyorZJ_attachment_sYjrLz()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": {                   
+                      "msteams": {
+                      "type": "imBack",
+                      "data": "Crear factibilidad a otras areas",
+                      "value": "Crear factibilidad a otras areas"
+                      }
+                 }
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacion general",
+                   "value": "Informacion general Cliente",
+                   "data": "Informacion general Cliente"
+                 }
+               ]
+        }
+    ]
+}
+```
+# SendActivity_WgyP1w()
+[Activity
+    Attachments = ${json(SendActivity_WgyP1w_attachment_OAsjcC())}
+]
+
+# SendActivity_WgyP1w_attachment_OAsjcC()
 - ```
 {
     "type": "AdaptiveCard",
@@ -383,12 +728,54 @@
     ]
 }
 ```
-# SendActivity_X1pjYm()
+# SendActivity_gnndwE()
 [Activity
-    Attachments = ${json(SendActivity_X1pjYm_attachment_uIfWti())}
+    Attachments = ${json(SendActivity_gnndwE_attachment_HZ2tJW())}
 ]
 
-# SendActivity_X1pjYm_attachment_uIfWti()
+# SendActivity_gnndwE_attachment_HZ2tJW()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia","
+                   "data": {                   
+                      "msteams": {
+                      "type": "imBack",
+                      "data": "Cambiar tipo de oportunidad desde la factibilidad",
+                      "value": "Cambiar tipo de oportunidad desde la factibilidad"
+                      }
+                 }
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacion general",
+                   "value": "Informacion general Cliente",
+                   "data": "Informacion general Cliente"
+                 }
+               ]
+        }
+    ]
+}
+```
+# SendActivity_XAwgBK()
+[Activity
+    Attachments = ${json(SendActivity_XAwgBK_attachment_ODqSlj())}
+]
+
+# SendActivity_XAwgBK_attachment_ODqSlj()
 - ```
 {
     "type": "AdaptiveCard",
@@ -419,3 +806,135 @@
     ]
 }
 ```
+# SendActivity_C9O2St()
+[Activity
+    Attachments = ${json(SendActivity_C9O2St_attachment_gq2jbH())}
+]
+
+# SendActivity_C9O2St_attachment_gq2jbH()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": {                   
+                      "msteams": {
+                      "type": "imBack",
+                      "data": "Solicitud de pricing",
+                      "value": "Solicitud de pricing"
+                      }
+                 }
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacion general",
+                   "value": "Informacion general Cliente",
+                   "data": "Informacion general Cliente"
+                 }
+               ]
+        }
+    ]
+}
+```
+# SendActivity_RgW25W()
+[Activity
+    Attachments = ${json(SendActivity_RgW25W_attachment_PSN4ke())}
+]
+
+# SendActivity_RgW25W_attachment_PSN4ke()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": "Factibilidad solicitar factibilidad"
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacion general",
+                   "value": "Informacion general Cliente",
+                   "data": "Informacion general Cliente"
+                 }
+               ]
+        }
+    ]
+}
+```
+# SendActivity_TFOtUP()
+[Activity
+    Attachments = ${json(SendActivity_TFOtUP_attachment_H1q9vl())}
+]
+
+# SendActivity_TFOtUP_attachment_H1q9vl()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": {                   
+                      "msteams": {
+                      "type": "imBack",
+                      "data": "Factibilidad solicitar factibilidad",
+                      "value": "Factibilidad solicitar factibilidad"
+                      }
+                 }
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacion general",
+                   "value": "Informacion general Cliente",
+                   "data": "Informacion general Cliente"
+                 }
+               ]
+        }
+    ]
+}
+```
+# SendActivity_OqzaYJ()
+[Activity
+    Attachments = ${SendActivity_OqzaYJ_attachment_23nMH6()}
+]
+
+# SendActivity_OqzaYJ_attachment_23nMH6()
+[ThumbnailCard
+  title = Sub menu Factibilidad
+  subtitle = NexoBot
+  text = Selecciona la opcion que mas se acomode a tu duda
+  image = https://statics.teams.cdn.office.net/evergreen-assets/apps/teams_dev_app_largeimage.png
+]
