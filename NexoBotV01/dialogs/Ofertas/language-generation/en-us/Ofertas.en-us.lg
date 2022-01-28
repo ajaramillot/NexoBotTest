@@ -172,23 +172,17 @@
       "type": "ColumnSet",
       "columns": [
         {
+          "width": "5",
           "type": "Column",
-          "width": "250px",
           "items": [
              {
               "type": "ActionSet",
                "actions": [
                  {
                    "type": "Action.Submit",
-                   "title": "Completar propiedades producto",
+                   "title": "Completar Propriedade do Produto",
                    "value": "Completar propiedades producto",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Completar propiedades producto",
-                      "value": "Completar propiedades producto"
-                      }
-                 }
+                   "data": "Completar propiedades producto"
                  }
                ]
             },
@@ -197,15 +191,9 @@
                "actions": [
                  {
                    "type": "Action.Submit",
-                   "title": "Solicitudes de pricing",
+                   "title": "Solicitação de Preço",
                    "value": "Solicitudes de pricing",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Solicitudes de pricing",
-                      "value": "Solicitudes de pricing"
-                      }
-                 }
+                   "data": "Solicitudes de pricing"
                  }
                ]
             },
@@ -214,15 +202,9 @@
                "actions": [
                  {
                    "type": "Action.Submit",
-                   "title": "Cargar documentos",
+                   "title": "Carregar documentos",
                    "value": "Cargar documentos",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Cargar documentos",
-                      "value": "Cargar documentos"
-                      }
-                 }
+                   "data": "Cargar documentos"
                  }
                ]
             },
@@ -231,15 +213,9 @@
                "actions": [
                  {
                    "type": "Action.Submit",
-                   "title": "Editar detalles de producto",
+                   "title": "Editar Detalhes do Produto",
                    "value": "Editar detalles de producto",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Editar detalles de producto",
-                      "value": "Editar detalles de producto"
-                      }
-                 }
+                   "data": "Editar detalles de producto"
                  }
                ]
             },
@@ -248,15 +224,9 @@
                "actions": [
                  {
                    "type": "Action.Submit",
-                   "title": "Presentar oferta",
+                   "title": "Apresentar Oferta",
                    "value": "Presentar oferta",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Presentar oferta",
-                      "value": "Presentar oferta"
-                      }
-                 }
+                   "data": "Presentar oferta"
                  }
                ]
             },
@@ -267,13 +237,7 @@
                    "type": "Action.Submit",
                    "title": "Enviar documentos OS por docusign",
                    "value": "Enviar documentos OS por docusign",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Enviar documentos OS por docusign",
-                      "value": "Enviar documentos OS por docusign"
-                      }
-                 }
+                   "data": "Enviar documentos OS por docusign"
                  }
                ]
             },
@@ -282,15 +246,9 @@
                "actions": [
                  {
                    "type": "Action.Submit",
-                   "title": "Otros estados oferta",
+                   "title": "Outros Status da Oferta",
                    "value": "Otros estados oferta",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Otros estados oferta",
-                      "value": "Otros estados oferta"
-                      }
-                 }
+                   "data": "Otros estados oferta"
                  }
                ]
             },
@@ -301,13 +259,7 @@
                    "type": "Action.Submit",
                    "title": "Revisar oferta",
                    "value": "Revisar oferta",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Revisar oferta",
-                      "value": "Revisar oferta"
-                      }
-                 }
+                   "data": "Revisar oferta"
                  }
                ]
             },
@@ -316,15 +268,9 @@
                "actions": [
                  {
                    "type": "Action.Submit",
-                   "title": "Ganar oferta",
+                   "title": "Ganhar oferta",
                    "value": "Ganar oferta",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Ganar oferta",
-                      "value": "Ganar oferta"
-                      }
-                 }
+                   "data": "Ganar oferta"
                  }
                ]
             },
@@ -335,13 +281,7 @@
                    "type": "Action.Submit",
                    "title": "Perder oferta",
                    "value": "Perder oferta",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Perder oferta",
-                      "value": "Perder oferta"
-                      }
-                 }
+                   "data": "Perder oferta"
                  }
                ]
             },
@@ -352,13 +292,7 @@
                    "type": "Action.Submit",
                    "title": "Cancelar oferta",
                    "value": "Cancelar oferta",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Cancelar oferta",
-                      "value": "Cancelar oferta"
-                      }
-                 }
+                   "data": "Cancelar oferta"
                  }
                ]
             },
@@ -367,36 +301,11 @@
                "actions": [
                  {
                    "type": "Action.Submit",
-                   "title": "Notificar orden de servicio",
+                   "title": "Notificar Ordem de Serviço",
                    "value": "Notificar orden de servicio",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Notificar orden de servicio",
-                      "value": "Notificar orden de servicio"
-                      }
-                 }
+                   "data": "Notificar orden de servicio"
                  }
                ]
-            }
-          ]
-        },
-        {
-          "type": "Column",
-          "height": "stretch",
-          "width": "150px",
-          "spacing": "Padding",
-          "items": [
-            {
-            "type": "Image",
-            "url": "https://github.com/ajaramillot/NexoBot/blob/main/Iconografia/nexobot-icono%20192x192.png?raw=true"
-            },
-            {
-            "type": "TextBlock",
-            "weight": "bolder",
-            "size": "Medium",
-            "text": "Bienvenido, Soy nexobot \r\r\r Escoge la opcion que mas se acomode a tu duda",
-            "wrap": true
             }
           ]
         }
@@ -405,7 +314,6 @@
   ]
 }
 ```
-
  # AdaptiveCard_MenuOfertaTeams()
 [Activity
     Attachments = ${json(AdaptiveCardJson_MenuOfertasTeams())}
@@ -439,17 +347,6 @@
                    "data": "Completar propiedades producto"
                  }
                ]
-        },
-        {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Informacion general",
-                   "value": "Informacion general Cliente",
-                   "data": "Informacion general Cliente"
-                 }
-               ]
         }
     ]
 }
@@ -472,24 +369,7 @@
                    "type": "Action.Submit",
                    "title": "Guia",
                    "value": "Guia",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Completar propiedades producto",
-                      "value": "Completar propiedades producto"
-                      }
-                 }
-                 }
-               ]
-        },
-        {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Informacion general",
-                   "value": "Informacion general Cliente",
-                   "data": "Informacion general Cliente"
+                   "data": "PROPRIEDADES COMPLETAS DO PRODUTO"
                  }
                ]
         }
@@ -517,17 +397,6 @@
                    "data": "Solicitud de pricing"
                  }
                ]
-        },
-        {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Informacion general",
-                   "value": "Informacion general Cliente",
-                   "data": "Informacion general Cliente"
-                 }
-               ]
         }
     ]
 }
@@ -550,24 +419,7 @@
                    "type": "Action.Submit",
                    "title": "Guia",
                    "value": "Guia",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Solicitud de pricing",
-                      "value": "Solicitud de pricing"
-                      }
-                 }
-                 }
-               ]
-        },
-        {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Informacion general",
-                   "value": "Informacion general Cliente",
-                   "data": "Informacion general Cliente"
+                   "data": "Solicitar avaliação de preços"
                  }
                ]
         }
@@ -595,17 +447,6 @@
                    "data": "Cargar documentos"
                  }
                ]
-        },
-        {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Informacion general",
-                   "value": "Informacion general Cliente",
-                   "data": "Informacion general Cliente"
-                 }
-               ]
         }
     ]
 }
@@ -628,24 +469,7 @@
                    "type": "Action.Submit",
                    "title": "Guia",
                    "value": "Guia",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Cargar documentos",
-                      "value": "Cargar documentos"
-                      }
-                 }
-                 }
-               ]
-        },
-        {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Informacion general",
-                   "value": "Informacion general Cliente",
-                   "data": "Informacion general Cliente"
+                   "data": "CARREGAR DOCUMENTOS"
                  }
                ]
         }
@@ -680,8 +504,8 @@
                  {
                    "type": "Action.Submit",
                    "title": "Informacion general",
-                   "value": "Informacion general Cliente",
-                   "data": "Informacion general Cliente"
+                   "value": "Informacion general",
+                   "data": "¿Adicionar producto de oferta?"
                  }
                ]
         }
@@ -706,13 +530,7 @@
                    "type": "Action.Submit",
                    "title": "Guia",
                    "value": "Guia",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Editar detalles de producto",
-                      "value": "Editar detalles de producto"
-                      }
-                 }
+                   "data": "EDITAR DETALHES DO PRODUTO"
                  }
                ]
         },
@@ -722,86 +540,8 @@
                  {
                    "type": "Action.Submit",
                    "title": "Informacion general",
-                   "value": "Informacion general Cliente",
-                   "data": "Informacion general Cliente"
-                 }
-               ]
-        }
-    ]
-}
-```
-# SendActivity_SuBjaE()
-[Activity
-    Attachments = ${json(SendActivity_SuBjaE_attachment_JYhIfP())}
-]
-
-# SendActivity_SuBjaE_attachment_JYhIfP()
-- ```
-{
-    "type": "AdaptiveCard",
-    "version": "1.0",
-    "body": [
-        {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Guia",
-                   "value": "Guia",
-                   "data": "Presentar oferta"
-                 }
-               ]
-        },
-        {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Informacion general",
-                   "value": "Informacion general Cliente",
-                   "data": "Informacion general Cliente"
-                 }
-               ]
-        }
-    ]
-}
-```
-# SendActivity_KdLyTh()
-[Activity
-    Attachments = ${json(SendActivity_KdLyTh_attachment_1Rgf3Y())}
-]
-
-# SendActivity_KdLyTh_attachment_1Rgf3Y()
-- ```
-{
-    "type": "AdaptiveCard",
-    "version": "1.0",
-    "body": [
-        {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Guia",
-                   "value": "Guia",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Presentar oferta",
-                      "value": "Presentar oferta"
-                      }
-                 }
-                 }
-               ]
-        },
-        {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Informacion general",
-                   "value": "Informacion general Cliente",
-                   "data": "Informacion general Cliente"
+                   "value": "Informacion general",
+                   "data": "Adicionar produto de oferta?"
                  }
                ]
         }
@@ -829,17 +569,6 @@
                    "data": "Enviar documentos OS por docusign"
                  }
                ]
-        },
-        {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Informacion general",
-                   "value": "Informacion general Cliente",
-                   "data": "Informacion general Cliente"
-                 }
-               ]
         }
     ]
 }
@@ -862,24 +591,7 @@
                    "type": "Action.Submit",
                    "title": "Guia",
                    "value": "Guia",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Enviar documentos OS por docusign",
-                      "value": "Enviar documentos OS por docusign"
-                      }
-                 }
-                 }
-               ]
-        },
-        {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Informacion general",
-                   "value": "Informacion general Cliente",
-                   "data": "Informacion general Cliente"
+                   "data": "ENVIAR DOCUMENTO OS POR DOCUSIGN portugues"
                  }
                ]
         }
@@ -914,8 +626,8 @@
                  {
                    "type": "Action.Submit",
                    "title": "Informacion general",
-                   "value": "Informacion general Cliente",
-                   "data": "Informacion general Cliente"
+                   "value": "Informacion general",
+                   "data": "¿Presentar oferta de estado borrador?"
                  }
                ]
         }
@@ -940,13 +652,7 @@
                    "type": "Action.Submit",
                    "title": "Guia",
                    "value": "Guia",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Otros estados oferta",
-                      "value": "Otros estados oferta"
-                      }
-                 }
+                   "data": "OUTROS STATUS DA OFERTA"
                  }
                ]
         },
@@ -955,9 +661,9 @@
                "actions": [
                  {
                    "type": "Action.Submit",
-                   "title": "Informacion general",
-                   "value": "Informacion general Cliente",
-                   "data": "Informacion general Cliente"
+                   "title": "Informações gerais",
+                   "value": "Informacion general",
+                   "data": "Apresentar oferta de status de rascunho?"
                  }
                ]
         }
@@ -982,7 +688,7 @@
                    "type": "Action.Submit",
                    "title": "Guia",
                    "value": "Guia",
-                   "data": "Revisar oferta"
+                   "data": "Revisar oferta guia"
                  }
                ]
         },
@@ -992,8 +698,8 @@
                  {
                    "type": "Action.Submit",
                    "title": "Informacion general",
-                   "value": "Informacion general Cliente",
-                   "data": "Informacion general Cliente"
+                   "value": "¿Revisar oferta?",
+                   "data": "¿Revisar oferta?"
                  }
                ]
         }
@@ -1018,13 +724,7 @@
                    "type": "Action.Submit",
                    "title": "Guia",
                    "value": "Guia",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Revisar oferta",
-                      "value": "Revisar oferta"
-                      }
-                 }
+                   "data": "REVISAR OFERTA portugues"
                  }
                ]
         },
@@ -1033,87 +733,9 @@
                "actions": [
                  {
                    "type": "Action.Submit",
-                   "title": "Informacion general",
-                   "value": "Informacion general Cliente",
-                   "data": "Informacion general Cliente"
-                 }
-               ]
-        }
-    ]
-}
-```
-# SendActivity_RhlYd3()
-[Activity
-    Attachments = ${json(SendActivity_RhlYd3_attachment_Jkz26W())}
-]
-
-# SendActivity_RhlYd3_attachment_Jkz26W()
-- ```
-{
-    "type": "AdaptiveCard",
-    "version": "1.0",
-    "body": [
-        {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Guia",
-                   "value": "Guia",
-                   "data": "Ganar oferta"
-                 }
-               ]
-        },
-        {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Informacion general",
-                   "value": "Informacion general Cliente",
-                   "data": "Informacion general Cliente"
-                 }
-               ]
-        }
-    ]
-}
-```
-# SendActivity_Ytbl7W()
-[Activity
-    Attachments = ${json(SendActivity_Ytbl7W_attachment_pczIbj())}
-]
-
-# SendActivity_Ytbl7W_attachment_pczIbj()
-- ```
-{
-    "type": "AdaptiveCard",
-    "version": "1.0",
-    "body": [
-        {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Guia",
-                   "value": "Guia",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Ganar oferta",
-                      "value": "Ganar oferta"
-                      }
-                 }
-                 }
-               ]
-        },
-        {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Informacion general",
-                   "value": "Informacion general Cliente",
-                   "data": "Informacion general Cliente"
+                   "title": "Informações gerais",
+                   "value": "Revisar oferta?",
+                   "data": "Revisar oferta?"
                  }
                ]
         }
@@ -1148,8 +770,8 @@
                  {
                    "type": "Action.Submit",
                    "title": "Informacion general",
-                   "value": "Informacion general Cliente",
-                   "data": "Informacion general Cliente"
+                   "value": "Informacion general",
+                   "data": "¿Qué es estado Perdido?"
                  }
                ]
         }
@@ -1174,13 +796,7 @@
                    "type": "Action.Submit",
                    "title": "Guia",
                    "value": "Guia",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Perder oferta",
-                      "value": "Perder oferta"
-                      }
-                 }
+                   "data": "OFERTA PERDIDA"
                  }
                ]
         },
@@ -1189,87 +805,9 @@
                "actions": [
                  {
                    "type": "Action.Submit",
-                   "title": "Informacion general",
-                   "value": "Informacion general Cliente",
-                   "data": "Informacion general Cliente"
-                 }
-               ]
-        }
-    ]
-}
-```
-# SendActivity_VBDEkK()
-[Activity
-    Attachments = ${json(SendActivity_VBDEkK_attachment_ui9msh())}
-]
-
-# SendActivity_VBDEkK_attachment_ui9msh()
-- ```
-{
-    "type": "AdaptiveCard",
-    "version": "1.0",
-    "body": [
-        {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Guia",
-                   "value": "Guia",
-                   "data": "Cancelar oferta"
-                 }
-               ]
-        },
-        {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Informacion general",
-                   "value": "Informacion general Cliente",
-                   "data": "Informacion general Cliente"
-                 }
-               ]
-        }
-    ]
-}
-```
-# SendActivity_NfjjN6()
-[Activity
-    Attachments = ${json(SendActivity_NfjjN6_attachment_pDEvcz())}
-]
-
-# SendActivity_NfjjN6_attachment_pDEvcz()
-- ```
-{
-    "type": "AdaptiveCard",
-    "version": "1.0",
-    "body": [
-        {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Guia",
-                   "value": "Guia",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Cancelar oferta",
-                      "value": "Cancelar oferta"
-                      }
-                 }
-                 }
-               ]
-        },
-        {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Informacion general",
-                   "value": "Informacion general Cliente",
-                   "data": "Informacion general Cliente"
+                   "title": "Informações gerais",
+                   "value": "Informacion general",
+                   "data": "O que é o status Perdido?"
                  }
                ]
         }
@@ -1297,17 +835,6 @@
                    "data": "Notificar orden de servicio"
                  }
                ]
-        },
-        {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Informacion general",
-                   "value": "Informacion general Cliente",
-                   "data": "Informacion general Cliente"
-                 }
-               ]
         }
     ]
 }
@@ -1330,24 +857,7 @@
                    "type": "Action.Submit",
                    "title": "Guia",
                    "value": "Guia",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Notificar orden de servicio",
-                      "value": "Notificar orden de servicio"
-                      }
-                 }
-                 }
-               ]
-        },
-        {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Informacion general",
-                   "value": "Informacion general Cliente",
-                   "data": "Informacion general Cliente"
+                   "data": "NOTIFICAR ORDEM DE SERVIÇO"
                  }
                ]
         }
@@ -1364,5 +874,491 @@
   title = Sub menu Ofertas
   subtitle = NexoBot
   text = Selecciona la opcion que mas se acomode a tu duda
+  image = https://statics.teams.cdn.office.net/evergreen-assets/apps/teams_dev_app_largeimage.png
+]
+# SendActivity_yAowrI()
+[Activity
+    Attachments = ${json(SendActivity_yAowrI_attachment_ZFLrtK())}
+]
+
+# SendActivity_yAowrI_attachment_ZFLrtK()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": "Cancelar oferta"
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacion general",
+                   "value": "Informacion general",
+                   "data": "¿Qué es estado Cancelado?"
+                 }
+               ]
+        }
+    ]
+}
+```
+# SendActivity_ML5sqx()
+[Activity
+    Attachments = ${json(SendActivity_ML5sqx_attachment_FRjko1())}
+]
+
+# SendActivity_ML5sqx_attachment_FRjko1()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia2",
+                   "value": "Guia",
+                   "data": "Cancelar oferta portuguesa"
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacion general",
+                   "value": "Informacion general",
+                   "data": "O que significa Cancelado?"
+                 }
+               ]
+        }
+    ]
+}
+```
+# TextInput_Prompt_Qvp1lu()
+[Activity
+    Attachments = ${json(TextInput_Prompt_Qvp1lu_attachment_7KFTDA())}
+]
+
+# TextInput_Prompt_Qvp1lu_attachment_7KFTDA()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": "Ganar oferta"
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacion general",
+                   "value": "Informacion general",
+                   "data": "Informacion general"
+                 }
+               ]
+        }
+    ]
+}
+```
+# TextInput_Prompt_PS9aCt()
+[Activity
+    Attachments = ${json(TextInput_Prompt_PS9aCt_attachment_oS81YJ())}
+]
+
+# TextInput_Prompt_PS9aCt_attachment_oS81YJ()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": "GANHAR OFERTA"
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informações gerais",
+                   "value": "Informacion general",
+                   "data": "Informacion general"
+                 }
+               ]
+        }
+    ]
+}
+```
+# SendActivity_zvtdaD()
+[Activity
+    Attachments = ${json(SendActivity_zvtdaD_attachment_xsxXPx())}
+]
+
+# SendActivity_zvtdaD_attachment_xsxXPx()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "width": "5",
+          "type": "Column",
+          "items": [
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Qué es estado Ganado?",
+                   "value": "¿Qué es estado Ganado?",
+                   "data": "¿Qué es estado Ganado?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Cuáles son los indicadores de productividad comercial?",
+                   "value": "¿Cuáles son los indicadores de productividad comercial?",
+                   "data": "¿Cuáles son los indicadores de productividad comercial?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Qué es Win rate?",
+                   "value": "¿Qué es Win rate?",
+                   "data": "¿Qué es Win rate?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Qué es O.S.?",
+                   "value": "¿Qué es O.S.?",
+                   "data": "¿Qué es O.S.?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Oferta en estado ganada?",
+                   "value": "¿Oferta en estado ganada?",
+                   "data": "¿Oferta en estado ganada?"
+                 }
+               ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}```
+# SendActivity_g7HotA()
+[Activity
+    Attachments = ${json(SendActivity_g7HotA_attachment_KBKKvY())}
+]
+
+# SendActivity_g7HotA_attachment_KBKKvY()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "width": "5",
+          "type": "Column",
+          "items": [
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "O que é o status de ganhado?",
+                   "value": "O que é o status de ganhado?",
+                   "data": "O que é o status de ganhado?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "O que são indicadores de produtividade comercial?",
+                   "value": "O que são indicadores de produtividade comercial?",
+                   "data": "O que são indicadores de produtividade comercial?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "O que é taxa de vitórias?",
+                   "value": "O que é taxa de vitórias?",
+                   "data": "O que é taxa de vitórias?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Oque é OS?",
+                   "value": "Oque é OS?",
+                   "data": "Oque é OS?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Oferta em estado ganhada?",
+                   "value": "Oferta em estado ganhada?",
+                   "data": "Oferta em estado ganhada?"
+                 }
+               ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}```
+# TextInput_Prompt_NEkNCg()
+[Activity
+    Attachments = ${json(TextInput_Prompt_NEkNCg_attachment_2cLVfA())}
+]
+
+# TextInput_Prompt_NEkNCg_attachment_2cLVfA()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": "Presentar oferta"
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacion general",
+                   "value": "Informacion general",
+                   "data": "Informacion general"
+                 }
+               ]
+        }
+    ]
+}
+```
+# SendActivity_8p3VJB()
+[Activity
+    Attachments = ${json(SendActivity_8p3VJB_attachment_QVNlRZ())}
+]
+
+# SendActivity_8p3VJB_attachment_QVNlRZ()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "width": "5",
+          "type": "Column",
+          "items": [
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Qué es estado oferta en elaboración?",
+                   "value": "¿Qué es estado oferta en elaboración?",
+                   "data": "¿Qué es estado oferta en elaboración?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Qué significa Presentada?",
+                   "value": "¿Qué significa Presentada?",
+                   "data": "¿Qué significa Presentada?"
+                 }
+               ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}```
+# TextInput_Prompt_ccBTF1()
+[Activity
+    Attachments = ${json(TextInput_Prompt_ccBTF1_attachment_X8wffp())}
+]
+
+# TextInput_Prompt_ccBTF1_attachment_X8wffp()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": "APRESENTAR OFERTA"
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informações gerais",
+                   "value": "Informacion general",
+                   "data": "Informacion general"
+                 }
+               ]
+        }
+    ]
+}
+```
+# SendActivity_iYH9oh()
+[Activity
+    Attachments = ${json(SendActivity_iYH9oh_attachment_5hp6iQ())}
+]
+
+# SendActivity_iYH9oh_attachment_5hp6iQ()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "width": "5",
+          "type": "Column",
+          "items": [
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "O que é o status de oferta em preparação?",
+                   "value": "O que é o status de oferta em preparação?",
+                   "data": "O que é o status de oferta em preparação?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "O que significa apresentada?",
+                   "value": "O que significa apresentada?",
+                   "data": "O que significa apresentada?"
+                 }
+               ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}```
+# SendActivity_IQwvjk()
+[Activity
+    Attachments = ${SendActivity_IQwvjk_attachment_3Hqq9B()}
+]
+
+# SendActivity_IQwvjk_attachment_3Hqq9B()
+[ThumbnailCard
+  title = Sub menu Ofertas
+  subtitle = NexoBot
+  text = Selecione a opção que melhor se adequa à sua pergunta
   image = https://statics.teams.cdn.office.net/evergreen-assets/apps/teams_dev_app_largeimage.png
 ]

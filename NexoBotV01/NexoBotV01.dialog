@@ -70,7 +70,7 @@
           },
           "knowledgeBaseId": "5072bdda-bab1-422a-a3ed-f9dffc7fceac",
           "hostname": "https://nexobot.azurewebsites.net/qnamaker",
-          "noAnswer": "Sorry, I did not find an answer.",
+          "noAnswer": "${QnAMakerDialog_NoAnswer_j5OI9t()}",
           "threshold": 0.3,
           "activeLearningCardTitle": "Did you mean:",
           "cardNoMatchText": "None of the above.",

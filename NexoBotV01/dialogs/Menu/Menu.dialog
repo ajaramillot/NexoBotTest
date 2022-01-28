@@ -213,6 +213,13 @@
                     "id": "UNlpop"
                   },
                   "property": "user.OptionMenu"
+                },
+                {
+                  "$kind": "Microsoft.RepeatDialog",
+                  "$designer": {
+                    "id": "2TSuDP"
+                  },
+                  "activityProcessed": true
                 }
               ]
             },
@@ -240,6 +247,13 @@
                     "id": "OqVliJ"
                   },
                   "property": "user.OptionMenu"
+                },
+                {
+                  "$kind": "Microsoft.RepeatDialog",
+                  "$designer": {
+                    "id": "vnUJEe"
+                  },
+                  "activityProcessed": true
                 }
               ]
             }

@@ -116,231 +116,85 @@
       "type": "ColumnSet",
       "columns": [
         {
+          "width": "400px",
           "type": "Column",
-          "width": "250px",
-          "items": [
-             {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Completar propiedades producto",
-                   "value": "Completar propiedades producto",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Completar propiedades producto",
-                      "value": "Completar propiedades producto"
-                      }
-                 }
-                 }
-               ]
-            },
-            {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Solicitudes de pricing",
-                   "value": "Solicitudes de pricing",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Solicitudes de pricing",
-                      "value": "Solicitudes de pricing"
-                      }
-                 }
-                 }
-               ]
-            },
-            {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Cargar documentos",
-                   "value": "Cargar documentos",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Cargar documentos",
-                      "value": "Cargar documentos"
-                      }
-                 }
-                 }
-               ]
-            },
-            {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Editar detalles de producto",
-                   "value": "Editar detalles de producto",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Editar detalles de producto",
-                      "value": "Editar detalles de producto"
-                      }
-                 }
-                 }
-               ]
-            },
-            {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Presentar oferta",
-                   "value": "Presentar oferta",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Presentar oferta",
-                      "value": "Presentar oferta"
-                      }
-                 }
-                 }
-               ]
-            },
-            {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Enviar documentos OS por docusign",
-                   "value": "Enviar documentos OS por docusign",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Enviar documentos OS por docusign",
-                      "value": "Enviar documentos OS por docusign"
-                      }
-                 }
-                 }
-               ]
-            },
-            {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Otros estados oferta",
-                   "value": "Otros estados oferta",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Otros estados oferta",
-                      "value": "Otros estados oferta"
-                      }
-                 }
-                 }
-               ]
-            },
-            {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Revisar oferta",
-                   "value": "Revisar oferta",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Revisar oferta",
-                      "value": "Revisar oferta"
-                      }
-                 }
-                 }
-               ]
-            },
-            {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Ganar oferta",
-                   "value": "Ganar oferta",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Ganar oferta",
-                      "value": "Ganar oferta"
-                      }
-                 }
-                 }
-               ]
-            },
-            {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Perder oferta",
-                   "value": "Perder oferta",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Perder oferta",
-                      "value": "Perder oferta"
-                      }
-                 }
-                 }
-               ]
-            },
-            {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Cancelar oferta",
-                   "value": "Cancelar oferta",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Cancelar oferta",
-                      "value": "Cancelar oferta"
-                      }
-                 }
-                 }
-               ]
-            },
-            {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Notificar orden de servicio",
-                   "value": "Notificar orden de servicio",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Notificar orden de servicio",
-                      "value": "Notificar orden de servicio"
-                      }
-                 }
-                 }
-               ]
-            }
-          ]
-        },
-        {
-          "type": "Column",
-          "height": "stretch",
-          "spacing": "Padding",
-          "width": "150px",
           "items": [
             {
-            "type": "Image",
-            "url": "https://github.com/ajaramillot/NexoBot/blob/main/Iconografia/nexobot-icono%20192x192.png?raw=true"
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Tipo de oportunidade",
+                   "value": "Oportunidad Tipo de oportunidad",
+                   "data": "Oportunidad Tipo de oportunidad"
+                 }
+               ]
             },
             {
-            "type": "TextBlock",
-            "weight": "bolder",
-            "size": "Medium",
-            "text": "Bienvenido, Soy nexobot \r\r\r Escoge la opcion que mas se acomode a tu duda",
-            "wrap": true
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Tipo de venda",
+                   "value": "Oportunidad Tipo de venta",
+                   "data": "Oportunidad Tipo de venta"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informações gerais",
+                   "value": "Oportunidad Informacion general",
+                   "data": "Oportunidad Informacion general"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "adicionar produtos",
+                   "value": "Oportunidad Agregar productos",
+                   "data": "Oportunidad agregar productos"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "criar viabilidade",
+                   "value": "Oportunidad Crear factibilidad",
+                   "data": "Oportunidad Crear factibilidad"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "criar oferta",
+                   "value": "Oportunidad Crear oferta",
+                   "data": "Oportunidad Crear oferta"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Criar oferta de serviço de demo",
+                   "value": "Crear oferta servicio demo",
+                   "data": "Crear oferta servicio demo"
+                 }
+               ]
             }
           ]
         }
@@ -388,7 +242,7 @@
                    "type": "Action.Submit",
                    "title": "Informacion general",
                    "value": "Informacion general Cliente",
-                   "data": "Informacion general Cliente"
+                   "data": "¿Botón de clonar productos?"
                  }
                ]
         }
@@ -413,13 +267,7 @@
                    "type": "Action.Submit",
                    "title": "Guia",
                    "value": "Guia",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Oportunidad agregar producto",
-                      "value": "Oportunidad agregar producto"
-                      }
-                 }
+                   "data": "PRODUTOS (ADICIONAR PRODUTOS)"
                  }
                ]
         },
@@ -428,9 +276,9 @@
                "actions": [
                  {
                    "type": "Action.Submit",
-                   "title": "Informacion general",
+                   "title": "Informações gerais",
                    "value": "Informacion general Cliente",
-                   "data": "Informacion general Cliente"
+                   "data": "Botão de clonar produtos?"
                  }
                ]
         }
@@ -456,48 +304,6 @@
                    "title": "Guia",
                    "value": "Guia",
                    "data": "Oportunidad Tipo de oportunidad"
-                 }
-               ]
-        },
-        {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Informacion general",
-                   "value": "Informacion general Oportunidad",
-                   "data": "Informacion general Oportunidad"
-                 }
-               ]
-        }
-    ]
-}
-```
-# SendActivity_spfiMj()
-[Activity
-    Attachments = ${json(SendActivity_spfiMj_attachment_iDkoaA())}
-]
-
-# SendActivity_spfiMj_attachment_iDkoaA()
-- ```
-{
-    "type": "AdaptiveCard",
-    "version": "1.0",
-    "body": [
-        {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Guia",
-                   "value": "Guia",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Oportunidad Tipo de oportunidad",
-                      "value": "Oportunidad Tipo de oportunidad"
-                      }
-                 }
                  }
                ]
         },
@@ -543,8 +349,8 @@
                  {
                    "type": "Action.Submit",
                    "title": "Informacion general",
-                   "value": "Informacion general Oportunidad",
-                   "data": "Informacion general Oportunidad"
+                   "value": "Informacion general",
+                   "data": "¿Cuáles son los tipos de venta que hay?"
                  }
                ]
         }
@@ -569,13 +375,7 @@
                    "type": "Action.Submit",
                    "title": "Guia",
                    "value": "Guia",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Oportunidad Tipo de venta",
-                      "value": "Oportunidad Tipo de venta"
-                      }
-                 }
+                   "data": "Tipo de venda"
                  }
                ]
         },
@@ -584,9 +384,9 @@
                "actions": [
                  {
                    "type": "Action.Submit",
-                   "title": "Informacion general",
-                   "value": "Informacion general Oportunidad",
-                   "data": "Informacion general Oportunidad"
+                   "title": "Informações gerais",
+                   "value": "Informacion general",
+                   "data": "Que tipos de vendas existem?"
                  }
                ]
         }
@@ -629,48 +429,6 @@
     ]
 }
 ```
-# SendActivity_yRgfTW()
-[Activity
-    Attachments = ${json(SendActivity_yRgfTW_attachment_edNoQZ())}
-]
-
-# SendActivity_yRgfTW_attachment_edNoQZ()
-- ```
-{
-    "type": "AdaptiveCard",
-    "version": "1.0",
-    "body": [
-        {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Guia",
-                   "value": "Guia",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Oportunidad informacion general",
-                      "value": "Oportunidad informacion general"
-                      }
-                 }
-                 }
-               ]
-        },
-        {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Informacion general",
-                   "value": "Informacion general Oportunidad",
-                   "data": "Informacion general Oportunidad"
-                 }
-               ]
-        }
-    ]
-}
-```
 # SendActivity_sKLg70()
 [Activity
     Attachments = ${json(SendActivity_sKLg70_attachment_8vgSpZ())}
@@ -690,17 +448,6 @@
                    "title": "Guia",
                    "value": "Guia",
                    "data": "Oportunidad Crear factibilidad"
-                 }
-               ]
-        },
-        {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Informacion general",
-                   "value": "Informacion general Oportunidad",
-                   "data": "Informacion general Oportunidad"
                  }
                ]
         }
@@ -725,24 +472,7 @@
                    "type": "Action.Submit",
                    "title": "Guia",
                    "value": "Guia",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Oportunidad Crear factibilidad",
-                      "value": "Oportunidad Crear factibilidad"
-                      }
-                 }
-                 }
-               ]
-        },
-        {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Informacion general",
-                   "value": "Informacion general Oportunidad",
-                   "data": "Informacion general Oportunidad"
+                   "data": "CRIAR VIABILIDADE"
                  }
                ]
         }
@@ -770,17 +500,6 @@
                    "data": "Oportunidad Crear oferta"
                  }
                ]
-        },
-        {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Informacion general",
-                   "value": "Informacion general Oportunidad",
-                   "data": "Informacion general Oportunidad"
-                 }
-               ]
         }
     ]
 }
@@ -803,24 +522,7 @@
                    "type": "Action.Submit",
                    "title": "Guia",
                    "value": "Guia",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Oportunidad Crear oferta",
-                      "value": "Oportunidad Crear oferta"
-                      }
-                 }
-                 }
-               ]
-        },
-        {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Informacion general",
-                   "value": "Informacion general Oportunidad",
-                   "data": "Informacion general Oportunidad"
+                   "data": "Criação de Ofertas"
                  }
                ]
         }
@@ -839,3 +541,519 @@
   text = Selecciona la opcion que mas se acomode a tu duda
   image = https://statics.teams.cdn.office.net/evergreen-assets/apps/teams_dev_app_largeimage.png
 ]
+
+# TextInput_Prompt_GpjFnw()
+[Activity
+    Attachments = ${json(TextInput_Prompt_GpjFnw_attachment_inxL1T())}
+]
+
+# TextInput_Prompt_GpjFnw_attachment_inxL1T()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": "Oportunidad informacion general"
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacion general",
+                   "value": "Informacion general",
+                   "data": "Informacion general"
+                 }
+               ]
+        }
+    ]
+}
+```
+# TextInput_Prompt_Pqfuoe()
+[Activity
+    Attachments = ${json(TextInput_Prompt_Pqfuoe_attachment_fr6Wqr())}
+]
+
+# TextInput_Prompt_Pqfuoe_attachment_fr6Wqr()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": "OPORTUNIDADE informações gerais"
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informações gerais",
+                   "value": "Informacion general",
+                   "data": "Informacion general"
+                 }
+               ]
+        }
+    ]
+}
+```
+# SendActivity_CNPv7A()
+[Activity
+    Attachments = ${json(SendActivity_CNPv7A_attachment_CsyKsS())}
+]
+
+# SendActivity_CNPv7A_attachment_CsyKsS()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "width": "5",
+          "type": "Column",
+          "items": [
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Como creo un DEMO?",
+                   "value": "Como creo un DEMO?",
+                   "data": "Como creo un DEMO?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Control de vencimiento de oportunidades?",
+                   "value": "¿Control de vencimiento de oportunidades?",
+                   "data": "¿Control de vencimiento de oportunidades?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "como crear una oportunidad",
+                   "value": "como crear una oportunidad",
+                   "data": "como crear una oportunidad"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Qué son campañas?\n ",
+                   "value": "Qué son campañas?\n ",
+                   "data": "Qué son campañas?\n "
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Qué es Estado del proceso de ventas?",
+                   "value": "¿Qué es Estado del proceso de ventas?",
+                   "data": "¿Qué es Estado del proceso de ventas?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Qué es Detectada?",
+                   "value": "¿Qué es Detectada?",
+                   "data": "¿Qué es Detectada?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Qué es Indicadores de competitividad?",
+                   "value": "¿Qué es Indicadores de competitividad?",
+                   "data": "¿Qué es Indicadores de competitividad?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Qué Campos son diligenciables en la oportunidad?",
+                   "value": "¿Qué Campos son diligenciables en la oportunidad?",
+                   "data": "¿Qué Campos son diligenciables en la oportunidad?"
+                 }
+               ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}```
+# SendActivity_bDMvyk()
+[Activity
+    Attachments = ${json(SendActivity_bDMvyk_attachment_H5Opy3())}
+]
+
+# SendActivity_bDMvyk_attachment_H5Opy3()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "width": "5",
+          "type": "Column",
+          "items": [
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "O que é Status do Processo de Vendas?",
+                   "value": "O que é Status do Processo de Vendas?",
+                   "data": "O que é Status do Processo de Vendas?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "O que é Detectada?",
+                   "value": "O que é Detectada?",
+                   "data": "O que é Detectada?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "O que são Indicadores de Competitividade?",
+                   "value": "O que são Indicadores de Competitividade?",
+                   "data": "O que são Indicadores de Competitividade?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "O que é uma Oportunidade?",
+                   "value": "O que é uma Oportunidade?",
+                   "data": "O que é uma Oportunidade?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Quais campos são preenchíveis na oportunidade?",
+                   "value": "Quais campos são preenchíveis na oportunidade?",
+                   "data": "Quais campos são preenchíveis na oportunidade?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "O que é Campanha de Origem?",
+                   "value": "O que é Campanha de Origem?",
+                   "data": "O que é Campanha de Origem?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia de serviço DEMO?",
+                   "value": "Guia de serviço DEMO?",
+                   "data": "Guia de serviço DEMO?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Controle de vencimento de oportunidade?",
+                   "value": "Controle de vencimento de oportunidade?",
+                   "data": "Controle de vencimento de oportunidade?"
+                 }
+               ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}```
+# TextInput_Prompt_PsE8sd()
+[Activity
+    Attachments = ${json(TextInput_Prompt_PsE8sd_attachment_rUo7o7())}
+]
+
+# TextInput_Prompt_PsE8sd_attachment_rUo7o7()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": "Tipos de oportunidad"
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacion general",
+                   "value": "Informacion general",
+                   "data": "Informacion general"
+                 }
+               ]
+        }
+    ]
+}
+```
+# TextInput_Prompt_D10wYT()
+[Activity
+    Attachments = ${json(TextInput_Prompt_D10wYT_attachment_MRrcaK())}
+]
+
+# TextInput_Prompt_D10wYT_attachment_MRrcaK()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": "TIPO DE OPORTUNIDADE "
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informações gerais",
+                   "value": "Informacion",
+                   "data": "Informacion general"
+                 }
+               ]
+        }
+    ]
+}
+```
+# SendActivity_FDQMvQ()
+[Activity
+    Attachments = ${json(SendActivity_FDQMvQ_attachment_fSuR9s())}
+]
+
+# SendActivity_FDQMvQ_attachment_fSuR9s()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "width": "5",
+          "type": "Column",
+          "items": [
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Cuáles son los tipos de oportunidad?",
+                   "value": "¿Cuáles son los tipos de oportunidad?",
+                   "data": "¿Cuáles son los tipos de oportunidad?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Qué significa Oportunidad Express?",
+                   "value": "¿Qué significa Oportunidad Express?",
+                   "data": "¿Qué significa Oportunidad Express?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Qué es una Oportunidad Solución?",
+                   "value": "¿Qué es una Oportunidad Solución?",
+                   "data": "¿Qué es una Oportunidad Solución?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Para contratar un servicio DEMO es necesario volver a solicitar factibilidad?",
+                   "value": "¿Para contratar un servicio DEMO es necesario volver a solicitar factibilidad?",
+                   "data": "¿Para contratar un servicio DEMO es necesario volver a solicitar factibilidad?"
+                 }
+               ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}```
+# SendActivity_qUE5Iz()
+[Activity
+    Attachments = ${json(SendActivity_qUE5Iz_attachment_dfNPdi())}
+]
+
+# SendActivity_qUE5Iz_attachment_dfNPdi()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "width": "5",
+          "type": "Column",
+          "items": [
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Quais são os tipos de oportunidade?",
+                   "value": "Quais são os tipos de oportunidade?",
+                   "data": "Quais são os tipos de oportunidade?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "O que é uma oportunidade expressa?",
+                   "value": "O que é uma oportunidade expressa?",
+                   "data": "O que é uma oportunidade expressa?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "O que é uma oportunidade de solução?",
+                   "value": "O que é uma oportunidade de solução?",
+                   "data": "O que é uma oportunidade de solução?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Para contratar um serviço DEMO, é necessário solicitar novamente a viabilidade?",
+                   "value": "Para contratar um serviço DEMO, é necessário solicitar novamente a viabilidade?",
+                   "data": "Para contratar um serviço DEMO, é necessário solicitar novamente a viabilidade?"
+                 }
+               ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}```
