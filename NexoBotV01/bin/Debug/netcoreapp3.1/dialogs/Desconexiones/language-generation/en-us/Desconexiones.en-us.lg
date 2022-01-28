@@ -84,23 +84,17 @@
       "type": "ColumnSet",
       "columns": [
         {
+          "width": "400px",
           "type": "Column",
-          "width": "250px",
           "items": [
              {
               "type": "ActionSet",
                "actions": [
                  {
                    "type": "Action.Submit",
-                   "title": "Solicitudes de desconexion",
+                   "title": "Solicitações de desconexão",
                    "value": "Solicitudes de desconexion",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Solicitudes de desconexion",
-                      "value": "Solicitudes de desconexion"
-                      }
-                 }
+                   "data": "Solicitudes de desconexion"
                  }
                ]
             },
@@ -109,15 +103,9 @@
                "actions": [
                  {
                    "type": "Action.Submit",
-                   "title": "Reprogramar desconexion",
+                   "title": "reprogramar a desconexão",
                    "value": "Reprogramar desconexion",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Reprogramar desconexion",
-                      "value": "Reprogramar desconexion"
-                      }
-                 }
+                   "data": "Reprogramar desconexion"
                  }
                ]
             },
@@ -126,15 +114,9 @@
                "actions": [
                  {
                    "type": "Action.Submit",
-                   "title": "Confirmar desconexion",
+                   "title": "Confirmar desconexão",
                    "value": "Confirmar desconexion",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Confirmar desconexion",
-                      "value": "Confirmar desconexion"
-                      }
-                 }
+                   "data": "Confirmar desconexion"
                  }
                ]
             },
@@ -143,36 +125,11 @@
                "actions": [
                  {
                    "type": "Action.Submit",
-                   "title": "Cancelar desconexion",
+                   "title": "cancelar a desconexão",
                    "value": "Cancelar desconexion",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Cancelar desconexion",
-                      "value": "Cancelar desconexion"
-                      }
-                 }
+                   "data": "Cancelar desconexion"
                  }
                ]
-            }
-          ]
-        },
-        {
-          "type": "Column",
-          "height": "stretch",
-          "width": "150px",
-          "spacing": "Padding",
-          "items": [
-            {
-            "type": "Image",
-            "url": "https://github.com/ajaramillot/NexoBot/blob/main/Iconografia/nexobot-icono%20192x192.png?raw=true"
-            },
-            {
-            "type": "TextBlock",
-            "weight": "bolder",
-            "size": "Medium",
-            "text": "Bienvenido, Soy nexobot \r\r\r Escoge la opcion que mas se acomode a tu duda",
-            "wrap": true
             }
           ]
         }
@@ -189,84 +146,6 @@
 
 # TextInput_Prompt_rvVSvR()
 - ${json(AdaptiveCard_MenuDesconexiones())}
-# SendActivity_ZYDs3F()
-[Activity
-    Attachments = ${json(SendActivity_ZYDs3F_attachment_gIODIV())}
-]
-
-# SendActivity_ZYDs3F_attachment_gIODIV()
-- ```
-{
-    "type": "AdaptiveCard",
-    "version": "1.0",
-    "body": [
-        {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Guia",
-                   "value": "Guia",
-                   "data": "Solicitud de desconexion"
-                 }
-               ]
-        },
-        {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Informacion general",
-                   "value": "Informacion general Cliente",
-                   "data": "Informacion general Cliente"
-                 }
-               ]
-        }
-    ]
-}
-```
-# SendActivity_6WqRaK()
-[Activity
-    Attachments = ${json(SendActivity_6WqRaK_attachment_3ZPMLZ())}
-]
-
-# SendActivity_6WqRaK_attachment_3ZPMLZ()
-- ```
-{
-    "type": "AdaptiveCard",
-    "version": "1.0",
-    "body": [
-        {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Guia",
-                   "value": "Guia",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Solicitud de desconexion",
-                      "value": "Solicitud de desconexion"
-                      }
-                 }
-                 }
-               ]
-        },
-        {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Informacion general",
-                   "value": "Informacion general Cliente",
-                   "data": "Informacion general Cliente"
-                 }
-               ]
-        }
-    ]
-}
-```
 # SendActivity_y8Amm7()
 [Activity
     Attachments = ${json(SendActivity_y8Amm7_attachment_FwBK4V())}
@@ -295,8 +174,8 @@
                  {
                    "type": "Action.Submit",
                    "title": "Informacion general",
-                   "value": "Informacion general Cliente",
-                   "data": "Informacion general Cliente"
+                   "value": "Informacion general",
+                   "data": "¿Cómo reprogramar una desconexión?"
                  }
                ]
         }
@@ -321,13 +200,7 @@
                    "type": "Action.Submit",
                    "title": "Guia",
                    "value": "Guia",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Reprogramar una desconexion",
-                      "value": "Reprogramar una desconexion"
-                      }
-                 }
+                   "data": "reprogramar uma desconexão?"
                  }
                ]
         },
@@ -336,9 +209,9 @@
                "actions": [
                  {
                    "type": "Action.Submit",
-                   "title": "Informacion general",
-                   "value": "Informacion general Cliente",
-                   "data": "Informacion general Cliente"
+                   "title": "Informações gerais",
+                   "value": "Informacion general",
+                   "data": "Como reprogramar uma desconexão?"
                  }
                ]
         }
@@ -366,17 +239,6 @@
                    "data": "Confirmar desconexion"
                  }
                ]
-        },
-        {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Informacion general",
-                   "value": "Informacion general Cliente",
-                   "data": "Informacion general Cliente"
-                 }
-               ]
         }
     ]
 }
@@ -399,24 +261,7 @@
                    "type": "Action.Submit",
                    "title": "Guia",
                    "value": "Guia",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Confirmar desconexion",
-                      "value": "Confirmar desconexion"
-                      }
-                 }
-                 }
-               ]
-        },
-        {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Informacion general",
-                   "value": "Informacion general Cliente",
-                   "data": "Informacion general Cliente"
+                   "data": "CONFIRMAR DESCONEXÃO"
                  }
                ]
         }
@@ -451,8 +296,8 @@
                  {
                    "type": "Action.Submit",
                    "title": "Informacion general",
-                   "value": "Informacion general Cliente",
-                   "data": "Informacion general Cliente"
+                   "value": "Informacion general",
+                   "data": "Como cancelar una desconexión"
                  }
                ]
         }
@@ -477,13 +322,7 @@
                    "type": "Action.Submit",
                    "title": "Guia",
                    "value": "Guia",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Cancelar desconexion",
-                      "value": "Cancelar desconexion"
-                      }
-                 }
+                   "data": "Cancelar a desconexão"
                  }
                ]
         },
@@ -493,8 +332,8 @@
                  {
                    "type": "Action.Submit",
                    "title": "Informacion general",
-                   "value": "Informacion general Cliente",
-                   "data": "Informacion general Cliente"
+                   "value": "Informacion general",
+                   "data": "Como cancelar uma desconexão"
                  }
                ]
         }
@@ -517,3 +356,311 @@
   text = Selecciona la opcion que mas se acomode a tu duda
   image = https://statics.teams.cdn.office.net/evergreen-assets/apps/teams_dev_app_largeimage.png
 ]
+# TextInput_Prompt_Alffgj()
+[Activity
+    Attachments = ${json(TextInput_Prompt_Alffgj_attachment_paJPJZ())}
+]
+
+# TextInput_Prompt_Alffgj_attachment_paJPJZ()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": "Solicitud de desconexion"
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacion general",
+                   "value": "Informacion general",
+                   "data": "Informacion general"
+                 }
+               ]
+        }
+    ]
+}
+```
+# TextInput_Prompt_CATTEP()
+[Activity
+    Attachments = ${json(TextInput_Prompt_CATTEP_attachment_U4bMLq())}
+]
+
+# TextInput_Prompt_CATTEP_attachment_U4bMLq()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": "solicitação de desconexão"
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informações gerais",
+                   "value": "Informacion general",
+                   "data": "Informacion general"
+                 }
+               ]
+        }
+    ]
+}
+```
+# SendActivity_SCuOJq()
+[Activity
+    Attachments = ${json(SendActivity_SCuOJq_attachment_eyPxeE())}
+]
+
+# SendActivity_SCuOJq_attachment_eyPxeE()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "width": "5",
+          "type": "Column",
+          "items": [
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Desconexión?",
+                   "value": "¿Desconexión?",
+                   "data": "¿Desconexión?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Desconexión manual de servicios DEMO?",
+                   "value": "¿Desconexión manual de servicios DEMO?",
+                   "data": "¿Desconexión manual de servicios DEMO?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Desconexión automática de servicios DEMO?",
+                   "value": "¿Desconexión automática de servicios DEMO?",
+                   "data": "¿Desconexión automática de servicios DEMO?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "adicionar servicios en solicitudes de desconexion",
+                   "value": "adicionar servicios en solicitudes de desconexion",
+                   "data": "adicionar servicios en solicitudes de desconexion"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Confirmar solicitud de servicenow?",
+                   "value": "¿Confirmar solicitud de servicenow?",
+                   "data": "¿Confirmar solicitud de servicenow?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Crear solicitud de desconexión\n",
+                   "value": "Crear solicitud de desconexión\n",
+                   "data": "Crear solicitud de desconexión\n"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "notificar desconexión\n",
+                   "value": "notificar desconexión\n",
+                   "data": "notificar desconexión\n"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Editar el detalle de una desconexión",
+                   "value": "Editar el detalle de una desconexión",
+                   "data": "Editar el detalle de una desconexión"
+                 }
+               ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}```
+# SendActivity_Ki1CmG()
+[Activity
+    Attachments = ${json(SendActivity_Ki1CmG_attachment_Ns4J8P())}
+]
+
+# SendActivity_Ki1CmG_attachment_Ns4J8P()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "width": "5",
+          "type": "Column",
+          "items": [
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Desconexão?",
+                   "value": "Desconexão?",
+                   "data": "Desconexão?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Desconexão manual dos serviços DEMO?",
+                   "value": "Desconexão manual dos serviços DEMO?",
+                   "data": "Desconexão manual dos serviços DEMO?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Desconexão automática dos serviços DEMO?",
+                   "value": "Desconexão automática dos serviços DEMO?",
+                   "data": "Desconexão automática dos serviços DEMO?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "solicitações de desconexão\n",
+                   "value": "solicitações de desconexão\n",
+                   "data": "solicitações de desconexão\n"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Confirmar solicitação de Service Now?",
+                   "value": "Confirmar solicitação de Service Now?",
+                   "data": "Confirmar solicitação de Service Now?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "solicitação de desconexão\n",
+                   "value": "solicitação de desconexão\n",
+                   "data": "solicitação de desconexão\n"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "notificar desconexão\n",
+                   "value": "notificar desconexão\n",
+                   "data": "notificar desconexão\n"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Editar o detalhe de uma desconexão",
+                   "value": "Editar o detalhe de uma desconexão",
+                   "data": "Editar o detalhe de uma desconexão"
+                 }
+               ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}```

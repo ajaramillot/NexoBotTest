@@ -128,22 +128,15 @@
       "columns": [
         {
           "type": "Column",
-          "width": "270px",
           "items": [
             {
               "type": "ActionSet",
                "actions": [
                  {
                    "type": "Action.Submit",
-                   "title": "Solicitar factibilidad",
+                   "title": "Solicitar Factibilidade",
                    "value": "Solicitar factibilidad",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Solicitar factibilidad",
-                      "value": "Solicitar factibilidad"
-                      }
-                 }
+                   "data": "Solicitar factibilidad"
                  }
                ]
             },
@@ -154,13 +147,7 @@
                    "type": "Action.Submit",
                    "title": "Productos de la factibilidad",
                    "value": "Productos de la factibilidad",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Productos de la factibilidad",
-                      "value": "Productos de la factibilidad"
-                      }
-                 }
+                   "data": "Productos de la factibilidad"
                  }
                ]
             },
@@ -169,15 +156,9 @@
                "actions": [
                  {
                    "type": "Action.Submit",
-                   "title": "Productos de la evaluacion",
+                   "title": "Produtos da Factibilidade",
                    "value": "Productos de la evaluacion",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Productos de la evaluacion",
-                      "value": "Productos de la evaluacion"
-                      }
-                 }
+                   "data": "Productos de la evaluacion"
                  }
                ]
             },
@@ -186,15 +167,9 @@
                "actions": [
                  {
                    "type": "Action.Submit",
-                   "title": "Agregar o eliminar productos",
+                   "title": "Agregar e Eliminar Produtos",
                    "value": "Agregar o eliminar productos",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Agregar o eliminar productos",
-                      "value": "Agregar o eliminar productos"
-                      }
-                 }
+                   "data": "Agregar o eliminar productos"
                  }
                ]
             },
@@ -203,15 +178,9 @@
                "actions": [
                  {
                    "type": "Action.Submit",
-                   "title": "Oportunidad y oferta relacionada",
+                   "title": "Oportunidade e Oferta Relacionada",
                    "value": "Oportunidad y oferta relacionada",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Oportunidad y oferta relacionada",
-                      "value": "Oportunidad y oferta relacionada"
-                      }
-                 }
+                   "data": "Oportunidad y oferta relacionada"
                  }
                ]
             },
@@ -220,15 +189,9 @@
                "actions": [
                  {
                    "type": "Action.Submit",
-                   "title": "Crear factibilidades a otras áreas",
+                   "title": "Criar Factibilidade a Outras Áreas",
                    "value": "Crear factibilidad a otras areas",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Crear factibilidad a otras areas",
-                      "value": "Crear factibilidad a otras areas"
-                      }
-                 }
+                   "data": "Crear factibilidad a otras areas"
                  }
                ]
             },
@@ -237,15 +200,9 @@
                "actions": [
                  {
                    "type": "Action.Submit",
-                   "title": "Cambiar tipo de oportunidad \r desde la factibilidad",
+                   "title": "Alterar Tipo de Oportunidade Desde a Factibilidade",
                    "value": "Cambiar tipo de oportunidad desde la factibilidad",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Cambiar tipo de oportunidad desde la factibilidad",
-                      "value": "Cambiar tipo de oportunidad desde la factibilidad"
-                      }
-                 }
+                   "data": "Cambiar tipo de oportunidad desde la factibilidad"
                  }
                ]
             },
@@ -254,36 +211,11 @@
                "actions": [
                  {
                    "type": "Action.Submit",
-                   "title": "Crear solicitud pricing",
+                   "title": "Criar Solicitação de Preço",
                    "value": "Crear solicitud pricing",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Crear solicitud pricing",
-                      "value": "Crear solicitud pricing"
-                      }
-                 }
+                   "data": "Crear solicitud pricing"
                  }
                ]
-            }
-          ]
-        },
-        {
-          "type": "Column",
-          "width": "135px",
-          "height": "stretch",
-          "spacing": "Padding",
-          "items": [
-            {
-            "type": "Image",
-            "url": "https://github.com/ajaramillot/NexoBot/blob/main/Iconografia/nexobot-icono%20192x192.png?raw=true"
-            },
-            {
-            "type": "TextBlock",
-            "weight": "bolder",
-            "size": "Medium",
-            "text": "Bienvenido, Soy nexobot \r\r\r Escoge la opcion que mas se acomode a tu duda",
-            "wrap": true
             }
           ]
         }
@@ -302,84 +234,6 @@
 - ${json(AdaptiveCard_MenuFactibilidad())}
 # TextInput_Prompt_XG6qdg()
 - ${json(AdaptiveCard_MenuFactibilidadTeams())}
-# SendActivity_AMK84K()
-[Activity
-    Attachments = ${json(SendActivity_AMK84K_attachment_ZOedOm())}
-]
-
-# SendActivity_AMK84K_attachment_ZOedOm()
-- ```
-{
-    "type": "AdaptiveCard",
-    "version": "1.0",
-    "body": [
-        {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Guia",
-                   "value": "Guia",
-                   "data": "Productos de la factibilidad"
-                 }
-               ]
-        },
-        {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Informacion general",
-                   "value": "Informacion general Cliente",
-                   "data": "Informacion general Cliente"
-                 }
-               ]
-        }
-    ]
-}
-```
-# SendActivity_5cwpbc()
-[Activity
-    Attachments = ${json(SendActivity_5cwpbc_attachment_crd7Li())}
-]
-
-# SendActivity_5cwpbc_attachment_crd7Li()
-- ```
-{
-    "type": "AdaptiveCard",
-    "version": "1.0",
-    "body": [
-        {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Guia",
-                   "value": "Guia",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Productos de la factibilidad",
-                      "value": "Productos de la factibilidad"
-                      }
-                 }
-                 }
-               ]
-        },
-        {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Informacion general",
-                   "value": "Informacion general Cliente",
-                   "data": "Informacion general Cliente"
-                 }
-               ]
-        }
-    ]
-}
-```
 # SendActivity_qXHnBt()
 [Activity
     Attachments = ${json(SendActivity_qXHnBt_attachment_Ly1u73())}
@@ -408,8 +262,8 @@
                  {
                    "type": "Action.Submit",
                    "title": "Informacion general",
-                   "value": "Informacion general Cliente",
-                   "data": "Informacion general Cliente"
+                   "value": "¿Qué son los Productos de la evaluación?",
+                   "data": "¿Qué son los Productos de la evaluación?"
                  }
                ]
         }
@@ -434,13 +288,7 @@
                    "type": "Action.Submit",
                    "title": "Guia",
                    "value": "Guia",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Productos de la evaluacion",
-                      "value": "Productos de la evaluacion"
-                      }
-                 }
+                   "data": "PRODUTOS DE AVALIAÇÃO DE VIABILIDADE"
                  }
                ]
         },
@@ -449,9 +297,9 @@
                "actions": [
                  {
                    "type": "Action.Submit",
-                   "title": "Informacion general",
-                   "value": "Informacion general Cliente",
-                   "data": "Informacion general Cliente"
+                   "title": "Informações gerais",
+                   "value": "O que são Produtos de Avaliação?",
+                   "data": "O que são Produtos de Avaliação?"
                  }
                ]
         }
@@ -479,17 +327,6 @@
                    "data": "Factibilidad agregar o eliminar productos"
                  }
                ]
-        },
-        {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Informacion general",
-                   "value": "Informacion general Cliente",
-                   "data": "Informacion general Cliente"
-                 }
-               ]
         }
     ]
 }
@@ -512,24 +349,7 @@
                    "type": "Action.Submit",
                    "title": "Guia",
                    "value": "Guia",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Factibilidad agregar o eliminar productos",
-                      "value": "Factibilidad agregar o eliminar productos"
-                      }
-                 }
-                 }
-               ]
-        },
-        {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Informacion general",
-                   "value": "Informacion general Cliente",
-                   "data": "Informacion general Cliente"
+                   "data": "ADIÇÃO OU REMOÇÃO DE PRODUTOS"
                  }
                ]
         }
@@ -564,8 +384,8 @@
                  {
                    "type": "Action.Submit",
                    "title": "Informacion general",
-                   "value": "Informacion general Cliente",
-                   "data": "Informacion general Cliente"
+                   "value": "¿Qué es factibilidad?",
+                   "data": "¿Qué es factibilidad?"
                  }
                ]
         }
@@ -590,13 +410,7 @@
                    "type": "Action.Submit",
                    "title": "Guia",
                    "value": "Guia",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Oportunidad y oferta relacionada",
-                      "value": "Oportunidad y oferta relacionada"
-                      }
-                 }
+                   "data": "OPORTUNIDADE E OFERTA RELACIONADA"
                  }
                ]
         },
@@ -605,9 +419,9 @@
                "actions": [
                  {
                    "type": "Action.Submit",
-                   "title": "Informacion general",
-                   "value": "Informacion general Cliente",
-                   "data": "Informacion general Cliente"
+                   "title": "Informações gerais",
+                   "value": "O que é viabilidade?",
+                   "data": "O que é viabilidade?"
                  }
                ]
         }
@@ -642,8 +456,8 @@
                  {
                    "type": "Action.Submit",
                    "title": "Informacion general",
-                   "value": "Informacion general Cliente",
-                   "data": "Informacion general Cliente"
+                   "value": "¿Qué significa Factibilidades relacionadas a otras áreas?",
+                   "data": "¿Qué significa Factibilidades relacionadas a otras áreas?"
                  }
                ]
         }
@@ -668,13 +482,7 @@
                    "type": "Action.Submit",
                    "title": "Guia",
                    "value": "Guia",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Crear factibilidad a otras areas",
-                      "value": "Crear factibilidad a otras areas"
-                      }
-                 }
+                   "data": "CRIAÇÃO DE VIABILIDADE PARA OUTRAS ÁREAS"
                  }
                ]
         },
@@ -684,8 +492,8 @@
                  {
                    "type": "Action.Submit",
                    "title": "Informacion general",
-                   "value": "Informacion general Cliente",
-                   "data": "Informacion general Cliente"
+                   "value": "Informacion general",
+                   "data": "Oque são Viabilidades relacionadas a outras áreas?"
                  }
                ]
         }
@@ -713,17 +521,6 @@
                    "data": "Cambiar tipo de oportunidad desde la factibilidad"
                  }
                ]
-        },
-        {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Informacion general",
-                   "value": "Informacion general Cliente",
-                   "data": "Informacion general Cliente"
-                 }
-               ]
         }
     ]
 }
@@ -745,103 +542,8 @@
                  {
                    "type": "Action.Submit",
                    "title": "Guia",
-                   "value": "Guia","
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Cambiar tipo de oportunidad desde la factibilidad",
-                      "value": "Cambiar tipo de oportunidad desde la factibilidad"
-                      }
-                 }
-                 }
-               ]
-        },
-        {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Informacion general",
-                   "value": "Informacion general Cliente",
-                   "data": "Informacion general Cliente"
-                 }
-               ]
-        }
-    ]
-}
-```
-# SendActivity_XAwgBK()
-[Activity
-    Attachments = ${json(SendActivity_XAwgBK_attachment_ODqSlj())}
-]
-
-# SendActivity_XAwgBK_attachment_ODqSlj()
-- ```
-{
-    "type": "AdaptiveCard",
-    "version": "1.0",
-    "body": [
-        {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Guia",
                    "value": "Guia",
-                   "data": "Solicitud de pricing"
-                 }
-               ]
-        },
-        {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Informacion general",
-                   "value": "Informacion general Cliente",
-                   "data": "Informacion general Cliente"
-                 }
-               ]
-        }
-    ]
-}
-```
-# SendActivity_C9O2St()
-[Activity
-    Attachments = ${json(SendActivity_C9O2St_attachment_gq2jbH())}
-]
-
-# SendActivity_C9O2St_attachment_gq2jbH()
-- ```
-{
-    "type": "AdaptiveCard",
-    "version": "1.0",
-    "body": [
-        {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Guia",
-                   "value": "Guia",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Solicitud de pricing",
-                      "value": "Solicitud de pricing"
-                      }
-                 }
-                 }
-               ]
-        },
-        {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Informacion general",
-                   "value": "Informacion general Cliente",
-                   "data": "Informacion general Cliente"
+                   "data": "ALTERAR TIPO DE OPORTUNIDADE DE VIABILIDADE"
                  }
                ]
         }
@@ -869,17 +571,6 @@
                    "data": "Factibilidad solicitar factibilidad"
                  }
                ]
-        },
-        {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Informacion general",
-                   "value": "Informacion general Cliente",
-                   "data": "Informacion general Cliente"
-                 }
-               ]
         }
     ]
 }
@@ -902,24 +593,7 @@
                    "type": "Action.Submit",
                    "title": "Guia",
                    "value": "Guia",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Factibilidad solicitar factibilidad",
-                      "value": "Factibilidad solicitar factibilidad"
-                      }
-                 }
-                 }
-               ]
-        },
-        {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Informacion general",
-                   "value": "Informacion general Cliente",
-                   "data": "Informacion general Cliente"
+                   "data": "SOLICITAÇÃO DE VIABILIDADE"
                  }
                ]
         }
@@ -938,3 +612,406 @@
   text = Selecciona la opcion que mas se acomode a tu duda
   image = https://statics.teams.cdn.office.net/evergreen-assets/apps/teams_dev_app_largeimage.png
 ]
+
+# TextInput_Prompt_ecoqyN()
+[Activity
+    Attachments = ${json(TextInput_Prompt_ecoqyN_attachment_rqWUBQ())}
+]
+
+# TextInput_Prompt_ecoqyN_attachment_rqWUBQ()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": "Solicitud de pricing"
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacion general",
+                   "value": "Informacion general",
+                   "data": "Informacion general"
+                 }
+               ]
+        }
+    ]
+}
+```
+# TextInput_Prompt_SzmdqU()
+[Activity
+    Attachments = ${json(TextInput_Prompt_SzmdqU_attachment_nwUy4Z())}
+]
+
+# TextInput_Prompt_SzmdqU_attachment_nwUy4Z()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": "Solicitar avaliação de preços"
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informações gerais",
+                   "value": "Informacion general",
+                   "data": "Informacion general"
+                 }
+               ]
+        }
+    ]
+}
+```
+# SendActivity_AvuQ2M()
+[Activity
+    Attachments = ${json(SendActivity_AvuQ2M_attachment_B1UONx())}
+]
+
+# SendActivity_AvuQ2M_attachment_B1UONx()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "width": "5",
+          "type": "Column",
+          "items": [
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Como rechazar una factibilidad con solicitud de pricing?",
+                   "value": "¿Como rechazar una factibilidad con solicitud de pricing?",
+                   "data": "¿Como rechazar una factibilidad con solicitud de pricing?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Responder la evaluación de pricing\n",
+                   "value": "Responder la evaluación de pricing\n",
+                   "data": "Responder la evaluación de pricing\n"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Consultar notificaciones de evaluación de pricing\n",
+                   "value": "Consultar notificaciones de evaluación de pricing\n",
+                   "data": "Consultar notificaciones de evaluación de pricing\n"
+                 }
+               ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}```
+# SendActivity_ilOrJQ()
+[Activity
+    Attachments = ${json(SendActivity_ilOrJQ_attachment_NwIto5())}
+]
+
+# SendActivity_ilOrJQ_attachment_NwIto5()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "width": "5",
+          "type": "Column",
+          "items": [
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Como rejeitar uma viabilidade com uma solicitação de preço?",
+                   "value": "Como rejeitar uma viabilidade com uma solicitação de preço?",
+                   "data": "Como rejeitar uma viabilidade com uma solicitação de preço?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Dar resposta à avaliação de preços\n",
+                   "value": "Dar resposta à avaliação de preços\n",
+                   "data": "Dar resposta à avaliação de preços\n"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Verifique as notificações de avaliação de preços\n",
+                   "value": "Verifique as notificações de avaliação de preços\n",
+                   "data": "Verifique as notificações de avaliação de preços\n"
+                 }
+               ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}```
+# TextInput_Prompt_s5RYj7()
+[Activity
+    Attachments = ${json(TextInput_Prompt_s5RYj7_attachment_SBFzgl())}
+]
+
+# TextInput_Prompt_s5RYj7_attachment_SBFzgl()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": "Productos de la factibilidad"
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacion general",
+                   "value": "Informacion general",
+                   "data": "Informacion general"
+                 }
+               ]
+        }
+    ]
+}
+```
+# TextInput_Prompt_fFrigw()
+[Activity
+    Attachments = ${json(TextInput_Prompt_fFrigw_attachment_MGyGvj())}
+]
+
+# TextInput_Prompt_fFrigw_attachment_MGyGvj()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": "PRODUTOS DE VIABILIDADE"
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informações gerais",
+                   "value": "Informacion general",
+                   "data": "Informacion general"
+                 }
+               ]
+        }
+    ]
+}
+```
+# SendActivity_y1wdhE()
+[Activity
+    Attachments = ${json(SendActivity_y1wdhE_attachment_IpHLBZ())}
+]
+
+# SendActivity_y1wdhE_attachment_IpHLBZ()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "width": "5",
+          "type": "Column",
+          "items": [
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Qué son los productos de la factibilidad?",
+                   "value": "¿Qué son los productos de la factibilidad?",
+                   "data": "¿Qué son los productos de la factibilidad?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Qué es Fecha de respuesta?",
+                   "value": "¿Qué es Fecha de respuesta?",
+                   "data": "¿Qué es Fecha de respuesta?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Qué es Fecha de aplazamiento?",
+                   "value": "¿Qué es Fecha de aplazamiento?",
+                   "data": "¿Qué es Fecha de aplazamiento?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Qué significa Días de aplazamiento?",
+                   "value": "¿Qué significa Días de aplazamiento?",
+                   "data": "¿Qué significa Días de aplazamiento?"
+                 }
+               ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}```
+# SendActivity_K9mC84()
+[Activity
+    Attachments = ${json(SendActivity_K9mC84_attachment_Ya4MGp())}
+]
+
+# SendActivity_K9mC84_attachment_Ya4MGp()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "width": "5",
+          "type": "Column",
+          "items": [
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "O que são produtos de viabilidade?",
+                   "value": "O que são produtos de viabilidade?",
+                   "data": "O que são produtos de viabilidade?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "O que é Data de Resposta?",
+                   "value": "O que é Data de Resposta?",
+                   "data": "O que é Data de Resposta?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "O que é Data de Adiamento?",
+                   "value": "O que é Data de Adiamento?",
+                   "data": "O que é Data de Adiamento?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "O que é Dias de Adiamento?",
+                   "value": "O que é Dias de Adiamento?",
+                   "data": "O que é Dias de Adiamento?"
+                 }
+               ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}```
