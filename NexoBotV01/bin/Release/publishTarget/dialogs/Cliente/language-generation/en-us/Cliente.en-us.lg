@@ -15,15 +15,9 @@
            "actions": [
                  {
                    "type": "Action.Submit",
-                   "title": "Informacion general",
+                   "title": "Informações gerais",
                    "value": "Informacion general cliente",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Informacion general cliente",
-                      "value": "Informacion general cliente"
-                      }
-                 }
+                   "data": "Informacion general cliente"
                  }
                ]
             },
@@ -32,15 +26,9 @@
                "actions": [
                  {
                    "type": "Action.Submit",
-                   "title": "Evaluacion Juridica y financiera",
+                   "title": "AVALIAÇÃO JURÍDICA E FINANCEIRA",
                    "value": "Evaluacion Juridica y financiera",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Evaluacion Juridica y financiera",
-                      "value": "Evaluacion Juridica y financiera"
-                      }
-                 }
+                   "data": "Evaluacion Juridica y financiera"
                  }
                ]
             },
@@ -51,13 +39,7 @@
                    "type": "Action.Submit",
                    "title": "Contrato",
                    "value": "Contrato",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Cliente Contrato",
-                      "value": "Cliente Contrato"
-                      }
-                 }
+                   "data": "Contrato"
                  }
                ]
             },
@@ -66,15 +48,9 @@
                "actions": [
                  {
                    "type": "Action.Submit",
-                   "title": "RAC (EQUIPO DE ATENCIÓN CLIENTE)",
+                   "title": "RAC (EQUIPE DE ATENDIMENTO AO CLIENTE)",
                    "value": "RAC (EQUIPO DE ATENCIÓN CLIENTE)",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "RAC (EQUIPO DE ATENCIÓN CLIENTE)",
-                      "value": "RAC (EQUIPO DE ATENCIÓN CLIENTE)"
-                      }
-                 }
+                   "data": "RAC (EQUIPO DE ATENCIÓN CLIENTE)"
                  }
                ]
             },
@@ -83,15 +59,9 @@
                "actions": [
                  {
                    "type": "Action.Submit",
-                   "title": "RAC (EQUIPO DE ATENCIÓN INTERNEXA)",
+                   "title": "RAC (EQUIPE DE ATENDIMENTO INTERNEXA)",
                    "value": "RAC (EQUIPO DE ATENCIÓN INTERNEXA)",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "RAC (EQUIPO DE ATENCIÓN INTERNEXA)",
-                      "value": "RAC (EQUIPO DE ATENCIÓN INTERNEXA)"
-                      }
-                 }
+                   "data": "RAC (EQUIPO DE ATENCIÓN INTERNEXA)"
                  }
                ]
             }
@@ -263,126 +233,6 @@
     ]
 }
 ```
-# SendActivity_ay6nFZ()
-[Activity
-    Attachments = ${json(SendActivity_ay6nFZ_attachment_WjOvKo())}
-]
-
-# SendActivity_ay6nFZ_attachment_WjOvKo()
-- ```
-{
-    "type": "AdaptiveCard",
-    "version": "1.0",
-    "body": [
-        {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Guia",
-                   "value": "Guia",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Evaluacion Juridica y financiera",
-                      "value": "Evaluacion Juridica y financiera"
-                      }
-                 }
-                 }
-               ]
-        },
-        {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Informacion general",
-                   "value": "Informacion general Cliente",
-                   "data": "Informacion general Cliente"
-                 }
-               ]
-        }
-    ]
-}
-```
-# SendActivity_jBgIfS()
-[Activity
-    Attachments = ${json(SendActivity_jBgIfS_attachment_YKjU0D())}
-]
-
-# SendActivity_jBgIfS_attachment_YKjU0D()
-- ```
-{
-    "type": "AdaptiveCard",
-    "version": "1.0",
-    "body": [
-        {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Guia",
-                   "value": "Guia",
-                   "data": "RAC Equipo de atencion cliente"
-                 }
-               ]
-        },
-        {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Informacion general",
-                   "value": "Informacion general Cliente",
-                   "data": "Informacion general Cliente"
-                 }
-               ]
-        }
-    ]
-}
-```
-# SendActivity_eu8R2T()
-[Activity
-    Attachments = ${json(SendActivity_eu8R2T_attachment_6KfJHz())}
-]
-
-# SendActivity_eu8R2T_attachment_6KfJHz()
-- ```
-{
-    "type": "AdaptiveCard",
-    "version": "1.0",
-    "body": [
-        {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Guia",
-                   "value": "Guia",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "RAC Equipo de atencion cliente",
-                      "value": "RAC Equipo de atencion cliente"
-                      }
-                 }
-                 }
-               ]
-        },
-        {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Informacion general",
-                   "value": "Informacion general Cliente",
-                   "data": "Informacion general Cliente"
-                 }
-               ]
-        }
-    ]
-}
-```
 # SendActivity_T7U7t5()
 [Activity
     Attachments = ${json(SendActivity_T7U7t5_attachment_nZG4wQ())}
@@ -437,13 +287,7 @@
                    "type": "Action.Submit",
                    "title": "Guia",
                    "value": "Guia",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "RAC Equipo de atencion internexa",
-                      "value": "RAC Equipo de atencion internexa"
-                      }
-                 }
+                   "data": "RAC (EQUIPE DE ATENDIMENTO INTERNEXA)"
                  }
                ]
         },
@@ -453,8 +297,8 @@
                  {
                    "type": "Action.Submit",
                    "title": "Informacion general",
-                   "value": "Informacion general Cliente",
-                   "data": "Informacion general Cliente"
+                   "value": "Informações gerais Cliente",
+                   "data": "Informações gerais Cliente"
                  }
                ]
         }
@@ -479,18 +323,7 @@
                    "type": "Action.Submit",
                    "title": "Guia",
                    "value": "Guia",
-                   "data": "Informacion general cliente"
-                 }
-               ]
-        },
-        {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Informacion general",
-                   "value": "Informacion general",
-                   "data": "Informacion general"
+                   "data": "RAC Equipo de atencion cliente"
                  }
                ]
         }
@@ -515,104 +348,7 @@
                    "type": "Action.Submit",
                    "title": "Guia",
                    "value": "Guia",
-                   "data": "Informacion general cliente"
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Informacion general cliente",
-                      "value": "Informacion general cliente"
-                      }
-                 }
-                 }
-               ]
-        },
-        {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Informacion general",
-                   "value": "Informacion general",
-                   "data": "Informacion general"
-                 }
-               ]
-        }
-    ]
-}
-```
-# SendActivity_UyyTkd()
-[Activity
-    Attachments = ${json(SendActivity_UyyTkd_attachment_XELWQs())}
-]
-
-# SendActivity_UyyTkd_attachment_XELWQs()
-- ```
-{
-    "type": "AdaptiveCard",
-    "version": "1.0",
-    "body": [
-        {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Guia",
-                   "value": "Guia",
-                   "data": "Cliente contrato"
-                 }
-               ]
-        },
-        {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Informacion general",
-                   "value": "Informacion general Cliente",
-                   "data": "Informacion general Cliente"
-                 }
-               ]
-        }
-    ]
-}
-```
-# SendActivity_LhmRzZ()
-[Activity
-    Attachments = ${json(SendActivity_LhmRzZ_attachment_BpCEWk())}
-]
-
-# SendActivity_LhmRzZ_attachment_BpCEWk()
-- ```
-{
-    "type": "AdaptiveCard",
-    "version": "1.0",
-    "body": [
-        {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Guia",
-                   "value": "Guia",
-                   "data": "Cliente contrato"
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Cliente contrato",
-                      "value": "Cliente contrato"
-                      }
-                 }
-                 }
-               ]
-        },
-        {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Informacion general",
-                   "value": "Informacion general Cliente",
-                   "data": "Informacion general Cliente"
+                   "data": "RAC (EQUIPE DE ATENDIMENTO AO CLIENTE)"
                  }
                ]
         }
@@ -631,3 +367,783 @@
   text = Selecciona la opcion que mas se acomode a tu duda
   image = https://statics.teams.cdn.office.net/evergreen-assets/apps/teams_dev_app_largeimage.png
 ]
+# SendActivity_GPhh6E()
+[Activity
+    Attachments = ${json(SendActivity_GPhh6E_attachment_MyTjAZ())}
+]
+
+# SendActivity_GPhh6E_attachment_MyTjAZ()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "width": "5",
+          "type": "Column",
+          "items": [
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Quem é o contato que assina a O.S.?",
+                   "value": "Quem é o contato que assina a O.S.?",
+                   "data": "Quem é o contato que assina a O.S.?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Conta de faturamento?",
+                   "value": "Conta de faturamento?",
+                   "data": "Conta de faturamento?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Clientes que tratam de pedidos de compra sem contrato?",
+                   "value": "Clientes que tratam de pedidos de compra sem contrato?",
+                   "data": "Clientes que tratam de pedidos de compra sem contrato?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Minuta do Cliente?",
+                   "value": "Minuta do Cliente?",
+                   "data": "Minuta do Cliente?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "O que é atributo?",
+                   "value": "O que é atributo?",
+                   "data": "O que é atributo?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Novidade de Renovação?",
+                   "value": "Novidade de Renovação?",
+                   "data": "Novidade de Renovação?"
+                 }
+               ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}```
+# TextInput_Prompt_Nh6G5V()
+[Activity
+    Attachments = ${json(TextInput_Prompt_Nh6G5V_attachment_RsQfGM())}
+]
+
+# TextInput_Prompt_Nh6G5V_attachment_RsQfGM()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": "Contrato portugues"
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informações gerais",
+                   "value": "Informacion general",
+                   "data": "Informacion general"
+                 }
+               ]
+        }
+    ]
+}
+```
+# SendActivity_r6bnUW()
+[Activity
+    Attachments = ${json(SendActivity_r6bnUW_attachment_eSDj9U())}
+]
+
+# SendActivity_r6bnUW_attachment_eSDj9U()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "width": "5",
+          "type": "Column",
+          "items": [
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Quién es el Contacto que firma la O.S.?",
+                   "value": "¿Quién es el Contacto que firma la O.S.?",
+                   "data": "¿Quién es el Contacto que firma la O.S.?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Cuenta de facturación?",
+                   "value": "¿Cuenta de facturación?",
+                   "data": "¿Cuenta de facturación?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Clientes que manejan orden de compra sin contrato?",
+                   "value": "¿Clientes que manejan orden de compra sin contrato?",
+                   "data": "¿Clientes que manejan orden de compra sin contrato?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Minuta del cliente?",
+                   "value": "¿Minuta del cliente?",
+                   "data": "¿Minuta del cliente?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Qué es atributo?",
+                   "value": "¿Qué es atributo?",
+                   "data": "¿Qué es atributo?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Novedad de renovación?",
+                   "value": "¿Novedad de renovación?",
+                   "data": "¿Novedad de renovación?"
+                 }
+               ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}```
+# TextInput_Prompt_i0OpUp()
+[Activity
+    Attachments = ${json(TextInput_Prompt_i0OpUp_attachment_Pbuzln())}
+]
+
+# TextInput_Prompt_i0OpUp_attachment_Pbuzln()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": "Cliente Contrato"
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacion general",
+                   "value": "Informacion general",
+                   "data": "Informacion general"
+                 }
+               ]
+        }
+    ]
+}
+```
+# TextInput_Prompt_5eDzZo()
+[Activity
+    Attachments = ${json(TextInput_Prompt_5eDzZo_attachment_dRXkE1())}
+]
+
+# TextInput_Prompt_5eDzZo_attachment_dRXkE1()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": "Evaluacion juridica y financiera"
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacion general",
+                   "value": "Informaçion general",
+                   "data": "Informacion general"
+                 }
+               ]
+        }
+    ]
+}
+```
+# SendActivity_dr5M0i()
+[Activity
+    Attachments = ${json(SendActivity_dr5M0i_attachment_pNs0fN())}
+]
+
+# SendActivity_dr5M0i_attachment_pNs0fN()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "width": "5",
+          "type": "Column",
+          "items": [
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Bloquear a carteira de um cliente?",
+                   "value": "Bloquear a carteira de um cliente?",
+                   "data": "Bloquear a carteira de um cliente?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Carteira de clientes?",
+                   "value": "Carteira de clientes?",
+                   "data": "Carteira de clientes?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Status de Carteira?",
+                   "value": "Status de Carteira?",
+                   "data": "Status de Carteira?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Cliente retirado por carteira?",
+                   "value": "Cliente retirado por carteira?",
+                   "data": "Cliente retirado por carteira?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Solicitar desconexão por carteira?",
+                   "value": "Solicitar desconexão por carteira?",
+                   "data": "Solicitar desconexão por carteira?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Painéis de carteira de clientes?",
+                   "value": "Painéis de carteira de clientes?",
+                   "data": "Painéis de carteira de clientes?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Novidade de faturamento por desconexão?",
+                   "value": "Novidade de faturamento por desconexão?",
+                   "data": "Novidade de faturamento por desconexão?"
+                 }
+               ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}```
+# TextInput_Prompt_YaE5Aq()
+[Activity
+    Attachments = ${json(TextInput_Prompt_YaE5Aq_attachment_tGqvMM())}
+]
+
+# TextInput_Prompt_YaE5Aq_attachment_tGqvMM()
+- ```{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": "avaliação jurídica e financeira"
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informações gerais",
+                   "value": "Informacion general",
+                   "data": "Informacion general"
+                 }
+               ]
+        }
+    ]
+}
+```
+# TextInput_Prompt_mLqbOv()
+[Activity
+    Attachments = ${json(TextInput_Prompt_mLqbOv_attachment_H7JaCJ())}
+]
+
+# TextInput_Prompt_mLqbOv_attachment_H7JaCJ()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": "Informações gerais cliente"
+                 }
+               ]
+        },
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informações gerais",
+                   "value": "Informacion general",
+                   "data": "Informacion general"
+                 }
+               ]
+        }
+    ]
+}
+```
+# SendActivity_eBKnvd()
+[Activity
+    Attachments = ${json(SendActivity_eBKnvd_attachment_pKKNkO())}
+]
+
+# SendActivity_eBKnvd_attachment_pKKNkO()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "width": "5",
+          "type": "Column",
+          "items": [
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Como recapturar un cliente?",
+                   "value": "¿Como recapturar un cliente?",
+                   "data": "¿Como recapturar un cliente?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Consultar un NIT en canales?",
+                   "value": "¿Consultar un NIT en canales?",
+                   "data": "¿Consultar un NIT en canales?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿A quién aplica la cláusula de comodato?",
+                   "value": "¿A quién aplica la cláusula de comodato?",
+                   "data": "¿A quién aplica la cláusula de comodato?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Como crear un cliente con razón social duplicada?",
+                   "value": "¿Como crear un cliente con razón social duplicada?",
+                   "data": "¿Como crear un cliente con razón social duplicada?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Facturación y Cartera?",
+                   "value": "¿Facturación y Cartera?",
+                   "data": "¿Facturación y Cartera?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Qué es Funnel 5X?",
+                   "value": "¿Qué es Funnel 5X?",
+                   "data": "¿Qué es Funnel 5X?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Cuándo un cliente está Bloqueado por cartera?",
+                   "value": "¿Cuándo un cliente está Bloqueado por cartera?",
+                   "data": "¿Cuándo un cliente está Bloqueado por cartera?"
+                 }
+               ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}```
+# SendActivity_TeR5fz()
+[Activity
+    Attachments = ${json(SendActivity_TeR5fz_attachment_Mkh8rz())}
+]
+
+# SendActivity_TeR5fz_attachment_Mkh8rz()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "width": "5",
+          "type": "Column",
+          "items": [
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Como recapturar un cliente?",
+                   "value": "¿Como recapturar un cliente?",
+                   "data": "¿Como recapturar un cliente?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Consultar un NIT en canales?",
+                   "value": "¿Consultar un NIT en canales?",
+                   "data": "¿Consultar un NIT en canales?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿A quién aplica la cláusula de comodato?",
+                   "value": "¿A quién aplica la cláusula de comodato?",
+                   "data": "¿A quién aplica la cláusula de comodato?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Como crear un cliente con razón social duplicada?",
+                   "value": "¿Como crear un cliente con razón social duplicada?",
+                   "data": "¿Como crear un cliente con razón social duplicada?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Facturación y Cartera?",
+                   "value": "¿Facturación y Cartera?",
+                   "data": "¿Facturación y Cartera?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Qué es Funnel 5X?",
+                   "value": "¿Qué es Funnel 5X?",
+                   "data": "¿Qué es Funnel 5X?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Cuándo un cliente está Bloqueado por cartera?",
+                   "value": "¿Cuándo un cliente está Bloqueado por cartera?",
+                   "data": "¿Cuándo un cliente está Bloqueado por cartera?"
+                 }
+               ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}```
+# SendActivity_ghj6lu()
+[Activity
+    Attachments = ${json(SendActivity_ghj6lu_attachment_L3xIkT())}
+]
+
+# SendActivity_ghj6lu_attachment_L3xIkT()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "width": "5",
+          "type": "Column",
+          "items": [
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Bloquear cartera de un cliente?",
+                   "value": "¿Bloquear cartera de un cliente?",
+                   "data": "¿Bloquear cartera de un cliente?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Cartera de clientes?",
+                   "value": "¿Cartera de clientes?",
+                   "data": "¿Cartera de clientes?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Estado de cartera?",
+                   "value": "¿Estado de cartera?",
+                   "data": "¿Estado de cartera?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Cliente bloqueado por cartera?",
+                   "value": "¿Cliente bloqueado por cartera?",
+                   "data": "¿Cliente bloqueado por cartera?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Solicitar desconexión por cartera?",
+                   "value": "¿Solicitar desconexión por cartera?",
+                   "data": "¿Solicitar desconexión por cartera?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Paneles cartera cliente?",
+                   "value": "¿Paneles cartera cliente?",
+                   "data": "¿Paneles cartera cliente?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Novedades de facturación por desconexión?",
+                   "value": "¿Novedades de facturación por desconexión?",
+                   "data": "¿Novedades de facturación por desconexión?"
+                 }
+               ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}```

@@ -65,28 +65,6 @@
                "actions": [
                  {
                    "type": "Action.Submit",
-                   "title": "Orden de servicios",
-                   "value": "Orden de servicios",
-                   "data": "Orden de servicios"
-                 }
-               ]
-            },
-            {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Servicios",
-                   "value": "Servicios",
-                   "data": "Servicios"
-                 }
-               ]
-            },
-            {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
                    "title": "Novedades",
                    "value": "Novedades",
                    "data": "Novedades"
@@ -101,6 +79,28 @@
                    "title": "Desconexiones",
                    "value": "Desconexiones",
                    "data": "Desconexiones"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informacion general",
+                   "value": "Informacion general",
+                   "data": "Informacion general"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Alterar idioma para português",
+                   "value": "Cambiar idioma",
+                   "data": "Cambiar idioma"
                  }
                ]
             }
@@ -130,8 +130,6 @@
       "columns": [
         {
           "type": "Column",
-          "height": "stretch",
-          "width": "200px",
           "items": [
             {
               "type": "ActionSet",
@@ -140,13 +138,7 @@
                    "type": "Action.Submit",
                    "title": "Cliente",
                    "value": "Cliente",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Cliente",
-                      "value": "Cliente"
-                      }
-                 }
+                   "data": "Cliente",
                  }
                ]
             },
@@ -156,15 +148,8 @@
                  {
                    "type": "Action.Submit",
                    "title": "   Oportunidad   ",
-                   "width": "250px",
                    "value": "Oportunidad",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Oportunidad",
-                      "value": "Oportunidad"
-                      }
-                 }
+                   "data": "Oportunidad"
                  }
                ]
             },
@@ -173,16 +158,9 @@
                "actions": [
                  {
                    "type": "Action.Submit",
-                   "title": "  Factibilidad   ",
-                   "width": "250px",
-                   "value": "Factibilidad",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Factibilidad",
-                      "value": "Factibilidad"
-                      }
-                 }
+                   "title": "  viabilidade   ",
+                   "value": "viabilidade",
+                   "data": "Factibilidad"
                  }
                ]
             },
@@ -192,15 +170,8 @@
                  {
                    "type": "Action.Submit",
                    "title": "      Ofertas     ",
-                   "width": "50",
                    "value": "Ofertas",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Ofertas",
-                      "value": "Ofertas"
-                      }
-                 }
+                   "data": "Ofertas"
                  }
                ]
             },
@@ -209,16 +180,9 @@
                "actions": [
                  {
                    "type": "Action.Submit",
-                   "title": "Orden de servicios",
-                   "width": "300px",
-                   "value": "Orden de servicios",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Orden de servicios",
-                      "value": "Orden de servicios"
-                      }
-                 }
+                   "title": "    Novidades    ",
+                   "value": "Novidades",
+                   "data": "Novedades"
                  }
                ]
             },
@@ -227,72 +191,33 @@
                "actions": [
                  {
                    "type": "Action.Submit",
-                   "title": "    Servicios    ",
-                   "width": "auto",
-                   "value": "Servicios",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Servicios",
-                      "value": "Servicios"
-                      }
-                 }
-                 }
-               ]
-            },
-            {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "    Novedades    ",
-                   "width": "auto",
-                   "value": "Novedades",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Novedades",
-                      "value": "Novedades"
-                      }
-                 }
-                 }
-               ]
-            },
-            {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "  Desconexiones  ",
-                   "width": "stretch",
+                   "title": " Desconexiones ",
                    "value": "Desconexiones",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Desconexiones",
-                      "value": "Desconexiones"
-                      }
-                 }
+                   "data": "Desconexiones"
                  }
                ]
-            }
-          ]
-        },
-        {
-          "type": "Column",
-          "height": "stretch",
-          "spacing": "Padding",
-          "items": [
-            {
-            "type": "Image",
-            "url": "https://github.com/ajaramillot/NexoBot/blob/main/Iconografia/nexobot-icono%20192x192.png?raw=true"
             },
             {
-            "type": "TextBlock",
-            "weight": "bolder",
-            "size": "Medium",
-            "text": "Bienvenido, Soy nexobot \r\r Escoge la opcion que mas se acomode a tu duda",
-            "wrap": true
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informações gerais",
+                   "value": "Informacion general",
+                   "data": "Informacion general"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Cambiar idioma a Español",
+                   "value": "Mudar idioma",
+                   "data": "Mudar idioma"
+                 }
+               ]
             }
           ]
         }
@@ -307,13 +232,6 @@
     Attachments = ${json(AdaptiveCardJson_MenuTeams())}
 ]
 
-# SendActivity_rl05O6()
-[Activity
-    Text = ${SendActivity_rl05O6_text()}
-]
-
-# SendActivity_rl05O6_text()
-- No se reconoce la Opcion
 # TextInput_Prompt_twmjqC()
 - ${json(AdaptiveCard_Menu())}
 # TextInput_Prompt_jUKCwD()
@@ -328,5 +246,31 @@
   title = Menu Principal
   subtitle = NexoBot
   text = Selecciona la opcion que mas se acomode a tu duda
+  image = https://github.com/ajaramillot/NexoBot/blob/main/Iconografia/nexobot-icono%20192x192.png?raw=true
+]
+# SendActivity_AIfy0w()
+[Activity
+    Text = ${SendActivity_AIfy0w_text()}
+]
+
+# SendActivity_AIfy0w_text()
+- Idioma atualizado
+# SendActivity_PCJQ0R()
+[Activity
+    Text = ${SendActivity_PCJQ0R_text()}
+]
+
+# SendActivity_PCJQ0R_text()
+- Idioma Actualizado
+# SendActivity_vFTNpr()
+[Activity
+    Attachments = ${SendActivity_vFTNpr_attachment_l5r17f()}
+]
+
+# SendActivity_vFTNpr_attachment_l5r17f()
+[ThumbnailCard
+  title = Menu Principal
+  subtitle = NexoBot
+  text = Selecione a opção que melhor se adequa à sua pergunta
   image = https://github.com/ajaramillot/NexoBot/blob/main/Iconografia/nexobot-icono%20192x192.png?raw=true
 ]

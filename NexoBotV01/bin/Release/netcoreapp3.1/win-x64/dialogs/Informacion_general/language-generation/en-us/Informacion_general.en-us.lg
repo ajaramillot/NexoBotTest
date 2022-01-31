@@ -1,0 +1,1775 @@
+[import](common.lg)
+
+# TextInput_Prompt_QJZey4()
+[Activity
+    Attachments = ${json(TextInput_Prompt_QJZey4_attachment_zfIj64())}
+]
+
+# TextInput_Prompt_QJZey4_attachment_zfIj64()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "width": "5",
+          "type": "Column",
+          "items": [
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Definições financeiras",
+                   "value": "Definiciones Financieras",
+                   "data": "Definiciones Financieras"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Dynamics",
+                   "value": "Dynamics",
+                   "data": "Dynamics"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Oportunidade/oferta",
+                   "value": "Oportunidad/oferta",
+                   "data": "Oportunidad/oferta"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Microsoft",
+                   "value": "Microsoft",
+                   "data": "Microsoft"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "CRM",
+                   "value": "CRM",
+                   "data": "CRM"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "outras",
+                   "value": "Otros",
+                   "data": "Otros"
+                 }
+               ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}```
+
+
+# SendActivity_AmXKOK()
+[Activity
+    Attachments = ${json(SendActivity_AmXKOK_attachment_ZmB3zI())}
+]
+
+# SendActivity_AmXKOK_attachment_ZmB3zI()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```
+
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "width": "5",
+          "type": "Column",
+          "items": [
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Cómo asociar un usuario a la dependencia?",
+                   "value": "¿Cómo asociar un usuario a la dependencia?",
+                   "data": "¿Cómo asociar un usuario a la dependencia?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Roles usados actualmente?",
+                   "value": "¿Roles usados actualmente?",
+                   "data": "¿Roles usados actualmente?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Analista comercial?",
+                   "value": "¿Analista comercial?",
+                   "data": "¿Analista comercial?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Directivo?",
+                   "value": "Directivo?",
+                   "data": "Directivo?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Asignación de un rol?",
+                   "value": "¿Asignación de un rol?",
+                   "data": "¿Asignación de un rol?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Cómo ingresar un usuario a los equipos?",
+                   "value": "¿Cómo ingresar un usuario a los equipos?",
+                   "data": "¿Cómo ingresar un usuario a los equipos?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Sistemas externos?",
+                   "value": "¿Sistemas externos?",
+                   "data": "¿Sistemas externos?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Formulario de Equivalencia?",
+                   "value": "¿Formulario de Equivalencia?",
+                   "data": "¿Formulario de Equivalencia?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Creación equipo jefe?",
+                   "value": "¿Creación equipo jefe?",
+                   "data": "¿Creación equipo jefe?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Adicionar jefe?",
+                   "value": "¿Adicionar jefe?",
+                   "data": "¿Adicionar jefe?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Suplente del director o gerente?",
+                   "value": "¿Suplente del director o gerente?",
+                   "data": "¿Suplente del director o gerente?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Cómo activar el sistema de auditoria?",
+                   "value": "¿Cómo activar el sistema de auditoria?",
+                   "data": "¿Cómo activar el sistema de auditoria?"
+                 }
+               ]
+            }
+
+          ]
+        }
+      ]
+    }
+  ]
+}```
+# SendActivity_wU6crT()
+[Activity
+    Attachments = ${json(SendActivity_wU6crT_attachment_6uONwK())}
+]
+
+# SendActivity_wU6crT_attachment_6uONwK()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "width": "5",
+          "type": "Column",
+          "items": [
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Como associar um usuário à dependência?",
+                   "value": "Como associar um usuário à dependência?",
+                   "data": "Como associar um usuário à dependência?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Funções de segurança?",
+                   "value": "Funções de segurança?",
+                   "data": "Funções de segurança?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Analista comercial?",
+                   "value": "Analista comercial?",
+                   "data": "Analista comercial?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Atribuição de uma função?",
+                   "value": "Atribuição de uma função?",
+                   "data": "Atribuição de uma função?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Inclusão de usuários em equipes?",
+                   "value": "Inclusão de usuários em equipes?",
+                   "data": "Inclusão de usuários em equipes?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Como inserir um usuário nas equipes?",
+                   "value": "Como inserir um usuário nas equipes?",
+                   "data": "Como inserir um usuário nas equipes?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Sistemas externos?",
+                   "value": "Sistemas externos?",
+                   "data": "Sistemas externos?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Adicionar chefe?",
+                   "value": "Adicionar chefe?",
+                   "data": "Adicionar chefe?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Diretor ou gerente substituto?",
+                   "value": "Diretor ou gerente substituto?",
+                   "data": "Diretor ou gerente substituto?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Como ativar o sistema de auditoria?",
+                   "value": "Como ativar o sistema de auditoria?",
+                   "data": "Como ativar o sistema de auditoria?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Quais são todos os fluxos de trabalho?",
+                   "value": "Quais são todos os fluxos de trabalho?",
+                   "data": "Quais são todos os fluxos de trabalho?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Alterar a linguagem?",
+                   "value": "Alterar a linguagem?",
+                   "data": "Alterar a linguagem?"
+                 }
+               ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}```
+# SendActivity_90gyps()
+[Activity
+    Attachments = ${json(SendActivity_90gyps_attachment_kuCHlM())}
+]
+
+# SendActivity_90gyps_attachment_kuCHlM()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "width": "5",
+          "type": "Column",
+          "items": [
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Qué es Conversación rate?",
+                   "value": "¿Qué es Conversación rate?",
+                   "data": "¿Qué es Conversación rate?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Qué es Ingresos Netos?",
+                   "value": "¿Qué es Ingresos Netos?",
+                   "data": "¿Qué es Ingresos Netos?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Qué son Costos Directos?",
+                   "value": "¿Qué son Costos Directos?",
+                   "data": "¿Qué son Costos Directos?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Qué es el Resultado Bruto?",
+                   "value": "¿Qué es el Resultado Bruto?",
+                   "data": "¿Qué es el Resultado Bruto?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Qué son Gastos Fijos?",
+                   "value": "¿Qué son Gastos Fijos?",
+                   "data": "¿Qué son Gastos Fijos?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Qué es Ebitda?",
+                   "value": "¿Qué es Ebitda?",
+                   "data": "¿Qué es Ebitda?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Qué es Ebit?",
+                   "value": "¿Qué es Ebit?",
+                   "data": "¿Qué es Ebit?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Qué significa Gastos no operacionales?",
+                   "value": "¿Qué significa Gastos no operacionales?",
+                   "data": "¿Qué significa Gastos no operacionales?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Qué es Resultado antes de impuestos?",
+                   "value": "¿Qué es Resultado antes de impuestos?",
+                   "data": "¿Qué es Resultado antes de impuestos?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Qué es Utilidad Neta?",
+                   "value": "¿Qué es Utilidad Neta?",
+                   "data": "¿Qué es Utilidad Neta?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Qué es Capex?",
+                   "value": "¿Qué es Capex?",
+                   "data": "¿Qué es Capex?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Qué significa Margen Bruto?",
+                   "value": "¿Qué significa Margen Bruto?",
+                   "data": "¿Qué significa Margen Bruto?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Qué es Margen Ebitda?",
+                   "value": "¿Qué es Margen Ebitda?",
+                   "data": "¿Qué es Margen Ebitda?"
+                 }
+               ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}```
+# SendActivity_NuuUKV()
+[Activity
+    Attachments = ${json(SendActivity_NuuUKV_attachment_5bfHzR())}
+]
+
+# SendActivity_NuuUKV_attachment_5bfHzR()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "width": "5",
+          "type": "Column",
+          "items": [
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "O que é taxa de conversação?",
+                   "value": "O que é taxa de conversação?",
+                   "data": "O que é taxa de conversação?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "O que é Lucro Líquido?",
+                   "value": "O que é Lucro Líquido?",
+                   "data": "O que é Lucro Líquido?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "O que são Custos Diretos?",
+                   "value": "O que são Custos Diretos?",
+                   "data": "O que são Custos Diretos?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Qual é o Resultado Bruto?",
+                   "value": "Qual é o Resultado Bruto?",
+                   "data": "Qual é o Resultado Bruto?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "O que são Despesas Fixas?",
+                   "value": "O que são Despesas Fixas?",
+                   "data": "O que são Despesas Fixas?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "O que significa Ebitda?",
+                   "value": "O que significa Ebitda?",
+                   "data": "O que significa Ebitda?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "O que significa Ebit?",
+                   "value": "O que significa Ebit?",
+                   "data": "O que significa Ebit?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "O que significa despesas não operacionais?",
+                   "value": "O que significa despesas não operacionais?",
+                   "data": "O que significa despesas não operacionais?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "O que é Resultado antes dos impostos?",
+                   "value": "O que é Resultado antes dos impostos?",
+                   "data": "O que é Resultado antes dos impostos?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "O que é Lucro Líquido?",
+                   "value": "O que é Lucro Líquido?",
+                   "data": "O que é Lucro Líquido?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "O que é Capex?",
+                   "value": "O que é Capex?",
+                   "data": "O que é Capex?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "O que é Margem Bruta?",
+                   "value": "O que é Margem Bruta?",
+                   "data": "O que é Margem Bruta?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "O que é Margem Ebitda?",
+                   "value": "O que é Margem Ebitda?",
+                   "data": "O que é Margem Ebitda?"
+                 }
+               ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}```
+# SendActivity_FVAIME()
+[Activity
+    Attachments = ${json(SendActivity_FVAIME_attachment_UnXWu9())}
+]
+
+# SendActivity_FVAIME_attachment_UnXWu9()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "width": "5",
+          "type": "Column",
+          "items": [
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Qué es Dynamics?",
+                   "value": "¿Qué es Dynamics?",
+                   "data": "¿Qué es Dynamics?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Qué es un Informe unificado CRM?",
+                   "value": "¿Qué es un Informe unificado CRM?",
+                   "data": "¿Qué es un Informe unificado CRM?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Unidad de negocio?",
+                   "value": "¿Unidad de negocio?",
+                   "data": "¿Unidad de negocio?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Ingreso a Canales dynamics 365?",
+                   "value": "¿Ingreso a Canales dynamics 365?",
+                   "data": "¿Ingreso a Canales dynamics 365?"
+                 }
+               ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}```
+# SendActivity_89pV0x()
+[Activity
+    Attachments = ${json(SendActivity_89pV0x_attachment_bhTSjv())}
+]
+
+# SendActivity_89pV0x_attachment_bhTSjv()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "width": "5",
+          "type": "Column",
+          "items": [
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "O que é Dynamics?",
+                   "value": "O que é Dynamics?",
+                   "data": "O que é Dynamics?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "O que é um Relatório Unificado do CRM?",
+                   "value": "O que é um Relatório Unificado do CRM?",
+                   "data": "O que é um Relatório Unificado do CRM?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "O que significa Relatório Unificado?",
+                   "value": "O que significa Relatório Unificado?",
+                   "data": "O que significa Relatório Unificado?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Unidade de negócio?",
+                   "value": "Unidade de negócio?",
+                   "data": "Unidade de negócio?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Entrar em canais no dynamics 365?",
+                   "value": "Entrar em canais no dynamics 365?",
+                   "data": "Entrar em canais no dynamics 365?"
+                 }
+               ]
+            }
+            
+          ]
+        }
+      ]
+    }
+  ]
+}```
+# SendActivity_fRWRbZ()
+[Activity
+    Attachments = ${json(SendActivity_fRWRbZ_attachment_51BABr())}
+]
+
+# SendActivity_fRWRbZ_attachment_51BABr()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "width": "5",
+          "type": "Column",
+          "items": [
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Qué es Power BI?",
+                   "value": "¿Qué es Power BI?",
+                   "data": "¿Qué es Power BI?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Nuevo usuario de office 365?",
+                   "value": "¿Nuevo usuario de office 365?",
+                   "data": "¿Nuevo usuario de office 365?"
+                 }
+               ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}```
+# SendActivity_3JGy39()
+[Activity
+    Attachments = ${json(SendActivity_3JGy39_attachment_OqFe3h())}
+]
+
+# SendActivity_3JGy39_attachment_OqFe3h()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "width": "5",
+          "type": "Column",
+          "items": [
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "O que é o Power BI?",
+                   "value": "O que é o Power BI?",
+                   "data": "O que é o Power BI?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Novo usuário do Office 365?",
+                   "value": "Novo usuário do Office 365?",
+                   "data": "Novo usuário do Office 365?"
+                 }
+               ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}```
+# SendActivity_P3dX1W()
+[Activity
+    Attachments = ${json(SendActivity_P3dX1W_attachment_4P8Vuu())}
+]
+
+# SendActivity_P3dX1W_attachment_4P8Vuu()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "width": "5",
+          "type": "Column",
+          "items": [
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Qué es una Divisa?",
+                   "value": "¿Qué es una Divisa?",
+                   "data": "¿Qué es una Divisa?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Qué es una Fecha estimada de ingreso?",
+                   "value": "¿Qué es una Fecha estimada de ingreso?",
+                   "data": "¿Qué es una Fecha estimada de ingreso?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Qué es un Contrato a meses?",
+                   "value": "¿Qué es un Contrato a meses?",
+                   "data": "¿Qué es un Contrato a meses?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Qué es un Valor mensual?",
+                   "value": "¿Qué es un Valor mensual?",
+                   "data": "¿Qué es un Valor mensual?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Qué es una Probabilidad de éxito?",
+                   "value": "¿Qué es una Probabilidad de éxito?",
+                   "data": "¿Qué es una Probabilidad de éxito?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Reglas de imputación?",
+                   "value": "¿Reglas de imputación?",
+                   "data": "¿Reglas de imputación?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Asociar actividades a oportunidades creadas?",
+                   "value": "¿Asociar actividades a oportunidades creadas?",
+                   "data": "¿Asociar actividades a oportunidades creadas?"
+                 }
+               ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}```
+# SendActivity_Yo0cZT()
+[Activity
+    Attachments = ${json(SendActivity_Yo0cZT_attachment_CLTMX2())}
+]
+
+# SendActivity_Yo0cZT_attachment_CLTMX2()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "width": "5",
+          "type": "Column",
+          "items": [
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "O que é uma Moeda?",
+                   "value": "O que é uma Moeda?",
+                   "data": "O que é uma Moeda?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "O que significa Data Estimada de receita?",
+                   "value": "O que significa Data Estimada de receita?",
+                   "data": "O que significa Data Estimada de receita?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "O que é um contrato mensal?",
+                   "value": "O que é um contrato mensal?",
+                   "data": "O que é um contrato mensal?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "O que significa valor mensal?",
+                   "value": "O que significa valor mensal?",
+                   "data": "O que significa valor mensal?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "O que significa probabilidade de sucesso?",
+                   "value": "O que significa probabilidade de sucesso?",
+                   "data": "O que significa probabilidade de sucesso?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Regras de imputação?",
+                   "value": "Regras de imputação?",
+                   "data": "Regras de imputação?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "OtroAssociar atividades a oportunidades criadas?s",
+                   "value": "Associar atividades a oportunidades criadas?",
+                   "data": "Associar atividades a oportunidades criadas?"
+                 }
+               ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}```
+# SendActivity_9WGbX9()
+[Activity
+    Attachments = ${json(SendActivity_9WGbX9_attachment_mQoOmJ())}
+]
+
+# SendActivity_9WGbX9_attachment_mQoOmJ()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "width": "5",
+          "type": "Column",
+          "items": [
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Qué significa Gerencia Comercial Propietaria?",
+                   "value": "¿Qué significa Gerencia Comercial Propietaria?",
+                   "data": "¿Qué significa Gerencia Comercial Propietaria?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Qué son Competidores?",
+                   "value": "¿Qué son Competidores?",
+                   "data": "¿Qué son Competidores?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Ip Access NG?",
+                   "value": "¿Ip Access NG?",
+                   "data": "¿Ip Access NG?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Compañía ITX?",
+                   "value": "¿Compañía ITX?",
+                   "data": "¿Compañía ITX?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Información del contacto en portal de clientes?",
+                   "value": "¿Información del contacto en portal de clientes?",
+                   "data": "¿Información del contacto en portal de clientes?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿El cliente tiene costo por documentos?",
+                   "value": "¿El cliente tiene costo por documentos?",
+                   "data": "¿El cliente tiene costo por documentos?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Visualización de productos en el portal?",
+                   "value": "¿Visualización de productos en el portal?",
+                   "data": "¿Visualización de productos en el portal?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Percentiles de la categorización?",
+                   "value": "¿Percentiles de la categorización?",
+                   "data": "¿Percentiles de la categorización?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Cuáles son los sitios de un producto?",
+                   "value": "¿Cuáles son los sitios de un producto?",
+                   "data": "¿Cuáles son los sitios de un producto?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Clonar un producto",
+                   "value": "clonar un producto",
+                   "data": "clonar un producto"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Producto asociado\n",
+                   "value": "Producto asociado\n",
+                   "data": "Producto asociado\n"
+                 }
+               ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}```
+# SendActivity_Q11PVF()
+[Activity
+    Attachments = ${json(SendActivity_Q11PVF_attachment_qfvxHT())}
+]
+
+# SendActivity_Q11PVF_attachment_qfvxHT()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "width": "5",
+          "type": "Column",
+          "items": [
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "O que é a Gerencia Comercial Proprietaria?",
+                   "value": "O que é a Gerencia Comercial Proprietaria?",
+                   "data": "O que é a Gerencia Comercial Proprietaria?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "O que são Concorrentes?",
+                   "value": "O que são Concorrentes?",
+                   "data": "O que são Concorrentes?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "IP Acesso NG?",
+                   "value": "IP Acesso NG?",
+                   "data": "IP Acesso NG?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Empresa ITX?",
+                   "value": "Empresa ITX?",
+                   "data": "Empresa ITX?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Informações de contato no portal do cliente?",
+                   "value": "Informações de contato no portal do cliente?",
+                   "data": "Informações de contato no portal do cliente?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "O cliente tem algum custo para documentos?",
+                   "value": "O cliente tem algum custo para documentos?",
+                   "data": "O cliente tem algum custo para documentos?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Visualização de produtos no portal?",
+                   "value": "Visualização de produtos no portal?",
+                   "data": "Visualização de produtos no portal?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Quais são as categorizações?",
+                   "value": "Quais são as categorizações?",
+                   "data": "Quais são as categorizações?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Quais são os locais de um produto?",
+                   "value": "Quais são os locais de um produto?",
+                   "data": "Quais são os locais de um produto?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "clonando um produto",
+                   "value": "clonando um produto",
+                   "data": "clonando um produto"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "O que é um Produto Associado?\n",
+                   "value": "O que é um Produto Associado?\n",
+                   "data": "O que é um Produto Associado?\n"
+                 }
+               ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}```
+# TextInput_Prompt_Ss6jus()
+[Activity
+    Attachments = ${json(TextInput_Prompt_Ss6jus_attachment_IJ8eO4())}
+]
+
+# TextInput_Prompt_Ss6jus_attachment_IJ8eO4()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "width": "5",
+          "type": "Column",
+          "items": [
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Definições financeiras",
+                   "value": "Definiciones Financieras",
+                   "data": "Definiciones Financieras"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Dynamics",
+                   "value": "Dynamics",
+                   "data": "Dynamics"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Oportunidade/oferta",
+                   "value": "Oportunidad/oferta",
+                   "data": "Oportunidad/oferta"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Microsoft",
+                   "value": "Microsoft",
+                   "data": "Microsoft"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "CRM",
+                   "value": "CRM",
+                   "data": "CRM"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "outras",
+                   "value": "Otros",
+                   "data": "Otros"
+                 }
+               ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}```
+
+
+# TextInput_Prompt_zFb3XA()
+[Activity
+    Attachments = ${json(TextInput_Prompt_zFb3XA_attachment_Mjv2Po())}
+]
+
+# TextInput_Prompt_zFb3XA_attachment_Mjv2Po()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```
+
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "width": "5",
+          "type": "Column",
+          "items": [
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Definiciones Financieras",
+                   "value": "Definiciones Financieras",
+                   "data": "Definiciones Financieras"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Dynamics",
+                   "value": "Dynamics",
+                   "data": "Dynamics"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Oportunidad/oferta",
+                   "value": "Oportunidad/oferta",
+                   "data": "Oportunidad/oferta"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Microsoft",
+                   "value": "Microsoft",
+                   "data": "Microsoft"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "CRM",
+                   "value": "CRM",
+                   "data": "CRM"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Otros",
+                   "value": "Otros",
+                   "data": "Otros"
+                 }
+               ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}```
+
+
+

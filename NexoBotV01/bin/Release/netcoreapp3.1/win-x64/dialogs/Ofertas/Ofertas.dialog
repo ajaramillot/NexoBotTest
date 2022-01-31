@@ -21,11 +21,17 @@
           "$designer": {
             "id": "rH624P"
           },
-          "condition": "=turn.Activity.channelId",
           "cases": [
             {
-              "value": "msteams",
+              "value": "Portugues",
               "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "IQwvjk"
+                  },
+                  "activity": "${SendActivity_IQwvjk()}"
+                },
                 {
                   "$kind": "Microsoft.TextInput",
                   "$designer": {
@@ -69,7 +75,8 @@
               "property": "user.OptionSubMenu",
               "value": "=turn.activity.value"
             }
-          ]
+          ],
+          "condition": "user.idioma"
         },
         {
           "$kind": "Microsoft.SwitchCondition",
@@ -86,10 +93,9 @@
                   "$designer": {
                     "id": "rL01hp"
                   },
-                  "condition": "=turn.Activity.channelId",
+                  "condition": "user.idioma",
                   "cases": [
                     {
-                      "value": "msteams",
                       "actions": [
                         {
                           "$kind": "Microsoft.SendActivity",
@@ -98,7 +104,8 @@
                           },
                           "activity": "${SendActivity_hfa5go()}"
                         }
-                      ]
+                      ],
+                      "value": "Portugues"
                     }
                   ],
                   "default": [
@@ -121,10 +128,10 @@
                   "$designer": {
                     "id": "5GQ6b0"
                   },
-                  "condition": "=turn.Activity.channelId",
+                  "condition": "user.idioma",
                   "cases": [
                     {
-                      "value": "msteams",
+                      "value": "Portugues",
                       "actions": [
                         {
                           "$kind": "Microsoft.SendActivity",
@@ -156,10 +163,10 @@
                   "$designer": {
                     "id": "jsRmqW"
                   },
-                  "condition": "=turn.Activity.channelId",
+                  "condition": "user.idioma",
                   "cases": [
                     {
-                      "value": "msteams",
+                      "value": "Portugues",
                       "actions": [
                         {
                           "$kind": "Microsoft.SendActivity",
@@ -191,10 +198,10 @@
                   "$designer": {
                     "id": "CHpi5B"
                   },
-                  "condition": "=turn.Activity.channelId",
+                  "condition": "user.idioma",
                   "cases": [
                     {
-                      "value": "msteams",
+                      "value": "Portugues",
                       "actions": [
                         {
                           "$kind": "Microsoft.SendActivity",
@@ -226,28 +233,112 @@
                   "$designer": {
                     "id": "aqxEy6"
                   },
-                  "condition": "=turn.Activity.channelId",
+                  "condition": "=user.idioma",
                   "cases": [
                     {
-                      "value": "msteams",
+                      "value": "Portugues",
                       "actions": [
                         {
-                          "$kind": "Microsoft.SendActivity",
+                          "$kind": "Microsoft.TextInput",
                           "$designer": {
-                            "id": "KdLyTh"
+                            "id": "ccBTF1"
                           },
-                          "activity": "${SendActivity_KdLyTh()}"
+                          "disabled": false,
+                          "maxTurnCount": 3,
+                          "alwaysPrompt": true,
+                          "allowInterruptions": false,
+                          "invalidPrompt": "",
+                          "defaultValueResponse": "",
+                          "prompt": "${TextInput_Prompt_ccBTF1()}",
+                          "property": "user.option",
+                          "value": "=turn.activity.value"
+                        },
+                        {
+                          "$kind": "Microsoft.IfCondition",
+                          "$designer": {
+                            "id": "8ClK8u"
+                          },
+                          "condition": "=user.option==\"Informacion general\"",
+                          "actions": [
+                            {
+                              "$kind": "Microsoft.SendActivity",
+                              "$designer": {
+                                "id": "iYH9oh"
+                              },
+                              "activity": "${SendActivity_iYH9oh()}"
+                            }
+                          ],
+                          "elseActions": [
+                            {
+                              "$kind": "Microsoft.QnAMakerDialog",
+                              "$designer": {
+                                "id": "eIr0Ks"
+                              },
+                              "knowledgeBaseId": "961d71ac-7c9c-4ee7-a909-32b2fff1964d",
+                              "endpointKey": "c4b577e8-589e-43b4-9b40-53a695e44933",
+                              "hostname": "https://nexobotprodqna.azurewebsites.net/qnamaker",
+                              "noAnswer": "No he entendido tu pregunta. Si deseas escribe 'Menu' para ver las opciones que tengo para ti.",
+                              "threshold": 0.3,
+                              "activeLearningCardTitle": "Did you mean:",
+                              "cardNoMatchText": "None of the above.",
+                              "cardNoMatchResponse": "Thanks for the feedback.",
+                              "top": 3,
+                              "isTest": false
+                            }
+                          ]
                         }
                       ]
                     }
                   ],
                   "default": [
                     {
-                      "$kind": "Microsoft.SendActivity",
+                      "$kind": "Microsoft.TextInput",
                       "$designer": {
-                        "id": "SuBjaE"
+                        "id": "NEkNCg"
                       },
-                      "activity": "${SendActivity_SuBjaE()}"
+                      "disabled": false,
+                      "maxTurnCount": 3,
+                      "alwaysPrompt": true,
+                      "allowInterruptions": false,
+                      "invalidPrompt": "",
+                      "defaultValueResponse": "",
+                      "prompt": "${TextInput_Prompt_NEkNCg()}",
+                      "property": "user.option",
+                      "value": "=turn.activity.value"
+                    },
+                    {
+                      "$kind": "Microsoft.IfCondition",
+                      "$designer": {
+                        "id": "whueQF"
+                      },
+                      "condition": "=user.option==\"Informacion general\"",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "8p3VJB"
+                          },
+                          "activity": "${SendActivity_8p3VJB()}"
+                        }
+                      ],
+                      "elseActions": [
+                        {
+                          "$kind": "Microsoft.QnAMakerDialog",
+                          "$designer": {
+                            "id": "pi84zN"
+                          },
+                          "knowledgeBaseId": "961d71ac-7c9c-4ee7-a909-32b2fff1964d",
+                          "endpointKey": "c4b577e8-589e-43b4-9b40-53a695e44933",
+                          "hostname": "https://nexobotprodqna.azurewebsites.net/qnamaker",
+                          "noAnswer": "No he entendido tu pregunta. Si deseas escribe 'Menu' para ver las opciones que tengo para ti.",
+                          "threshold": 0.3,
+                          "activeLearningCardTitle": "Did you mean:",
+                          "cardNoMatchText": "None of the above.",
+                          "cardNoMatchResponse": "Thanks for the feedback.",
+                          "top": 3,
+                          "isTest": false
+                        }
+                      ]
                     }
                   ]
                 }
@@ -261,7 +352,6 @@
                   "$designer": {
                     "id": "uLZ18D"
                   },
-                  "condition": "=turn.Activity.channelId",
                   "cases": [
                     {
                       "value": "msteams",
@@ -284,7 +374,8 @@
                       },
                       "activity": "${SendActivity_9GZb08()}"
                     }
-                  ]
+                  ],
+                  "condition": "user.option"
                 }
               ]
             },
@@ -296,10 +387,9 @@
                   "$designer": {
                     "id": "xWHlCV"
                   },
-                  "condition": "=turn.Activity.channelId",
                   "cases": [
                     {
-                      "value": "msteams",
+                      "value": "Portugues",
                       "actions": [
                         {
                           "$kind": "Microsoft.SendActivity",
@@ -319,7 +409,8 @@
                       },
                       "activity": "${SendActivity_UI2mhH()}"
                     }
-                  ]
+                  ],
+                  "condition": "user.idioma"
                 }
               ]
             },
@@ -331,10 +422,9 @@
                   "$designer": {
                     "id": "jTU37l"
                   },
-                  "condition": "=turn.Activity.channelId",
+                  "condition": "=user.idioma",
                   "cases": [
                     {
-                      "value": "msteams",
                       "actions": [
                         {
                           "$kind": "Microsoft.SendActivity",
@@ -343,7 +433,8 @@
                           },
                           "activity": "${SendActivity_aOnu3A()}"
                         }
-                      ]
+                      ],
+                      "value": "Portugues"
                     }
                   ],
                   "default": [
@@ -366,30 +457,114 @@
                   "$designer": {
                     "id": "E88yM5"
                   },
-                  "condition": "=turn.Activity.channelId",
                   "cases": [
                     {
-                      "value": "msteams",
                       "actions": [
                         {
-                          "$kind": "Microsoft.SendActivity",
+                          "$kind": "Microsoft.TextInput",
                           "$designer": {
-                            "id": "Ytbl7W"
+                            "id": "PS9aCt"
                           },
-                          "activity": "${SendActivity_Ytbl7W()}"
+                          "disabled": false,
+                          "maxTurnCount": 3,
+                          "alwaysPrompt": true,
+                          "allowInterruptions": false,
+                          "unrecognizedPrompt": "",
+                          "defaultValueResponse": "",
+                          "prompt": "${TextInput_Prompt_PS9aCt()}",
+                          "property": "user.option",
+                          "value": "=turn.activity.value"
+                        },
+                        {
+                          "$kind": "Microsoft.IfCondition",
+                          "$designer": {
+                            "id": "YC2EAm"
+                          },
+                          "condition": "=user.option==\"Informacion general\"",
+                          "actions": [
+                            {
+                              "$kind": "Microsoft.SendActivity",
+                              "$designer": {
+                                "id": "g7HotA"
+                              },
+                              "activity": "${SendActivity_g7HotA()}"
+                            }
+                          ],
+                          "elseActions": [
+                            {
+                              "$kind": "Microsoft.QnAMakerDialog",
+                              "$designer": {
+                                "id": "FNrRPS"
+                              },
+                              "knowledgeBaseId": "961d71ac-7c9c-4ee7-a909-32b2fff1964d",
+                              "endpointKey": "c4b577e8-589e-43b4-9b40-53a695e44933",
+                              "hostname": "https://nexobotprodqna.azurewebsites.net/qnamaker",
+                              "noAnswer": "No he entendido tu pregunta. Si deseas escribe 'Menu' para ver las opciones que tengo para ti.",
+                              "threshold": 0.3,
+                              "activeLearningCardTitle": "Did you mean:",
+                              "cardNoMatchText": "None of the above.",
+                              "cardNoMatchResponse": "Thanks for the feedback.",
+                              "top": 3,
+                              "isTest": false
+                            }
+                          ]
                         }
-                      ]
+                      ],
+                      "value": "Portugues"
                     }
                   ],
                   "default": [
                     {
-                      "$kind": "Microsoft.SendActivity",
+                      "$kind": "Microsoft.TextInput",
                       "$designer": {
-                        "id": "RhlYd3"
+                        "id": "Qvp1lu"
                       },
-                      "activity": "${SendActivity_RhlYd3()}"
+                      "disabled": false,
+                      "maxTurnCount": 3,
+                      "alwaysPrompt": false,
+                      "allowInterruptions": false,
+                      "unrecognizedPrompt": "",
+                      "invalidPrompt": "",
+                      "prompt": "${TextInput_Prompt_Qvp1lu()}",
+                      "property": "user.option",
+                      "value": "=turn.activity.value"
+                    },
+                    {
+                      "$kind": "Microsoft.IfCondition",
+                      "$designer": {
+                        "id": "OGc13J"
+                      },
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "zvtdaD"
+                          },
+                          "activity": "${SendActivity_zvtdaD()}"
+                        }
+                      ],
+                      "elseActions": [
+                        {
+                          "$kind": "Microsoft.QnAMakerDialog",
+                          "$designer": {
+                            "id": "B4sC5E"
+                          },
+                          "knowledgeBaseId": "961d71ac-7c9c-4ee7-a909-32b2fff1964d",
+                          "endpointKey": "c4b577e8-589e-43b4-9b40-53a695e44933",
+                          "hostname": "https://nexobotprodqna.azurewebsites.net/qnamaker",
+                          "noAnswer": "No he entendido tu pregunta. Si deseas escribe 'Menu' para ver las opciones que tengo para ti.",
+                          "threshold": 0.3,
+                          "activeLearningCardTitle": "Did you mean:",
+                          "cardNoMatchText": "None of the above.",
+                          "cardNoMatchResponse": "Thanks for the feedback.",
+                          "top": 3,
+                          "isTest": false
+                        }
+                      ],
+                      "condition": "=user.option==\"Informacion general\""
                     }
-                  ]
+                  ],
+                  "condition": "user.idioma"
                 }
               ]
             },
@@ -401,10 +576,10 @@
                   "$designer": {
                     "id": "alUyL8"
                   },
-                  "condition": "=turn.Activity.channelId",
+                  "condition": "=user.idioma",
                   "cases": [
                     {
-                      "value": "msteams",
+                      "value": "Portugues",
                       "actions": [
                         {
                           "$kind": "Microsoft.SendActivity",
@@ -432,32 +607,27 @@
               "value": "Cancelar oferta",
               "actions": [
                 {
-                  "$kind": "Microsoft.SwitchCondition",
+                  "$kind": "Microsoft.IfCondition",
                   "$designer": {
-                    "id": "yDCCG5"
+                    "id": "exh5k8"
                   },
-                  "condition": "=turn.Activity.channelId",
-                  "cases": [
-                    {
-                      "value": "msteams",
-                      "actions": [
-                        {
-                          "$kind": "Microsoft.SendActivity",
-                          "$designer": {
-                            "id": "NfjjN6"
-                          },
-                          "activity": "${SendActivity_NfjjN6()}"
-                        }
-                      ]
-                    }
-                  ],
-                  "default": [
+                  "condition": "=user.idioma==\"Espanol\"",
+                  "actions": [
                     {
                       "$kind": "Microsoft.SendActivity",
                       "$designer": {
-                        "id": "VBDEkK"
+                        "id": "yAowrI"
                       },
-                      "activity": "${SendActivity_VBDEkK()}"
+                      "activity": "${SendActivity_yAowrI()}"
+                    }
+                  ],
+                  "elseActions": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "ML5sqx"
+                      },
+                      "activity": "${SendActivity_ML5sqx()}"
                     }
                   ]
                 }
@@ -471,10 +641,10 @@
                   "$designer": {
                     "id": "hzADt5"
                   },
-                  "condition": "=turn.Activity.channelId",
+                  "condition": "user.idioma",
                   "cases": [
                     {
-                      "value": "msteams",
+                      "value": "Portugues",
                       "actions": [
                         {
                           "$kind": "Microsoft.SendActivity",

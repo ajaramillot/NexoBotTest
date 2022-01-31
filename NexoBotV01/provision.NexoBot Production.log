@@ -1,0 +1,25 @@
+{
+  "profileName": "NexoBot Production",
+  "jobId": "69947610-bed0-4058-8440-a13156e73c2a",
+  "projectId": "51880.34101003074",
+  "time": "2022-01-31T11:40:28.726Z",
+  "log": [
+    "Creating Azure resources...",
+    "Checking the Existence of the Resource Group ...",
+    "Use the Resource Group: NexoBot at eastus2",
+    "> Creating App Registration ...",
+    "Start to add password for App, Id : 3e33c383-cb1d-46eb-9ca7-364666e2d6e0",
+    "> Create App Registration Success! ID: 3e33c383-cb1d-46eb-9ca7-364666e2d6e0",
+    "Deploying Web App Resource ...",
+    "Deploying Bot Resource ...",
+    "Deploying Luis Authoring Resource ...",
+    "Deploying Luis Resource ...",
+    "Deploying Application Insights Resource ...",
+    "> Linking Application Insights settings to Bot Service ...",
+    "> AppInsights AppId: bb90d1b9-a89d-477e-b1bd-1cea99bd8356 ...",
+    "> AppInsights InstrumentationKey: 90a175b1-1d54-4e73-867b-6c9923c228f2 ...",
+    "> AppInsights ApiKey: gozcia88iar7adjftcs3n775soy7gpmeuq8k4z6q ...",
+    "> Linking Application Insights settings to Bot Service Success!",
+    "Provisioning completed successfully!"
+  ]
+}

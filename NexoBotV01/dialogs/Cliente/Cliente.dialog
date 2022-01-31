@@ -126,10 +126,10 @@
                               "$designer": {
                                 "id": "xasG1E"
                               },
-                              "knowledgeBaseId": "5072bdda-bab1-422a-a3ed-f9dffc7fceac",
-                              "endpointKey": "417d64e1-2cc4-4dac-a574-e8856d3ce044",
-                              "hostname": "https://nexobot.azurewebsites.net/qnamaker",
-                              "noAnswer": "Não entendi sua pergunta. Se quiser, escreva 'Menu' para ver as",
+                              "knowledgeBaseId": "961d71ac-7c9c-4ee7-a909-32b2fff1964d",
+                              "endpointKey": "c4b577e8-589e-43b4-9b40-53a695e44933",
+                              "hostname": "https://nexobotprodqna.azurewebsites.net/qnamaker",
+                              "noAnswer": "No he entendido tu pregunta. Si deseas escribe 'Menu' para ver las opciones que tengo para ti.",
                               "threshold": 0.3,
                               "activeLearningCardTitle": "Did you mean:",
                               "cardNoMatchText": "None of the above.",
@@ -182,9 +182,9 @@
                           "$designer": {
                             "id": "H9uoNE"
                           },
-                          "knowledgeBaseId": "5072bdda-bab1-422a-a3ed-f9dffc7fceac",
-                          "endpointKey": "417d64e1-2cc4-4dac-a574-e8856d3ce044",
-                          "hostname": "https://nexobot.azurewebsites.net/qnamaker",
+                          "knowledgeBaseId": "961d71ac-7c9c-4ee7-a909-32b2fff1964d",
+                          "endpointKey": "c4b577e8-589e-43b4-9b40-53a695e44933",
+                          "hostname": "https://nexobotprodqna.azurewebsites.net/qnamaker",
                           "noAnswer": "No he entendido tu pregunta. Si deseas escribe 'Menu' para ver las opciones que tengo para ti.",
                           "threshold": 0.3,
                           "activeLearningCardTitle": "Did you mean:",
@@ -248,10 +248,10 @@
                               "$designer": {
                                 "id": "MyzDCy"
                               },
-                              "knowledgeBaseId": "5072bdda-bab1-422a-a3ed-f9dffc7fceac",
-                              "endpointKey": "417d64e1-2cc4-4dac-a574-e8856d3ce044",
-                              "hostname": "https://nexobot.azurewebsites.net/qnamaker",
-                              "noAnswer": "Sorry, I did not find an answer.",
+                              "knowledgeBaseId": "961d71ac-7c9c-4ee7-a909-32b2fff1964d",
+                              "endpointKey": "c4b577e8-589e-43b4-9b40-53a695e44933",
+                              "hostname": "https://nexobotprodqna.azurewebsites.net/qnamaker",
+                              "noAnswer": "No he entendido tu pregunta. Si deseas escribe 'Menu' para ver las opciones que tengo para ti.",
                               "threshold": 0.3,
                               "activeLearningCardTitle": "Did you mean:",
                               "cardNoMatchText": "None of the above.",
@@ -300,10 +300,10 @@
                           "$designer": {
                             "id": "H9uoNE"
                           },
-                          "knowledgeBaseId": "5072bdda-bab1-422a-a3ed-f9dffc7fceac",
-                          "endpointKey": "417d64e1-2cc4-4dac-a574-e8856d3ce044",
-                          "hostname": "https://nexobot.azurewebsites.net/qnamaker",
-                          "noAnswer": "Sorry, I did not find an answer.",
+                          "knowledgeBaseId": "961d71ac-7c9c-4ee7-a909-32b2fff1964d",
+                          "endpointKey": "c4b577e8-589e-43b4-9b40-53a695e44933",
+                          "hostname": "https://nexobotprodqna.azurewebsites.net/qnamaker",
+                          "noAnswer": "No he entendido tu pregunta. Si deseas escribe 'Menu' para ver las opciones que tengo para ti.",
                           "threshold": 0.3,
                           "activeLearningCardTitle": "Did you mean:",
                           "cardNoMatchText": "None of the above.",
@@ -434,10 +434,10 @@
                               "$designer": {
                                 "id": "jjzgFp"
                               },
-                              "knowledgeBaseId": "5072bdda-bab1-422a-a3ed-f9dffc7fceac",
-                              "endpointKey": "417d64e1-2cc4-4dac-a574-e8856d3ce044",
-                              "hostname": "https://nexobot.azurewebsites.net/qnamaker",
-                              "noAnswer": "Sorry, I did not find an answer.",
+                              "knowledgeBaseId": "961d71ac-7c9c-4ee7-a909-32b2fff1964d",
+                              "endpointKey": "c4b577e8-589e-43b4-9b40-53a695e44933",
+                              "hostname": "https://nexobotprodqna.azurewebsites.net/qnamaker",
+                              "noAnswer": "No he entendido tu pregunta. Si deseas escribe 'Menu' para ver las opciones que tengo para ti.",
                               "threshold": 0.3,
                               "activeLearningCardTitle": "Did you mean:",
                               "cardNoMatchText": "None of the above.",
@@ -486,10 +486,10 @@
                           "$designer": {
                             "id": "2w0n30"
                           },
-                          "knowledgeBaseId": "5072bdda-bab1-422a-a3ed-f9dffc7fceac",
-                          "endpointKey": "417d64e1-2cc4-4dac-a574-e8856d3ce044",
-                          "hostname": "https://nexobot.azurewebsites.net/qnamaker",
-                          "noAnswer": "Sorry, I did not find an answer.",
+                          "knowledgeBaseId": "961d71ac-7c9c-4ee7-a909-32b2fff1964d",
+                          "endpointKey": "c4b577e8-589e-43b4-9b40-53a695e44933",
+                          "hostname": "https://nexobotprodqna.azurewebsites.net/qnamaker",
+                          "noAnswer": "No he entendido tu pregunta. Si deseas escribe 'Menu' para ver las opciones que tengo para ti.",
                           "threshold": 0.3,
                           "activeLearningCardTitle": "Did you mean:",
                           "cardNoMatchText": "None of the above.",

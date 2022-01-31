@@ -1,0 +1,326 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "pn8NOg",
+    "name": "Informacion_general",
+    "comment": ""
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "c2Ufqp"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SwitchCondition",
+          "$designer": {
+            "id": "rw0aAN"
+          },
+          "condition": "user.idioma",
+          "cases": [
+            {
+              "actions": [
+                {
+                  "$kind": "Microsoft.TextInput",
+                  "$designer": {
+                    "id": "QJZey4"
+                  },
+                  "disabled": false,
+                  "maxTurnCount": 3,
+                  "alwaysPrompt": true,
+                  "allowInterruptions": false,
+                  "unrecognizedPrompt": "",
+                  "defaultValueResponse": "",
+                  "prompt": "${TextInput_Prompt_QJZey4()}",
+                  "property": "user.OptionSubMenu",
+                  "value": "=turn.activity.value"
+                }
+              ],
+              "value": "not p"
+            }
+          ],
+          "default": [
+            {
+              "$kind": "Microsoft.SwitchCondition",
+              "$designer": {
+                "id": "GC44OW"
+              },
+              "condition": "user.idioma",
+              "cases": [
+                {
+                  "value": "Portugues",
+                  "actions": [
+                    {
+                      "$kind": "Microsoft.TextInput",
+                      "$designer": {
+                        "id": "Ss6jus"
+                      },
+                      "disabled": false,
+                      "maxTurnCount": 3,
+                      "alwaysPrompt": true,
+                      "allowInterruptions": false,
+                      "unrecognizedPrompt": "",
+                      "defaultValueResponse": "",
+                      "prompt": "${TextInput_Prompt_Ss6jus()}",
+                      "property": "user.OptionSubMenu",
+                      "value": "=turn.activity.value"
+                    }
+                  ]
+                }
+              ],
+              "default": [
+                {
+                  "$kind": "Microsoft.TextInput",
+                  "$designer": {
+                    "id": "zFb3XA"
+                  },
+                  "disabled": false,
+                  "maxTurnCount": 3,
+                  "alwaysPrompt": true,
+                  "allowInterruptions": false,
+                  "prompt": "${TextInput_Prompt_zFb3XA()}",
+                  "property": "user.OptionSubMenu",
+                  "value": "=turn.activity.value"
+                }
+              ]
+            },
+            {
+              "$kind": "Microsoft.SwitchCondition",
+              "$designer": {
+                "id": "9RBtq7"
+              },
+              "condition": "user.OptionSubMenu",
+              "cases": [
+                {
+                  "value": "Definiciones Financieras",
+                  "actions": [
+                    {
+                      "$kind": "Microsoft.SwitchCondition",
+                      "$designer": {
+                        "id": "yFDEjN"
+                      },
+                      "condition": "user.idioma",
+                      "cases": [
+                        {
+                          "value": "Portugues",
+                          "actions": [
+                            {
+                              "$kind": "Microsoft.SendActivity",
+                              "$designer": {
+                                "id": "NuuUKV"
+                              },
+                              "activity": "${SendActivity_NuuUKV()}"
+                            }
+                          ]
+                        }
+                      ],
+                      "default": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "90gyps"
+                          },
+                          "activity": "${SendActivity_90gyps()}"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "value": "Dynamics",
+                  "actions": [
+                    {
+                      "$kind": "Microsoft.SwitchCondition",
+                      "$designer": {
+                        "id": "JFFRU4"
+                      },
+                      "condition": "user.idioma",
+                      "cases": [
+                        {
+                          "value": "Portugues",
+                          "actions": [
+                            {
+                              "$kind": "Microsoft.SendActivity",
+                              "$designer": {
+                                "id": "89pV0x"
+                              },
+                              "activity": "${SendActivity_89pV0x()}"
+                            }
+                          ]
+                        }
+                      ],
+                      "default": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "FVAIME"
+                          },
+                          "activity": "${SendActivity_FVAIME()}"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "value": "Oportunidad/oferta",
+                  "actions": [
+                    {
+                      "$kind": "Microsoft.SwitchCondition",
+                      "$designer": {
+                        "id": "9ffoUG"
+                      },
+                      "condition": "user.idioma",
+                      "cases": [
+                        {
+                          "value": "Portugues",
+                          "actions": [
+                            {
+                              "$kind": "Microsoft.SendActivity",
+                              "$designer": {
+                                "id": "Yo0cZT"
+                              },
+                              "activity": "${SendActivity_Yo0cZT()}"
+                            }
+                          ]
+                        }
+                      ],
+                      "default": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "P3dX1W"
+                          },
+                          "activity": "${SendActivity_P3dX1W()}"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "value": "Microsoft",
+                  "actions": [
+                    {
+                      "$kind": "Microsoft.SwitchCondition",
+                      "$designer": {
+                        "id": "OYBLpz"
+                      },
+                      "condition": "user.idioma",
+                      "cases": [
+                        {
+                          "value": "Portugues",
+                          "actions": [
+                            {
+                              "$kind": "Microsoft.SendActivity",
+                              "$designer": {
+                                "id": "3JGy39"
+                              },
+                              "activity": "${SendActivity_3JGy39()}"
+                            }
+                          ]
+                        }
+                      ],
+                      "default": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "fRWRbZ"
+                          },
+                          "activity": "${SendActivity_fRWRbZ()}"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "value": "CRM",
+                  "actions": [
+                    {
+                      "$kind": "Microsoft.SwitchCondition",
+                      "$designer": {
+                        "id": "nKqNBc"
+                      },
+                      "condition": "user.idioma",
+                      "cases": [
+                        {
+                          "value": "Portugues",
+                          "actions": [
+                            {
+                              "$kind": "Microsoft.SendActivity",
+                              "$designer": {
+                                "id": "wU6crT"
+                              },
+                              "activity": "${SendActivity_wU6crT()}"
+                            }
+                          ]
+                        }
+                      ],
+                      "default": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "AmXKOK"
+                          },
+                          "activity": "${SendActivity_AmXKOK()}"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "value": "Otros",
+                  "actions": [
+                    {
+                      "$kind": "Microsoft.SwitchCondition",
+                      "$designer": {
+                        "id": "6vJpVh"
+                      },
+                      "condition": "user.idioma",
+                      "cases": [
+                        {
+                          "value": "Portugues",
+                          "actions": [
+                            {
+                              "$kind": "Microsoft.SendActivity",
+                              "$designer": {
+                                "id": "Q11PVF"
+                              },
+                              "activity": "${SendActivity_Q11PVF()}"
+                            }
+                          ]
+                        }
+                      ],
+                      "default": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "9WGbX9"
+                          },
+                          "activity": "${SendActivity_9WGbX9()}"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "$kind": "Microsoft.DeleteProperty",
+          "$designer": {
+            "id": "otSJkk"
+          },
+          "property": "user.OptionSubMenu"
+        }
+      ]
+    }
+  ],
+  "generator": "Informacion_general.lg",
+  "recognizer": "Informacion_general.lu.qna",
+  "id": "Informacion_general"
+}
