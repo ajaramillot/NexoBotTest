@@ -21,10 +21,10 @@
           "$designer": {
             "id": "yaLfgO"
           },
-          "condition": "=turn.Activity.channelId",
+          "condition": "user.idioma",
           "cases": [
             {
-              "value": "msteams",
+              "value": "Portugues",
               "actions": [
                 {
                   "$kind": "Microsoft.TextInput",
@@ -86,63 +86,232 @@
                   "$designer": {
                     "id": "LEtWOw"
                   },
-                  "condition": "=turn.Activity.channelId",
+                  "condition": "user.idioma",
                   "cases": [
                     {
-                      "value": "msteams",
+                      "value": "Portugues",
                       "actions": [
                         {
-                          "$kind": "Microsoft.SendActivity",
+                          "$kind": "Microsoft.TextInput",
                           "$designer": {
-                            "id": "ay6nFZ"
+                            "id": "YaE5Aq"
                           },
-                          "activity": "${SendActivity_ay6nFZ()}"
+                          "disabled": false,
+                          "maxTurnCount": 3,
+                          "alwaysPrompt": true,
+                          "allowInterruptions": false,
+                          "unrecognizedPrompt": "",
+                          "prompt": "${TextInput_Prompt_YaE5Aq()}",
+                          "property": "user.option",
+                          "value": "=turn.activity.value"
+                        },
+                        {
+                          "$kind": "Microsoft.IfCondition",
+                          "$designer": {
+                            "id": "TPAz4X"
+                          },
+                          "condition": "=user.option==\"Informacion general\"",
+                          "actions": [
+                            {
+                              "$kind": "Microsoft.SendActivity",
+                              "$designer": {
+                                "id": "dr5M0i"
+                              },
+                              "activity": "${SendActivity_dr5M0i()}"
+                            }
+                          ],
+                          "elseActions": [
+                            {
+                              "$kind": "Microsoft.QnAMakerDialog",
+                              "$designer": {
+                                "id": "xasG1E"
+                              },
+                              "knowledgeBaseId": "961d71ac-7c9c-4ee7-a909-32b2fff1964d",
+                              "endpointKey": "c4b577e8-589e-43b4-9b40-53a695e44933",
+                              "hostname": "https://nexobotprodqna.azurewebsites.net/qnamaker",
+                              "noAnswer": "No he entendido tu pregunta. Si deseas escribe 'Menu' para ver las opciones que tengo para ti.",
+                              "threshold": 0.3,
+                              "activeLearningCardTitle": "Did you mean:",
+                              "cardNoMatchText": "None of the above.",
+                              "cardNoMatchResponse": "Thanks for the feedback.",
+                              "top": 3,
+                              "isTest": false
+                            }
+                          ]
                         }
                       ]
                     }
                   ],
                   "default": [
                     {
-                      "$kind": "Microsoft.SendActivity",
+                      "$kind": "Microsoft.TextInput",
                       "$designer": {
-                        "id": "pt5lWR"
+                        "id": "5eDzZo"
                       },
-                      "activity": "${SendActivity_pt5lWR()}"
+                      "disabled": false,
+                      "maxTurnCount": 3,
+                      "alwaysPrompt": true,
+                      "allowInterruptions": false,
+                      "invalidPrompt": "",
+                      "property": "user.option",
+                      "prompt": "${TextInput_Prompt_5eDzZo()}"
+                    },
+                    {
+                      "$kind": "Microsoft.SwitchCondition",
+                      "$designer": {
+                        "id": "FbMCtW"
+                      },
+                      "condition": "user.option",
+                      "cases": [
+                        {
+                          "value": "Informacion general",
+                          "actions": [
+                            {
+                              "$kind": "Microsoft.SendActivity",
+                              "$designer": {
+                                "id": "ghj6lu"
+                              },
+                              "activity": "${SendActivity_ghj6lu()}"
+                            }
+                          ]
+                        }
+                      ],
+                      "default": [
+                        {
+                          "$kind": "Microsoft.QnAMakerDialog",
+                          "$designer": {
+                            "id": "H9uoNE"
+                          },
+                          "knowledgeBaseId": "961d71ac-7c9c-4ee7-a909-32b2fff1964d",
+                          "endpointKey": "c4b577e8-589e-43b4-9b40-53a695e44933",
+                          "hostname": "https://nexobotprodqna.azurewebsites.net/qnamaker",
+                          "noAnswer": "No he entendido tu pregunta. Si deseas escribe 'Menu' para ver las opciones que tengo para ti.",
+                          "threshold": 0.3,
+                          "activeLearningCardTitle": "Did you mean:",
+                          "cardNoMatchText": "None of the above.",
+                          "cardNoMatchResponse": "Thanks for the feedback.",
+                          "top": 3,
+                          "isTest": false
+                        }
+                      ]
                     }
                   ]
                 }
               ]
             },
             {
-              "value": "RAC (EQUIPO DE ATENCIÓN CLIENTE)",
+              "value": "Informacion general cliente",
               "actions": [
                 {
                   "$kind": "Microsoft.SwitchCondition",
                   "$designer": {
                     "id": "UWRnel"
                   },
-                  "condition": "=turn.Activity.channelId",
+                  "condition": "user.idioma",
                   "cases": [
                     {
-                      "value": "msteams",
+                      "value": "Portugues",
                       "actions": [
                         {
-                          "$kind": "Microsoft.SendActivity",
+                          "$kind": "Microsoft.TextInput",
                           "$designer": {
-                            "id": "eu8R2T"
+                            "id": "mLqbOv"
                           },
-                          "activity": "${SendActivity_eu8R2T()}"
+                          "disabled": false,
+                          "maxTurnCount": 3,
+                          "alwaysPrompt": true,
+                          "allowInterruptions": false,
+                          "prompt": "${TextInput_Prompt_mLqbOv()}",
+                          "unrecognizedPrompt": "",
+                          "defaultValueResponse": "",
+                          "property": "user.option",
+                          "value": "=turn.activity.value"
+                        },
+                        {
+                          "$kind": "Microsoft.IfCondition",
+                          "$designer": {
+                            "id": "MXKVdR"
+                          },
+                          "condition": "=user.option==\"Informacion general\"",
+                          "actions": [
+                            {
+                              "$kind": "Microsoft.SendActivity",
+                              "$designer": {
+                                "id": "TeR5fz"
+                              },
+                              "activity": "${SendActivity_TeR5fz()}"
+                            }
+                          ],
+                          "elseActions": [
+                            {
+                              "$kind": "Microsoft.QnAMakerDialog",
+                              "$designer": {
+                                "id": "MyzDCy"
+                              },
+                              "knowledgeBaseId": "961d71ac-7c9c-4ee7-a909-32b2fff1964d",
+                              "endpointKey": "c4b577e8-589e-43b4-9b40-53a695e44933",
+                              "hostname": "https://nexobotprodqna.azurewebsites.net/qnamaker",
+                              "noAnswer": "No he entendido tu pregunta. Si deseas escribe 'Menu' para ver las opciones que tengo para ti.",
+                              "threshold": 0.3,
+                              "activeLearningCardTitle": "Did you mean:",
+                              "cardNoMatchText": "None of the above.",
+                              "cardNoMatchResponse": "Thanks for the feedback.",
+                              "top": 3,
+                              "isTest": false
+                            }
+                          ]
                         }
                       ]
                     }
                   ],
                   "default": [
                     {
-                      "$kind": "Microsoft.SendActivity",
+                      "$kind": "Microsoft.TextInput",
                       "$designer": {
-                        "id": "jBgIfS"
+                        "id": "mLqbOv"
                       },
-                      "activity": "${SendActivity_jBgIfS()}"
+                      "disabled": false,
+                      "maxTurnCount": 3,
+                      "alwaysPrompt": true,
+                      "allowInterruptions": false,
+                      "unrecognizedPrompt": "",
+                      "prompt": "${TextInput_Prompt_mLqbOv()}",
+                      "property": "user.option",
+                      "value": "=turn.activity.value"
+                    },
+                    {
+                      "$kind": "Microsoft.IfCondition",
+                      "$designer": {
+                        "id": "LTi330"
+                      },
+                      "condition": "=user.option==\"Informacion general\"",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "eBKnvd"
+                          },
+                          "activity": "${SendActivity_eBKnvd()}"
+                        }
+                      ],
+                      "elseActions": [
+                        {
+                          "$kind": "Microsoft.QnAMakerDialog",
+                          "$designer": {
+                            "id": "H9uoNE"
+                          },
+                          "knowledgeBaseId": "961d71ac-7c9c-4ee7-a909-32b2fff1964d",
+                          "endpointKey": "c4b577e8-589e-43b4-9b40-53a695e44933",
+                          "hostname": "https://nexobotprodqna.azurewebsites.net/qnamaker",
+                          "noAnswer": "No he entendido tu pregunta. Si deseas escribe 'Menu' para ver las opciones que tengo para ti.",
+                          "threshold": 0.3,
+                          "activeLearningCardTitle": "Did you mean:",
+                          "cardNoMatchText": "None of the above.",
+                          "cardNoMatchResponse": "Thanks for the feedback.",
+                          "top": 3,
+                          "isTest": false
+                        }
+                      ]
                     }
                   ]
                 }
@@ -156,10 +325,10 @@
                   "$designer": {
                     "id": "EiJHVC"
                   },
-                  "condition": "=turn.Activity.channelId",
+                  "condition": "user.idioma",
                   "cases": [
                     {
-                      "value": "msteams",
+                      "value": "Portugues",
                       "actions": [
                         {
                           "$kind": "Microsoft.SendActivity",
@@ -184,17 +353,17 @@
               ]
             },
             {
-              "value": "Informacion general cliente",
+              "value": "RAC (EQUIPO DE ATENCIÓN CLIENTE)",
               "actions": [
                 {
                   "$kind": "Microsoft.SwitchCondition",
                   "$designer": {
                     "id": "wGs4Zu"
                   },
-                  "condition": "=turn.Activity.channelId",
+                  "condition": "user.idioma",
                   "cases": [
                     {
-                      "value": "msteams",
+                      "value": "Portuges",
                       "actions": [
                         {
                           "$kind": "Microsoft.SendActivity",
@@ -226,34 +395,116 @@
                   "$designer": {
                     "id": "RvfYpf"
                   },
-                  "condition": "=turn.Activity.channelId",
+                  "condition": "user.idioma",
                   "cases": [
                     {
-                      "value": "msteams",
+                      "value": "Portugues",
                       "actions": [
                         {
-                          "$kind": "Microsoft.SendActivity",
+                          "$kind": "Microsoft.TextInput",
                           "$designer": {
-                            "id": "LhmRzZ"
+                            "id": "Nh6G5V"
                           },
-                          "activity": "${SendActivity_LhmRzZ()}"
+                          "disabled": false,
+                          "maxTurnCount": 3,
+                          "alwaysPrompt": true,
+                          "allowInterruptions": false,
+                          "prompt": "${TextInput_Prompt_Nh6G5V()}",
+                          "property": "user.option",
+                          "value": "=turn.activity.value"
+                        },
+                        {
+                          "$kind": "Microsoft.IfCondition",
+                          "$designer": {
+                            "id": "vloZdy"
+                          },
+                          "condition": "=user.option==\"Informacion general\"",
+                          "actions": [
+                            {
+                              "$kind": "Microsoft.SendActivity",
+                              "$designer": {
+                                "id": "GPhh6E"
+                              },
+                              "activity": "${SendActivity_GPhh6E()}"
+                            }
+                          ],
+                          "elseActions": [
+                            {
+                              "$kind": "Microsoft.QnAMakerDialog",
+                              "$designer": {
+                                "id": "jjzgFp"
+                              },
+                              "knowledgeBaseId": "961d71ac-7c9c-4ee7-a909-32b2fff1964d",
+                              "endpointKey": "c4b577e8-589e-43b4-9b40-53a695e44933",
+                              "hostname": "https://nexobotprodqna.azurewebsites.net/qnamaker",
+                              "noAnswer": "No he entendido tu pregunta. Si deseas escribe 'Menu' para ver las opciones que tengo para ti.",
+                              "threshold": 0.3,
+                              "activeLearningCardTitle": "Did you mean:",
+                              "cardNoMatchText": "None of the above.",
+                              "cardNoMatchResponse": "Thanks for the feedback.",
+                              "top": 3,
+                              "isTest": false
+                            }
+                          ]
                         }
                       ]
                     }
                   ],
                   "default": [
                     {
-                      "$kind": "Microsoft.SendActivity",
+                      "$kind": "Microsoft.TextInput",
                       "$designer": {
-                        "id": "UyyTkd"
+                        "id": "i0OpUp"
                       },
-                      "activity": "${SendActivity_UyyTkd()}"
+                      "disabled": false,
+                      "maxTurnCount": 3,
+                      "alwaysPrompt": true,
+                      "allowInterruptions": false,
+                      "unrecognizedPrompt": "",
+                      "prompt": "${TextInput_Prompt_i0OpUp()}",
+                      "property": "user.option",
+                      "value": "=turn.activity.value"
+                    },
+                    {
+                      "$kind": "Microsoft.IfCondition",
+                      "$designer": {
+                        "id": "fHNNVj"
+                      },
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "r6bnUW"
+                          },
+                          "activity": "${SendActivity_r6bnUW()}"
+                        }
+                      ],
+                      "condition": "=user.option==\"Informacion general\"",
+                      "elseActions": [
+                        {
+                          "$kind": "Microsoft.QnAMakerDialog",
+                          "$designer": {
+                            "id": "2w0n30"
+                          },
+                          "knowledgeBaseId": "961d71ac-7c9c-4ee7-a909-32b2fff1964d",
+                          "endpointKey": "c4b577e8-589e-43b4-9b40-53a695e44933",
+                          "hostname": "https://nexobotprodqna.azurewebsites.net/qnamaker",
+                          "noAnswer": "No he entendido tu pregunta. Si deseas escribe 'Menu' para ver las opciones que tengo para ti.",
+                          "threshold": 0.3,
+                          "activeLearningCardTitle": "Did you mean:",
+                          "cardNoMatchText": "None of the above.",
+                          "cardNoMatchResponse": "Thanks for the feedback.",
+                          "top": 3,
+                          "isTest": false
+                        }
+                      ]
                     }
                   ]
                 }
               ]
             }
-          ]
+          ],
+          "default": []
         },
         {
           "$kind": "Microsoft.DeleteProperties",
@@ -263,14 +514,9 @@
           "properties": [
             "user.Option",
             "user.OptionSubMenu",
-            "user.OptionMenu"
+            "user.OptionMenu",
+            "user.option"
           ]
-        },
-        {
-          "$kind": "Microsoft.EndDialog",
-          "$designer": {
-            "id": "xr9YE4"
-          }
         }
       ]
     }

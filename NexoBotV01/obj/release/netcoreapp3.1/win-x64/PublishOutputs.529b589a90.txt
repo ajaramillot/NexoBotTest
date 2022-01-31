@@ -23,6 +23,10 @@ C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBo
 C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotTest\NexoBotTest\NexoBotV01\bin\release\publishTarget\dialogs\Factibilidad\recognizers\Factibilidad.en-us.lu.dialog
 C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotTest\NexoBotTest\NexoBotV01\bin\release\publishTarget\dialogs\Factibilidad\recognizers\Factibilidad.lu.dialog
 C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotTest\NexoBotTest\NexoBotV01\bin\release\publishTarget\dialogs\Factibilidad\recognizers\Factibilidad.lu.qna.dialog
+C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotTest\NexoBotTest\NexoBotV01\bin\release\publishTarget\dialogs\Informacion_general\Informacion_general.dialog
+C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotTest\NexoBotTest\NexoBotV01\bin\release\publishTarget\dialogs\Informacion_general\recognizers\Informacion_general.en-us.lu.dialog
+C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotTest\NexoBotTest\NexoBotV01\bin\release\publishTarget\dialogs\Informacion_general\recognizers\Informacion_general.lu.dialog
+C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotTest\NexoBotTest\NexoBotV01\bin\release\publishTarget\dialogs\Informacion_general\recognizers\Informacion_general.lu.qna.dialog
 C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotTest\NexoBotTest\NexoBotV01\bin\release\publishTarget\dialogs\Menu\Menu.dialog
 C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotTest\NexoBotTest\NexoBotV01\bin\release\publishTarget\dialogs\Menu\recognizers\Menu.en-us.lu.dialog
 C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotTest\NexoBotTest\NexoBotV01\bin\release\publishTarget\dialogs\Menu\recognizers\Menu.lu.dialog
@@ -54,6 +58,7 @@ C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBo
 C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotTest\NexoBotTest\NexoBotV01\bin\release\publishTarget\dialogs\Cliente\language-generation\en-us\Cliente.en-us.lg
 C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotTest\NexoBotTest\NexoBotV01\bin\release\publishTarget\dialogs\Desconexiones\language-generation\en-us\Desconexiones.en-us.lg
 C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotTest\NexoBotTest\NexoBotV01\bin\release\publishTarget\dialogs\Factibilidad\language-generation\en-us\Factibilidad.en-us.lg
+C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotTest\NexoBotTest\NexoBotV01\bin\release\publishTarget\dialogs\Informacion_general\language-generation\en-us\Informacion_general.en-us.lg
 C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotTest\NexoBotTest\NexoBotV01\bin\release\publishTarget\dialogs\Menu\language-generation\en-us\Menu.en-us.lg
 C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotTest\NexoBotTest\NexoBotV01\bin\release\publishTarget\dialogs\Novedades\language-generation\en-us\Novedades.en-us.lg
 C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotTest\NexoBotTest\NexoBotV01\bin\release\publishTarget\dialogs\Ofertas\language-generation\en-us\Ofertas.en-us.lg
@@ -65,6 +70,7 @@ C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBo
 C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotTest\NexoBotTest\NexoBotV01\bin\release\publishTarget\dialogs\Cliente\language-understanding\en-us\Cliente.en-us.lu
 C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotTest\NexoBotTest\NexoBotV01\bin\release\publishTarget\dialogs\Desconexiones\language-understanding\en-us\Desconexiones.en-us.lu
 C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotTest\NexoBotTest\NexoBotV01\bin\release\publishTarget\dialogs\Factibilidad\language-understanding\en-us\Factibilidad.en-us.lu
+C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotTest\NexoBotTest\NexoBotV01\bin\release\publishTarget\dialogs\Informacion_general\language-understanding\en-us\Informacion_general.en-us.lu
 C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotTest\NexoBotTest\NexoBotV01\bin\release\publishTarget\dialogs\Menu\language-understanding\en-us\Menu.en-us.lu
 C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotTest\NexoBotTest\NexoBotV01\bin\release\publishTarget\dialogs\Novedades\language-understanding\en-us\Novedades.en-us.lu
 C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotTest\NexoBotTest\NexoBotV01\bin\release\publishTarget\dialogs\Ofertas\language-understanding\en-us\Ofertas.en-us.lu
@@ -74,6 +80,7 @@ C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBo
 C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotTest\NexoBotTest\NexoBotV01\bin\release\publishTarget\generated\interruption\Cliente.en-us.lu
 C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotTest\NexoBotTest\NexoBotV01\bin\release\publishTarget\generated\interruption\Desconexiones.en-us.lu
 C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotTest\NexoBotTest\NexoBotV01\bin\release\publishTarget\generated\interruption\Factibilidad.en-us.lu
+C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotTest\NexoBotTest\NexoBotV01\bin\release\publishTarget\generated\interruption\Informacion_general.en-us.lu
 C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotTest\NexoBotTest\NexoBotV01\bin\release\publishTarget\generated\interruption\Menu.en-us.lu
 C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotTest\NexoBotTest\NexoBotV01\bin\release\publishTarget\generated\interruption\NexoBotV01.en-us.lu
 C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotTest\NexoBotTest\NexoBotV01\bin\release\publishTarget\generated\interruption\Novedades.en-us.lu
@@ -86,6 +93,7 @@ C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBo
 C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotTest\NexoBotTest\NexoBotV01\bin\release\publishTarget\dialogs\Desconexiones\knowledge-base\en-us\Desconexiones.en-us.qna
 C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotTest\NexoBotTest\NexoBotV01\bin\release\publishTarget\dialogs\emptyBot\knowledge-base\en-us\emptyBot.en-us.qna
 C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotTest\NexoBotTest\NexoBotV01\bin\release\publishTarget\dialogs\Factibilidad\knowledge-base\en-us\Factibilidad.en-us.qna
+C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotTest\NexoBotTest\NexoBotV01\bin\release\publishTarget\dialogs\Informacion_general\knowledge-base\en-us\Informacion_general.en-us.qna
 C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotTest\NexoBotTest\NexoBotV01\bin\release\publishTarget\dialogs\Menu\knowledge-base\en-us\Menu.en-us.qna
 C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotTest\NexoBotTest\NexoBotV01\bin\release\publishTarget\dialogs\Novedades\knowledge-base\en-us\Novedades.en-us.qna
 C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotTest\NexoBotTest\NexoBotV01\bin\release\publishTarget\dialogs\Ofertas\knowledge-base\en-us\Ofertas.en-us.qna
@@ -95,6 +103,7 @@ C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBo
 C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotTest\NexoBotTest\NexoBotV01\bin\release\publishTarget\generated\interruption\Cliente.en-us.qna
 C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotTest\NexoBotTest\NexoBotV01\bin\release\publishTarget\generated\interruption\Desconexiones.en-us.qna
 C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotTest\NexoBotTest\NexoBotV01\bin\release\publishTarget\generated\interruption\Factibilidad.en-us.qna
+C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotTest\NexoBotTest\NexoBotV01\bin\release\publishTarget\generated\interruption\Informacion_general.en-us.qna
 C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotTest\NexoBotTest\NexoBotV01\bin\release\publishTarget\generated\interruption\Menu.en-us.qna
 C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotTest\NexoBotTest\NexoBotV01\bin\release\publishTarget\generated\interruption\NexoBotV01.en-us.qna
 C:\Users\ajaramillot\OneDrive - IG Services S.A.S\Escritorio\NexoBotITXV0\NexoBotITX1\NexoBotTest\NexoBotTest\NexoBotV01\bin\release\publishTarget\generated\interruption\Novedades.en-us.qna

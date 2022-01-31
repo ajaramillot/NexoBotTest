@@ -74,23 +74,17 @@
       "type": "ColumnSet",
       "columns": [
         {
+          "width": "400px",
           "type": "Column",
-          "width": "250px",
           "items": [
              {
               "type": "ActionSet",
                "actions": [
                  {
                    "type": "Action.Submit",
-                   "title": "Rechazo de novedades",
+                   "title": "rejeição de novidades",
                    "value": "Rechazo de novedades",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Rechazo de novedades",
-                      "value": "Rechazo de novedades"
-                      }
-                 }
+                   "data": "Rechazo de novedades"
                  }
                ]
             },
@@ -99,15 +93,9 @@
                "actions": [
                  {
                    "type": "Action.Submit",
-                   "title": "Cambio cuenta de facturacion",
+                   "title": "Alterar conta de faturamento",
                    "value": "Cambio cuenta de facturacion",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Cambio cuenta de facturacion",
-                      "value": "Cambio cuenta de facturacion"
-                      }
-                 }
+                   "data": "Cambio cuenta de facturacion"
                  }
                ]
             },
@@ -116,36 +104,11 @@
                "actions": [
                  {
                    "type": "Action.Submit",
-                   "title": "Estado de novedades",
+                   "title": "Status de novidades",
                    "value": "Estado de novedades",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Estado de novedades",
-                      "value": "Estado de novedades"
-                      }
-                 }
+                   "data": "Estado de novedades"
                  }
                ]
-            }
-          ]
-        },
-        {
-          "type": "Column",
-          "width": "150px",
-          "height": "stretch",
-          "spacing": "Padding",
-          "items": [
-            {
-            "type": "Image",
-            "url": "https://github.com/ajaramillot/NexoBot/blob/main/Iconografia/nexobot-icono%20192x192.png?raw=true"
-            },
-            {
-            "type": "TextBlock",
-            "weight": "bolder",
-            "size": "Medium",
-            "text": "Bienvenido, Soy nexobot \r\r\r Escoge la opcion que mas se acomode a tu duda",
-            "wrap": true
             }
           ]
         }
@@ -185,17 +148,6 @@
                    "data": "Rechazo de novedad"
                  }
                ]
-        },
-        {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Informacion general",
-                   "value": "Informacion general Cliente",
-                   "data": "Informacion general Cliente"
-                 }
-               ]
         }
     ]
 }
@@ -218,38 +170,274 @@
                    "type": "Action.Submit",
                    "title": "Guia",
                    "value": "Guia",
-                   "data": {                   
-                      "msteams": {
-                      "type": "imBack",
-                      "data": "Rechazo de novedad",
-                      "value": "Rechazo de novedad"
-                      }
-                 }
-               ]
-        },
-        {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Informacion general",
-                   "value": "Informacion general Cliente",
-                   "data": "Informacion general Cliente"
+                   "data": "Rejeição de Novidades"
                  }
                ]
         }
     ]
 }
 ```
-# SendActivity_OSBgUw()
+# TextInput_Prompt_dsJA7x()
 [Activity
-    Attachments = ${SendActivity_OSBgUw_attachment_TjMarS()}
+    Attachments = ${json(TextInput_Prompt_dsJA7x_attachment_iWdCbQ())}
 ]
 
-# SendActivity_OSBgUw_attachment_TjMarS()
-[ThumbnailCard
-  title = Sub menu Novedades
-  subtitle = NexoBot
-  text = Selecciona la opcion que mas se acomode a tu duda
-  image = https://statics.teams.cdn.office.net/evergreen-assets/apps/teams_dev_app_largeimage.png
+# TextInput_Prompt_dsJA7x_attachment_iWdCbQ()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": "Estado de novedades"
+                 }
+               ]
+        },
+        {
+                   "type": "Action.Submit",
+                   "title": "Informacion general",
+                   "value": "Informacion general",
+                   "data": "Informacion general"
+                 }
+               ]
+        }
+    ]
+}
+```
+
+
+# TextInput_Prompt_ueZEWL()
+[Activity
+    Attachments = ${json(TextInput_Prompt_ueZEWL_attachment_UovmRH())}
 ]
+
+# TextInput_Prompt_ueZEWL_attachment_UovmRH()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": "Estado de Novidades"
+                 }
+               ]
+        },
+        {
+                   "type": "Action.Submit",
+                   "title": "Informações gerais",
+                   "value": "Informacion general",
+                   "data": "Informacion general"
+                 }
+               ]
+        }
+    ]
+}
+```
+
+
+# SendActivity_az0mVw()
+[Activity
+    Attachments = ${json(SendActivity_az0mVw_attachment_qT72rj())}
+]
+
+# SendActivity_az0mVw_attachment_qT72rj()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "width": "5",
+          "type": "Column",
+          "items": [
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Generación de parámetro por parte de la novedad?",
+                   "value": "¿Generación de parámetro por parte de la novedad?",
+                   "data": "¿Generación de parámetro por parte de la novedad?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Renovación?",
+                   "value": "¿Renovación?",
+                   "data": "¿Renovación?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Novedades de facturación?",
+                   "value": "¿Novedades de facturación?",
+                   "data": "¿Novedades de facturación?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "¿Criterio de aceptación rechazado por el cliente?",
+                   "value": "¿Criterio de aceptación rechazado por el cliente?",
+                   "data": "¿Criterio de aceptación rechazado por el cliente?"
+                 }
+               ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}```
+# SendActivity_Y4vkoQ()
+[Activity
+    Attachments = ${json(SendActivity_Y4vkoQ_attachment_X7fUf9())}
+]
+
+# SendActivity_Y4vkoQ_attachment_X7fUf9()
+> To learn more Adaptive Cards format, read the documentation at
+> https://docs.microsoft.com/en-us/adaptive-cards/getting-started/bots
+- ```
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "width": "5",
+          "type": "Column",
+          "items": [
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Geração de parâmetros por novidade?",
+                   "value": "Geração de parâmetros por novidade?",
+                   "data": "Geração de parâmetros por novidade?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Renovação?",
+                   "value": "Renovação?",
+                   "data": "Renovação?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Novidade de faturamento?",
+                   "value": "Novidade de faturamento?",
+                   "data": "Novidade de faturamento?"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+              "wrap": "True",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Critérios de aceitação rejeitados pelo cliente?",
+                   "value": "Critérios de aceitação rejeitados pelo cliente?",
+                   "data": "Critérios de aceitação rejeitados pelo cliente?"
+                 }
+               ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}```
+# SendActivity_KW1Q4z()
+[Activity
+    Attachments = ${json(SendActivity_KW1Q4z_attachment_EFKhd5())}
+]
+
+# SendActivity_KW1Q4z_attachment_EFKhd5()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": "Cambio cuenta de facturacion"
+                 }
+               ]
+        }
+    ]
+}
+```
+# SendActivity_v7WDAo()
+[Activity
+    Attachments = ${json(SendActivity_v7WDAo_attachment_vhVCCS())}
+]
+
+# SendActivity_v7WDAo_attachment_vhVCCS()
+- ```
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+        {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Guia",
+                   "value": "Guia",
+                   "data": "Alterar conta de faturamento"
+                 }
+               ]
+        }
+    ]
+}
+```

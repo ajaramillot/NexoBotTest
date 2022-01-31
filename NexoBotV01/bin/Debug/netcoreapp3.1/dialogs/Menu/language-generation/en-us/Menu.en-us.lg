@@ -65,28 +65,6 @@
                "actions": [
                  {
                    "type": "Action.Submit",
-                   "title": "Orden de servicios",
-                   "value": "Orden de servicios",
-                   "data": "Orden de servicios"
-                 }
-               ]
-            },
-            {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "Servicios",
-                   "value": "Servicios",
-                   "data": "Servicios"
-                 }
-               ]
-            },
-            {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
                    "title": "Novedades",
                    "value": "Novedades",
                    "data": "Novedades"
@@ -109,7 +87,18 @@
                "actions": [
                  {
                    "type": "Action.Submit",
-                   "title": "Cambiar idioma a Portugues",
+                   "title": "Informacion general",
+                   "value": "Informacion general",
+                   "data": "Informacion general"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Alterar idioma para português",
                    "value": "Cambiar idioma",
                    "data": "Cambiar idioma"
                  }
@@ -191,28 +180,6 @@
                "actions": [
                  {
                    "type": "Action.Submit",
-                   "title": "ordem de serviço",
-                   "value": "ordem de serviço",
-                   "data": "ordem de serviço"
-                 }
-               ]
-            },
-            {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
-                   "title": "    Serviços    ",
-                   "value": "Serviços",
-                   "data": "Serviços"
-                 }
-               ]
-            },
-            {
-              "type": "ActionSet",
-               "actions": [
-                 {
-                   "type": "Action.Submit",
                    "title": "    Novidades    ",
                    "value": "Novidades",
                    "data": "Novedades"
@@ -235,7 +202,18 @@
                "actions": [
                  {
                    "type": "Action.Submit",
-                   "title": "Mudar idioma para espanhol",
+                   "title": "Informações gerais",
+                   "value": "Informacion general",
+                   "data": "Informacion general"
+                 }
+               ]
+            },
+            {
+              "type": "ActionSet",
+               "actions": [
+                 {
+                   "type": "Action.Submit",
+                   "title": "Cambiar idioma a Español",
                    "value": "Mudar idioma",
                    "data": "Mudar idioma"
                  }
@@ -254,13 +232,6 @@
     Attachments = ${json(AdaptiveCardJson_MenuTeams())}
 ]
 
-# SendActivity_rl05O6()
-[Activity
-    Text = ${SendActivity_rl05O6_text()}
-]
-
-# SendActivity_rl05O6_text()
-- No se reconoce la Opcion
 # TextInput_Prompt_twmjqC()
 - ${json(AdaptiveCard_Menu())}
 # TextInput_Prompt_jUKCwD()

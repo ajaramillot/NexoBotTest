@@ -21,11 +21,18 @@
           "$designer": {
             "id": "2nGsKY"
           },
-          "condition": "=turn.Activity.channelId",
+          "condition": "user.idioma",
           "cases": [
             {
-              "value": "msteams",
+              "value": "Portugues",
               "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "vFTNpr"
+                  },
+                  "activity": "${SendActivity_vFTNpr()}"
+                },
                 {
                   "$kind": "Microsoft.TextInput",
                   "$designer": {
@@ -181,15 +188,119 @@
                   "dialog": "Desconexiones"
                 }
               ]
+            },
+            {
+              "value": "Mudar idioma",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SetProperty",
+                  "$designer": {
+                    "id": "6K61Kg"
+                  },
+                  "property": "user.idioma",
+                  "value": "Espanol"
+                },
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "PCJQ0R"
+                  },
+                  "activity": "${SendActivity_PCJQ0R()}"
+                },
+                {
+                  "$kind": "Microsoft.DeleteProperty",
+                  "$designer": {
+                    "id": "UNlpop"
+                  },
+                  "property": "user.OptionMenu"
+                },
+                {
+                  "$kind": "Microsoft.RepeatDialog",
+                  "$designer": {
+                    "id": "2TSuDP"
+                  },
+                  "activityProcessed": true
+                }
+              ]
+            },
+            {
+              "value": "Cambiar idioma",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SetProperty",
+                  "$designer": {
+                    "id": "yJ7QRy"
+                  },
+                  "property": "user.idioma",
+                  "value": "Portugues"
+                },
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "AIfy0w"
+                  },
+                  "activity": "${SendActivity_AIfy0w()}"
+                },
+                {
+                  "$kind": "Microsoft.DeleteProperty",
+                  "$designer": {
+                    "id": "OqVliJ"
+                  },
+                  "property": "user.OptionMenu"
+                },
+                {
+                  "$kind": "Microsoft.RepeatDialog",
+                  "$designer": {
+                    "id": "vnUJEe"
+                  },
+                  "activityProcessed": true
+                }
+              ]
+            },
+            {
+              "value": "Informacion general",
+              "actions": [
+                {
+                  "$kind": "Microsoft.BeginDialog",
+                  "$designer": {
+                    "id": "BXMM9l"
+                  },
+                  "activityProcessed": true,
+                  "dialog": "Informacion_general"
+                },
+                {
+                  "$kind": "Microsoft.DeleteProperty",
+                  "$designer": {
+                    "id": "zmRo82"
+                  },
+                  "property": "user.OptionMenu"
+                }
+              ]
             }
           ],
           "default": [
             {
-              "$kind": "Microsoft.SendActivity",
+              "$kind": "Microsoft.QnAMakerDialog",
               "$designer": {
-                "id": "rl05O6"
+                "id": "MdJr8T"
               },
-              "activity": "${SendActivity_rl05O6()}"
+              "knowledgeBaseId": "961d71ac-7c9c-4ee7-a909-32b2fff1964d",
+              "endpointKey": "c4b577e8-589e-43b4-9b40-53a695e44933",
+              "hostname": "https://nexobotprodqna.azurewebsites.net/qnamaker",
+              "noAnswer": "No he entendido tu pregunta. Si deseas escribe 'Menu' para ver las opciones que tengo para ti.",
+              "threshold": 0.3,
+              "activeLearningCardTitle": "Did you mean:",
+              "cardNoMatchText": "None of the above.",
+              "cardNoMatchResponse": "Thanks for the feedback.",
+              "top": 3,
+              "isTest": false
+            },
+            {
+              "$kind": "Microsoft.DeleteProperty",
+              "$designer": {
+                "id": "VaI9Cz"
+              },
+              "property": "user.OptionMenu"
             }
           ]
         }
